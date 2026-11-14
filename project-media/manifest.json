@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-14T20:54:23.504Z",
+  "description": "Native browser renders of actual screenshots and a recorded replay chart. Original source images and numerical observations are unchanged.",
+  "images": [
+    {
+      "file": "01-cover.png",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 331552,
+      "caption": "AlphaScope turns source-backed market research into an interactive journey through real historical storms. Build a portfolio, question the evidence and explore alternative decisions.",
+      "sources": [
+        "preview-replay.png"
+      ],
+      "sha256": "5b849d878b69190c868da91c7573bf761600c5fb858f218d09dd26e01a983dcc"
+    },
+    {
+      "file": "02-storm-replay.png",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 428739,
+      "caption": "Storm Replay lets users navigate a real historical market window with a hypothetical portfolio, delayed execution and trading costs.",
+      "sources": [
+        "preview-replay.png"
+      ],
+      "sha256": "b7ed80a93239d2930283191c30b595047e80070e0333da92aac8fabdc6d78dd0"
+    },
+    {
+      "file": "03-three-routes.png",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 234436,
+      "caption": "A recorded replay compares user decisions, the initial allocation held, and a fixed risk rule. Returns, drawdowns and costs are visible; the example does not establish future superiority.",
+      "sources": [
+        "reports/replay-browser-export.json"
+      ],
+      "sha256": "881b6965f3e3a215dc9a6418cca743e32a06f539ff08de8ad0c5c110d015ad44"
+    },
+    {
+      "file": "04-transmission-map.png",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 445189,
+      "caption": "Transmission Map connects sourced events to possible economic mechanisms, counterevidence and observed market windows. Its arrows are unestimated hypotheses.",
+      "sources": [
+        "preview-transmission.png"
+      ],
+      "sha256": "b7813b9742371a96bc2242a4b8afedc121b033cf1294d1e01c5385912704e08e"
+    },
+    {
+      "file": "05-risk-radar.png",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 373996,
+      "caption": "Risk Radar explains volatility, concentration, drawdown and data-quality flags. Review acknowledgments retain the warning; no automatic orders are placed.",
+      "sources": [
+        "preview-risk.png"
+      ],
+      "sha256": "fa48498a607b12b4490d0d69d778cf5d8fafab0384fc111195aa5bd52b56a91f"
+    },
+    {
+      "file": "06-global-markets.png",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 393359,
+      "caption": "Global Markets follows ten representative major-market indices, including the US, UK, Japan, China and Hong Kong. It is a geographic watchlist, not a size ranking.",
+      "sources": [
+        "preview-global.png"
+      ],
+      "sha256": "cf70214716200e3f25db0b9a88b32e766f1ce25b3338bd77d1bd94d956549d8c"
+    },
+    {
+      "file": "07-strategy-lab.png",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 300268,
+      "caption": "Strategy Lab reports cost-aware performance against a matched-period benchmark. This example also makes underperformance visible rather than hiding it.",
+      "sources": [
+        "preview-backtest.png"
+      ],
+      "sha256": "513088008ea66ca79226ebb35abc011b9c0bf2564aec2e4b7418ce874ddb04c5"
+    },
+    {
+      "file": "08-forecast-lab.png",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 327677,
+      "caption": "Forecast Lab exposes uncertainty and historical errors. Most tested configurations did not beat the no-change benchmark; no profitable trading edge is claimed.",
+      "sources": [
+        "preview-forecast.png"
+      ],
+      "sha256": "5a7a27de2ca87d18ed253979c370600497a4631d8293d269d674614681e5c999"
+    },
+    {
+      "file": "09-fx-arbitrage.png",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 252239,
+      "caption": "FX & Arbitrage checks both fiat triangles using public bid/ask snapshots, assumed fees/slippage, timing and top-level capacity. Candidates remain execution-unverified.",
+      "sources": [
+        "reports/fx-arbitrage-browser-export.json"
+      ],
+      "sha256": "35190ad1e92820a489d0d8ddb4319cf1d60679e953afa8c29590c8a2ba25875f"
+    },
+    {
+      "file": "10-politics-and-markets.png",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 324147,
+      "caption": "Politics & Markets compares sourced election dates with descriptive asset, sector and VIX observations. Unfinished future windows stay explicitly partial.",
+      "sources": [
+        "preview-politics.png"
+      ],
+      "sha256": "143a7ff7c63bf504c315cfdfc02e4b460f3beb51baf0991715ccce87453bca76"
+    }
+  ]
+}
