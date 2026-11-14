@@ -26,6 +26,7 @@ In the supplied environment, pandas/numpy/pytest are already installed. Cached r
 - **New Worlds:** user-controlled duration and normal-distribution VaR scenarios. These are clearly hypothetical educational models, not backtested trading strategies.
 - **News & Context:** dated, linked official Federal Reserve releases.
 - **Politics & Markets:** original BBC News US/Canada RSS headlines, political keyword annotations, FEC-sourced 2018/2022/2026 midterm dates, asset/sector event windows and VIX point changes. Incomplete future windows remain incomplete. This is descriptive analysis, not a causal election-effect estimate.
+- **Transmission Map:** seven interactive nodes separate official event records, unestimated policy/valuation/earnings hypotheses, real historical ETF evidence, and editable exposure assumptions. Sources, counterevidence, partial windows and cross-page evidence links remain explicit.
 - **Risk Radar:** explicit market/portfolio review alerts for source quality, VIX, realized volatility, observed session losses, trend, ETF concentration and replay drawdown budgets. Current and historical contexts stay separate; acknowledgment preserves severity. No continuous monitoring, push notification or automatic broker order.
 - **Sources & Methods:** provider links, observation dates, retrieval timestamps, units, adjustment caveats, stale flags and SHA-256 fingerprints.
 
@@ -85,3 +86,13 @@ Open Risk Radar for current-market review flags, or inspect the separately label
 Marking an alert reviewed retains its severity and trigger. Review state is stored only in the browser for that context/date/value. Alert evidence can be exported. The header summarizes loaded current-market flags; during replay it switches to **Historical mode** to avoid presenting current information as part of the historical decision.
 
 The threshold register lists the exact fixed rules and their limitations. There are no automatic orders, stop-loss execution, push notifications or continuous surveillance. Checks run when data is loaded, an allocation is checked or the replay advances; source caching still applies. See `risk.py`, `tests/test_risk.py`, and `reports/risk-browser-qa.json` for implementation and verification.
+
+## Transmission Map
+
+Open **Transmission Map** to connect the research workflow: an official event record, conjectured policy/valuation/earnings/uncertainty channels, descriptive historical ETF windows, and editable portfolio assumptions. Cases include the 2026 and 2022 US midterms and the 16 March 2022 Fed rate announcement.
+
+Seven clickable nodes use four explicit evidence types. Dashed arrows are **unestimated hypotheses**, not learned causal links. Each node includes a question, counterevidence and source/background context. Historical returns are adjusted-price changes before trading costs, not strategy P&L or event-attributable returns. The 2026 window remains partial when future sessions are unavailable.
+
+The exposure form changes only user assumptions, never the observed market evidence. It does not estimate portfolio returns or look through ETF constituents. Links open the matching election/asset study, a separate fixed-strategy backtest, or a separately dated current Risk Radar allocation check. Export includes the graph, event sources, all fifteen asset/sector windows and the assumptions.
+
+Implementation: `transmission.py`. Tests: `tests/test_transmission.py`. Browser verification: `tools/transmission_browser_qa.cjs`. No generated news claims, political winner inference, causal effect estimates or future return forecasts are supplied.

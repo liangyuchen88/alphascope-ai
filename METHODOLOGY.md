@@ -120,3 +120,15 @@ Historical replay alerts use only the revealed date, exact-date VIX, past SPY in
 Each alert retains its rule ID, severity, value, threshold, units, observation date, source links/hash where applicable, review guidance and `automatic_action: false`. Review acknowledgments are browser-local and keyed by context, rule, date, value and threshold. Marking reviewed does not clear the trigger or lower the severity; changed observations have a different review key. Export captures the risk context, covered inputs, thresholds and evidence.
 
 Checks run on source load, allocation checks or replay turns. Caches normally refresh after six hours. This is not continuous surveillance, a push-notification service, stop-loss execution or a broker-connected risk control system. These limits are visible in the interface.
+
+## Transmission Map: evidence types and unestimated channels
+
+The map offers official event records for the 2026/2022 US midterm dates (FEC references) and the 16 March 2022 FOMC rate increase (official statement, 2 p.m. EDT, target range 0.25–0.50%). A record establishes only its stated fact; an election date does not establish a winner or enacted policy. Event reference links were checked on 2026-11-14.
+
+Nodes have four mutually explicit labels: official record, hypothesis, historical observation, and user assumption. Every arrow is an unestimated proposed channel or exposure question. General Federal Reserve and ECB transmission explanations provide background, not evidence identifying a causal effect in a selected event. No directional probability, coefficient, price target or predicted P&L is generated.
+
+For each event, the existing descriptive event-window method is applied separately to SPY, GLD, USO, TLT and eleven sector ETFs, with SPY and exact-date Cboe VIX as references. Baseline is the last common pre-event close; the endpoint is the requested +5/+20/+60 common sessions, or the latest available session if incomplete. Source fingerprints, observation dates, incomplete coverage and original metadata remain in the export. A policy release at 2 p.m. can share a session with pre-release moves; a close-to-close window cannot isolate its effect. Returns are before trading costs, not executable event strategies or causal alpha.
+
+Missing series remain unavailable. Changing user-entered target weights never changes historical observations. SPY/GLD/USO/TLT weights describe broad exposures only; there is no issuer-level look-through or estimated event-specific sensitivity. Map links explicitly distinguish matching retrospective election evidence from Strategy Lab's separate evaluation periods and Risk Radar's current-date allocation checks.
+
+The interface supplies alternative explanations and reversal conditions at every node. Inflation, earnings, growth, prior expectations, policy enactment, positioning and other events can invalidate a simple story. Price co-movement is a reason to investigate, not proof of the arrows. The map is not used as a historical trading signal, and current news never enters its retrospective strategy calculations.

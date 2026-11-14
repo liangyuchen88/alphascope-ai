@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-14T18:57:46.599Z",
+  "checks": [
+    "Seven evidence-typed graph nodes are visible",
+    "2026 unfinished evidence window is labelled partial",
+    "Event record links to its FEC primary source",
+    "Rate channel is labelled as a hypothesis",
+    "Counterevidence is visible for the selected mechanism",
+    "Graph nodes support keyboard selection",
+    "Exported graph has no estimated causal effects",
+    "2022 rate-event historical window is complete",
+    "Official policy range is shown as a sourced event fact",
+    "Historical evidence asset can be changed",
+    "Export includes the event, graph and all fifteen evidence series",
+    "Politics link preserves the selected election",
+    "Politics link preserves the selected evidence asset",
+    "Overallocated assumptions cannot be applied",
+    "Updated target weights remain visible",
+    "Concentration link opens a separately dated current-risk view",
+    "Strategy Lab link carries the evidence ticker without asserting causal validation",
+    "All graph branches remain available on mobile",
+    "Mobile portfolio node retains the assumption label",
+    "Transmission Map fits the mobile viewport",
+    "Transmission Map is fully English",
+    "No map JavaScript errors"
+  ],
+  "errors": []
+}

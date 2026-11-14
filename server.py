@@ -8,6 +8,7 @@ from politics import political_news, study, EVENTS
 from global_markets import world_view
 from replay import start_game, advance_game, validate_weights
 from risk import evaluate_market_risk
+from transmission import transmission_map
 
 ROOT = Path(__file__).parent
 
@@ -22,6 +23,14 @@ class Handler(BaseHTTPRequestHandler):
             if not isinstance(payload, dict):
                 raise ValueError("Expected a JSON object.")
             path = urlparse(self.path).path
+            if path == "/api/transmission":
+                return self.send_json(
+                    transmission_map(
+                        payload.get("event", "2026-midterms"),
+                        payload.get("weights"),
+                        payload.get("window", 20),
+                    )
+                )
             if path == "/api/risk/evaluate":
                 weights = validate_weights(payload.get("weights", {}))
                 return self.send_json(
@@ -43,6 +52,12 @@ class Handler(BaseHTTPRequestHandler):
         q = parse_qs(u.query)
         get = lambda k, d=None: q.get(k, [d])[0]
         try:
+            if u.path == "/api/transmission":
+                return self.send_json(
+                    transmission_map(
+                        get("event", "2026-midterms"), window=int(get("window", "20"))
+                    )
+                )
             if u.path == "/api/risk":
                 return self.send_json(overview()["risk"])
             if u.path == "/api/global-markets":

@@ -8,7 +8,7 @@
 
 **1:30–2:10 — Meet the other selves:** Advance the remaining chapters (seven turns in the 2020 window). Show the three-path debrief: the user's route, initial allocation held, and fixed risk rule. Compare return, drawdown, opportunity cost and execution costs. A familiar historical scenario cannot establish trading skill.
 
-**2:10–2:40 — Show the evidence:** Export the route, show source fingerprints and next-close decision/fill dates. Briefly open Global Markets or Politics & Markets to show the broader research context, official VIX and partial election windows.
+**2:10–2:40 — Show the evidence:** Export the route, show source fingerprints and next-close decision/fill dates. Open Transmission Map and select a hypothesis node: show the official event record, reversal conditions and real sector observations. Explain that arrows are unestimated mechanisms, not causal proof. Politics & Markets, Strategy Lab and Risk Radar are linked as separate evidence checks.
 
 **2:40–3:00 — Close:** “We connect the creative New Worlds theme to an honest risk-learning loop: observe, decide, reveal and compare. This is not an unexplained buy button. It is a way to understand what risk feels like before taking it.”
 
