@@ -9,6 +9,8 @@ from global_markets import world_view
 from replay import start_game, advance_game, validate_weights
 from risk import evaluate_market_risk
 from transmission import transmission_map
+from fx import fx_overview, fx_arbitrage
+from forecast import forecast_request
 
 ROOT = Path(__file__).parent
 
@@ -23,6 +25,10 @@ class Handler(BaseHTTPRequestHandler):
             if not isinstance(payload, dict):
                 raise ValueError("Expected a JSON object.")
             path = urlparse(self.path).path
+            if path == "/api/fx/arbitrage":
+                return self.send_json(fx_arbitrage(payload))
+            if path == "/api/forecast":
+                return self.send_json(forecast_request(payload))
             if path == "/api/transmission":
                 return self.send_json(
                     transmission_map(
@@ -52,6 +58,8 @@ class Handler(BaseHTTPRequestHandler):
         q = parse_qs(u.query)
         get = lambda k, d=None: q.get(k, [d])[0]
         try:
+            if u.path == "/api/fx":
+                return self.send_json(fx_overview())
             if u.path == "/api/transmission":
                 return self.send_json(
                     transmission_map(

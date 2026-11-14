@@ -1,0 +1,3042 @@
+{
+  "model": "Fixed ridge regression on horizon returns",
+  "horizon_sessions": 5,
+  "alpha": 10.0,
+  "training_window_max": 756,
+  "min_training_labels": 252,
+  "origin_date": "2026-11-13",
+  "last_observed_price": 145.5800018310547,
+  "forecast_return": 0.014607712953150418,
+  "forecast_price": 147.70659270952183,
+  "lower_return": -0.030622270534486237,
+  "upper_return": 0.0860647951411487,
+  "lower_price": 141.12201163057313,
+  "upper_price": 158.10931486529245,
+  "interval_nominal_coverage": 0.8,
+  "calibration_count": 49,
+  "calibration_latest_label_date": "2023-12-22",
+  "external_observation_dates": {
+    "vix_previous": "2026-11-12",
+    "bill_yield_previous": "2026-11-12",
+    "spy_return_previous": "2026-11-12"
+  },
+  "training_count": 756,
+  "training_latest_label_date": "2026-11-13",
+  "intercept_contribution": 0.005872967769588627,
+  "feature_contributions": [
+    {
+      "feature": "ret_1",
+      "return_contribution": -0.0003138965408717394,
+      "latest_input": -0.0033545934729533045
+    },
+    {
+      "feature": "ret_5",
+      "return_contribution": 0.001303944783640532,
+      "latest_input": -0.019068807770518337
+    },
+    {
+      "feature": "ret_20",
+      "return_contribution": 0.00456243976164125,
+      "latest_input": -0.10002468611049242
+    },
+    {
+      "feature": "ret_63",
+      "return_contribution": -0.0024918676442514933,
+      "latest_input": 0.11735366745582021
+    },
+    {
+      "feature": "sma_gap",
+      "return_contribution": -0.006426704712585296,
+      "latest_input": -0.02714911048660895
+    },
+    {
+      "feature": "vol_20",
+      "return_contribution": 0.005665088115996999,
+      "latest_input": 0.47927386988179854
+    },
+    {
+      "feature": "vix_previous",
+      "return_contribution": -0.00012540681280485955,
+      "latest_input": 0.187
+    },
+    {
+      "feature": "bill_yield_previous",
+      "return_contribution": 0.0017761503973239903,
+      "latest_input": 0.041279997825622555
+    },
+    {
+      "feature": "spy_return_previous",
+      "return_contribution": 0.004784997835472409,
+      "latest_input": 0.032905859641456425
+    }
+  ],
+  "metrics": {
+    "test_count": 144,
+    "rmse": 0.06223226777959158,
+    "baseline_rmse": 0.05878630948654156,
+    "rmse_ratio": 1.0586183811017926,
+    "mae": 0.04456905263336241,
+    "baseline_mae": 0.04155575788268681,
+    "directional_accuracy": 0.5104895104895105,
+    "interval_empirical_coverage": 0.7291666666666666
+  },
+  "evidence_status": "NO DEMONSTRATED EDGE OVER NO-CHANGE BENCHMARK",
+  "validation": [
+    {
+      "origin_date": "2023-01-03",
+      "target_date": "2023-01-10",
+      "prediction": -0.01712505030939214,
+      "actual": -0.02572439206786592,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-01-03"
+    },
+    {
+      "origin_date": "2023-01-10",
+      "target_date": "2023-01-18",
+      "prediction": -0.015933625088583824,
+      "actual": 0.05477997764436959,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-01-10"
+    },
+    {
+      "origin_date": "2023-01-18",
+      "target_date": "2023-01-25",
+      "prediction": -0.009204060596376745,
+      "actual": 0.014386418778122412,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-01-18"
+    },
+    {
+      "origin_date": "2023-01-25",
+      "target_date": "2023-02-01",
+      "prediction": -0.00119280552348435,
+      "actual": -0.04467453454040282,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-01-25"
+    },
+    {
+      "origin_date": "2023-02-01",
+      "target_date": "2023-02-08",
+      "prediction": -0.005690607533190072,
+      "actual": 0.01959619481685948,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-02-01"
+    },
+    {
+      "origin_date": "2023-02-08",
+      "target_date": "2023-02-15",
+      "prediction": 0.002596142727108797,
+      "actual": 0.004950441706171649,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-02-08"
+    },
+    {
+      "origin_date": "2023-02-15",
+      "target_date": "2023-02-23",
+      "prediction": 0.002346159163109849,
+      "actual": -0.038249775688936505,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-02-15"
+    },
+    {
+      "origin_date": "2023-02-23",
+      "target_date": "2023-03-02",
+      "prediction": -0.0008378700361664671,
+      "actual": 0.02892446335919341,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-02-23"
+    },
+    {
+      "origin_date": "2023-03-02",
+      "target_date": "2023-03-09",
+      "prediction": -0.002114760629177895,
+      "actual": -0.030161128783950497,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-03-02"
+    },
+    {
+      "origin_date": "2023-03-09",
+      "target_date": "2023-03-16",
+      "prediction": 0.0008577386974402146,
+      "actual": -0.09344804991448608,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-03-09"
+    },
+    {
+      "origin_date": "2023-03-16",
+      "target_date": "2023-03-23",
+      "prediction": -0.0023745941962801114,
+      "actual": 0.015653662836786708,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-03-16"
+    },
+    {
+      "origin_date": "2023-03-23",
+      "target_date": "2023-03-30",
+      "prediction": -0.005430197628670366,
+      "actual": 0.07099521064427483,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-03-23"
+    },
+    {
+      "origin_date": "2023-03-30",
+      "target_date": "2023-04-06",
+      "prediction": -0.007134196228712682,
+      "actual": 0.07562771684761183,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-03-30"
+    },
+    {
+      "origin_date": "2023-04-06",
+      "target_date": "2023-04-14",
+      "prediction": -0.021744638541399894,
+      "actual": 0.026046031113291068,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-04-06"
+    },
+    {
+      "origin_date": "2023-04-14",
+      "target_date": "2023-04-21",
+      "prediction": -0.010650301093580564,
+      "actual": -0.05382157650878716,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-04-14"
+    },
+    {
+      "origin_date": "2023-04-21",
+      "target_date": "2023-04-28",
+      "prediction": -0.006761007580965164,
+      "actual": -0.010409017651405894,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-04-21"
+    },
+    {
+      "origin_date": "2023-04-28",
+      "target_date": "2023-05-05",
+      "prediction": -0.013946679262477156,
+      "actual": -0.06622224030671298,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-04-28"
+    },
+    {
+      "origin_date": "2023-05-05",
+      "target_date": "2023-05-12",
+      "prediction": 0.0009818462506180712,
+      "actual": -0.015230828225685777,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-05-05"
+    },
+    {
+      "origin_date": "2023-05-12",
+      "target_date": "2023-05-19",
+      "prediction": -0.01209203696155035,
+      "actual": 0.029482871597424687,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-05-12"
+    },
+    {
+      "origin_date": "2023-05-19",
+      "target_date": "2023-05-26",
+      "prediction": -0.021862663892336875,
+      "actual": 0.014084530585095845,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-05-19"
+    },
+    {
+      "origin_date": "2023-05-26",
+      "target_date": "2023-06-05",
+      "prediction": -0.017162854970508817,
+      "actual": -0.011882781422801969,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-05-26"
+    },
+    {
+      "origin_date": "2023-06-05",
+      "target_date": "2023-06-12",
+      "prediction": -0.014460676418246667,
+      "actual": -0.0591909600669166,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-06-05"
+    },
+    {
+      "origin_date": "2023-06-12",
+      "target_date": "2023-06-20",
+      "prediction": -0.004044783436134434,
+      "actual": 0.06108891746252976,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-06-12"
+    },
+    {
+      "origin_date": "2023-06-20",
+      "target_date": "2023-06-27",
+      "prediction": -0.024486678645488275,
+      "actual": -0.04098872038387602,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-06-20"
+    },
+    {
+      "origin_date": "2023-06-27",
+      "target_date": "2023-07-05",
+      "prediction": -0.008294461209487871,
+      "actual": 0.05432296994783936,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-06-27"
+    },
+    {
+      "origin_date": "2023-07-05",
+      "target_date": "2023-07-12",
+      "prediction": -0.024299395012747815,
+      "actual": 0.0501316049954299,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-07-05"
+    },
+    {
+      "origin_date": "2023-07-12",
+      "target_date": "2023-07-19",
+      "prediction": -0.021496775076288686,
+      "actual": -0.0026521334594294954,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-07-12"
+    },
+    {
+      "origin_date": "2023-07-19",
+      "target_date": "2023-07-26",
+      "prediction": -0.015297518210555493,
+      "actual": 0.04387651224084399,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-07-19"
+    },
+    {
+      "origin_date": "2023-07-26",
+      "target_date": "2023-08-02",
+      "prediction": -0.019673338049009354,
+      "actual": 0.011604863463429593,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-07-26"
+    },
+    {
+      "origin_date": "2023-08-02",
+      "target_date": "2023-08-09",
+      "prediction": -0.015172281447736538,
+      "actual": 0.05064346596503566,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-08-02"
+    },
+    {
+      "origin_date": "2023-08-09",
+      "target_date": "2023-08-16",
+      "prediction": -0.0218533971766292,
+      "actual": -0.0496670546381488,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-08-09"
+    },
+    {
+      "origin_date": "2023-08-16",
+      "target_date": "2023-08-23",
+      "prediction": -0.0019193052350089147,
+      "actual": -0.00014014482059054867,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-08-16"
+    },
+    {
+      "origin_date": "2023-08-23",
+      "target_date": "2023-08-30",
+      "prediction": -0.011580196521037714,
+      "actual": 0.03223098419402448,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-08-23"
+    },
+    {
+      "origin_date": "2023-08-30",
+      "target_date": "2023-09-07",
+      "prediction": -0.017958064836586955,
+      "actual": 0.058240470714768344,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-08-30"
+    },
+    {
+      "origin_date": "2023-09-07",
+      "target_date": "2023-09-14",
+      "prediction": -0.02133364375756509,
+      "actual": 0.04066717026871336,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-09-07"
+    },
+    {
+      "origin_date": "2023-09-14",
+      "target_date": "2023-09-21",
+      "prediction": -0.010815210810441156,
+      "actual": -0.008752453900805257,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-09-14"
+    },
+    {
+      "origin_date": "2023-09-21",
+      "target_date": "2023-09-28",
+      "prediction": 0.0012131807083853967,
+      "actual": 0.014426016414440967,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-09-21"
+    },
+    {
+      "origin_date": "2023-09-28",
+      "target_date": "2023-10-05",
+      "prediction": -0.003122046922440818,
+      "actual": -0.09292634374664166,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-09-28"
+    },
+    {
+      "origin_date": "2023-10-05",
+      "target_date": "2023-10-12",
+      "prediction": 0.01572529447081269,
+      "actual": 0.019326940755001853,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-10-05"
+    },
+    {
+      "origin_date": "2023-10-12",
+      "target_date": "2023-10-19",
+      "prediction": -0.004305773761810366,
+      "actual": 0.0830018866111304,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-10-12"
+    },
+    {
+      "origin_date": "2023-10-19",
+      "target_date": "2023-10-26",
+      "prediction": -0.021082939010168437,
+      "actual": -0.058643497767271846,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-10-19"
+    },
+    {
+      "origin_date": "2023-10-26",
+      "target_date": "2023-11-02",
+      "prediction": 0.001480797910704595,
+      "actual": -0.009233958773684714,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-10-26"
+    },
+    {
+      "origin_date": "2023-11-02",
+      "target_date": "2023-11-09",
+      "prediction": 0.0012084073080177848,
+      "actual": -0.07784195696272378,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-11-02"
+    },
+    {
+      "origin_date": "2023-11-09",
+      "target_date": "2023-11-16",
+      "prediction": 0.015912100306248157,
+      "actual": -0.03131668253725539,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-11-09"
+    },
+    {
+      "origin_date": "2023-11-16",
+      "target_date": "2023-11-24",
+      "prediction": 0.006299084998104937,
+      "actual": 0.040705312547298256,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-11-16"
+    },
+    {
+      "origin_date": "2023-11-24",
+      "target_date": "2023-12-01",
+      "prediction": -0.010170494302671642,
+      "actual": -0.022310107848957816,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-11-24"
+    },
+    {
+      "origin_date": "2023-12-01",
+      "target_date": "2023-12-08",
+      "prediction": -0.0005211906547657767,
+      "actual": -0.039139213866017264,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-12-01"
+    },
+    {
+      "origin_date": "2023-12-08",
+      "target_date": "2023-12-15",
+      "prediction": 0.003296413265267242,
+      "actual": 0.009319145617885827,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-12-08"
+    },
+    {
+      "origin_date": "2023-12-15",
+      "target_date": "2023-12-22",
+      "prediction": -0.002877125537090964,
+      "actual": 0.022933743567136622,
+      "no_change_prediction": 0.0,
+      "period": "validation",
+      "training_count": 756,
+      "training_latest_label_date": "2023-12-15"
+    }
+  ],
+  "test": [
+    {
+      "origin_date": "2024-01-02",
+      "target_date": "2024-01-09",
+      "prediction": 0.004098842055037229,
+      "actual": 0.024631333879698625,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-01-02",
+      "lower": -0.041131141432599425,
+      "upper": 0.07555592424303552,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-01-09",
+      "target_date": "2024-01-17",
+      "prediction": -0.008939212402642322,
+      "actual": 0.008161493645039153,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-01-09",
+      "lower": -0.05416919589027898,
+      "upper": 0.06251786978535596,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-01-17",
+      "target_date": "2024-01-24",
+      "prediction": -0.004754540055389164,
+      "actual": 0.03826903710171958,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-01-17",
+      "lower": -0.04998452354302582,
+      "upper": 0.06670254213260912,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-01-24",
+      "target_date": "2024-01-31",
+      "prediction": -0.01134891940153164,
+      "actual": 0.005386975453445464,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-01-24",
+      "lower": -0.056578902889168295,
+      "upper": 0.06010816278646665,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-01-31",
+      "target_date": "2024-02-07",
+      "prediction": -0.004576709106719003,
+      "actual": -0.021150592762660625,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-01-31",
+      "lower": -0.04980669259435566,
+      "upper": 0.06688037308127928,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-02-07",
+      "target_date": "2024-02-14",
+      "prediction": 0.00019046485526849274,
+      "actual": 0.030682871492286212,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-02-07",
+      "lower": -0.04503951863236816,
+      "upper": 0.07164754704326678,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-02-14",
+      "target_date": "2024-02-22",
+      "prediction": -0.00786361508337927,
+      "actual": 0.028651227602049856,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-02-14",
+      "lower": -0.05309359857101592,
+      "upper": 0.06359346710461902,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-02-22",
+      "target_date": "2024-02-29",
+      "prediction": -0.009087759979763311,
+      "actual": -0.0032608406079508434,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-02-22",
+      "lower": -0.05431774346739997,
+      "upper": 0.062369322208234976,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-02-29",
+      "target_date": "2024-03-07",
+      "prediction": -0.0032084800439488295,
+      "actual": 0.011859361223332199,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-02-29",
+      "lower": -0.048438463531585485,
+      "upper": 0.06824860214404946,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-03-07",
+      "target_date": "2024-03-14",
+      "prediction": -0.006415066698898009,
+      "actual": 0.027886293967557263,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-03-07",
+      "lower": -0.05164505018653466,
+      "upper": 0.06504201548910028,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-03-14",
+      "target_date": "2024-03-21",
+      "prediction": -0.012687357309610566,
+      "actual": 0.0068151588763851745,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-03-14",
+      "lower": -0.057917340797247224,
+      "upper": 0.05876972487838772,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-03-21",
+      "target_date": "2024-03-28",
+      "prediction": -0.005847713468160959,
+      "actual": 0.024863364614645667,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-03-21",
+      "lower": -0.051077696955797613,
+      "upper": 0.06560936871983733,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-03-28",
+      "target_date": "2024-04-05",
+      "prediction": -0.008645072530212725,
+      "actual": 0.046614988091729925,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-03-28",
+      "lower": -0.05387505601784938,
+      "upper": 0.06281200965778556,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-04-05",
+      "target_date": "2024-04-12",
+      "prediction": -0.015010113046034343,
+      "actual": -0.010558285563972869,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-04-05",
+      "lower": -0.060240096533670996,
+      "upper": 0.05644696914196395,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-04-12",
+      "target_date": "2024-04-19",
+      "prediction": 0.000806507599463332,
+      "actual": -0.03287133993992308,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-04-12",
+      "lower": -0.044423475888173324,
+      "upper": 0.07226358978746163,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-04-19",
+      "target_date": "2024-04-26",
+      "prediction": 0.001973282502818513,
+      "actual": 0.019530766586289605,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-04-19",
+      "lower": -0.04325670098481814,
+      "upper": 0.0734303646908168,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-04-26",
+      "target_date": "2024-05-03",
+      "prediction": -0.003231188892673498,
+      "actual": -0.06543105082928735,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-04-26",
+      "lower": -0.048461172380310155,
+      "upper": 0.06822589329532479,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-05-03",
+      "target_date": "2024-05-10",
+      "prediction": 0.009419088283135143,
+      "actual": 0.0022628218362155117,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-05-03",
+      "lower": -0.03581089520450151,
+      "upper": 0.08087617047113344,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-05-10",
+      "target_date": "2024-05-17",
+      "prediction": -0.0005558072665394738,
+      "actual": 0.022177929631655324,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-05-10",
+      "lower": -0.04578579075417613,
+      "upper": 0.07090127492145881,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-05-17",
+      "target_date": "2024-05-24",
+      "prediction": -0.0036066039935450135,
+      "actual": -0.021047196581650662,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-05-17",
+      "lower": -0.048836587481181665,
+      "upper": 0.06785047819445328,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-05-24",
+      "target_date": "2024-06-03",
+      "prediction": 0.0026635548589173806,
+      "actual": -0.04671528486195453,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-05-24",
+      "lower": -0.042566428628719274,
+      "upper": 0.07412063704691567,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-06-03",
+      "target_date": "2024-06-10",
+      "prediction": 0.008377917477500614,
+      "actual": 0.05053594822335916,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-06-03",
+      "lower": -0.03685206601013604,
+      "upper": 0.0798349996654989,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-06-10",
+      "target_date": "2024-06-17",
+      "prediction": -0.010119160919365783,
+      "actual": 0.030877310619185083,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-06-10",
+      "lower": -0.055349144407002435,
+      "upper": 0.06133792126863251,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-06-17",
+      "target_date": "2024-06-25",
+      "prediction": -0.005003945921197719,
+      "actual": 0.014269193948935888,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-06-17",
+      "lower": -0.05023392940883437,
+      "upper": 0.06645313626680056,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-06-25",
+      "target_date": "2024-07-02",
+      "prediction": -0.0029994586837802945,
+      "actual": 0.028010127271642427,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-06-25",
+      "lower": -0.04822944217141695,
+      "upper": 0.068457623504218,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-07-02",
+      "target_date": "2024-07-10",
+      "prediction": -0.001896829107365862,
+      "actual": -0.007767195767195756,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-07-02",
+      "lower": -0.04712681259500252,
+      "upper": 0.06956025308063243,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-07-10",
+      "target_date": "2024-07-17",
+      "prediction": 0.006166987162377926,
+      "actual": 0.0017395549678040911,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-07-10",
+      "lower": -0.039062996325258725,
+      "upper": 0.07762406935037622,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-07-17",
+      "target_date": "2024-07-24",
+      "prediction": 0.0035398109765580176,
+      "actual": -0.04725880746946276,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-07-17",
+      "lower": -0.041690172511078635,
+      "upper": 0.07499689316455631,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-07-24",
+      "target_date": "2024-07-31",
+      "prediction": 0.009348362833398034,
+      "actual": 0.012107802821713864,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-07-24",
+      "lower": -0.035881620654238625,
+      "upper": 0.08080544502139632,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-07-31",
+      "target_date": "2024-08-07",
+      "prediction": -0.002075888506006634,
+      "actual": -0.03923328410309512,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-07-31",
+      "lower": -0.04730587199364329,
+      "upper": 0.06938119368199165,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-08-07",
+      "target_date": "2024-08-14",
+      "prediction": 0.007017517536344064,
+      "actual": 0.02543839649724089,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-08-07",
+      "lower": -0.03821246595129259,
+      "upper": 0.07847459972434236,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-08-14",
+      "target_date": "2024-08-21",
+      "prediction": -0.0014790246309654802,
+      "actual": -0.05209554843385722,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-08-14",
+      "lower": -0.04670900811860214,
+      "upper": 0.0699780575570328,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-08-21",
+      "target_date": "2024-08-28",
+      "prediction": 0.013301464729022985,
+      "actual": 0.039669489577731865,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-08-21",
+      "lower": -0.03192851875861367,
+      "upper": 0.08475854691702127,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-08-28",
+      "target_date": "2024-09-05",
+      "prediction": -0.0070408853275217564,
+      "actual": -0.07405940273811151,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-08-28",
+      "lower": -0.05227086881515841,
+      "upper": 0.06441619686047653,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-09-05",
+      "target_date": "2024-09-12",
+      "prediction": 0.01585803131631314,
+      "actual": 0.0,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-09-05",
+      "lower": -0.029371952171323514,
+      "upper": 0.08731511350431143,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-09-12",
+      "target_date": "2024-09-19",
+      "prediction": 0.004710898397823268,
+      "actual": 0.040921457080097756,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-09-12",
+      "lower": -0.04051908508981339,
+      "upper": 0.07616798058582155,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-09-19",
+      "target_date": "2024-09-26",
+      "prediction": -0.0011386702294336006,
+      "actual": -0.05140890534391107,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-09-19",
+      "lower": -0.04636865371707025,
+      "upper": 0.07031841195856468,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-09-26",
+      "target_date": "2024-10-03",
+      "prediction": 0.014245155545111061,
+      "actual": 0.09737720638578429,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-09-26",
+      "lower": -0.030984827942525592,
+      "upper": 0.08570223773310935,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-10-03",
+      "target_date": "2024-10-10",
+      "prediction": -0.013625633659097417,
+      "actual": 0.026937715511748284,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-10-03",
+      "lower": -0.05885561714673407,
+      "upper": 0.057831448528900875,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-10-10",
+      "target_date": "2024-10-17",
+      "prediction": -0.0001479927442234706,
+      "actual": -0.06622083218186081,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-10-10",
+      "lower": -0.04537797623186013,
+      "upper": 0.07130908944377481,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-10-17",
+      "target_date": "2024-10-24",
+      "prediction": 0.015832051935372713,
+      "actual": 0.00605886526260746,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-10-17",
+      "lower": -0.02939793155226394,
+      "upper": 0.087289134123371,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-10-24",
+      "target_date": "2024-10-31",
+      "prediction": -0.0017929768260345957,
+      "actual": 0.00027380609265548195,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-10-24",
+      "lower": -0.04702296031367125,
+      "upper": 0.0696641053619637,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-10-31",
+      "target_date": "2024-11-07",
+      "prediction": 0.0021097289350233495,
+      "actual": 0.021620166823576703,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-10-31",
+      "lower": -0.043120254552613306,
+      "upper": 0.07356681112302164,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-11-07",
+      "target_date": "2024-11-14",
+      "prediction": -0.0010284069819533814,
+      "actual": -0.045137993320141456,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-11-07",
+      "lower": -0.04625839046959004,
+      "upper": 0.07042867520604491,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-11-14",
+      "target_date": "2024-11-21",
+      "prediction": 0.013945879946573023,
+      "actual": 0.026791920440259576,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-11-14",
+      "lower": -0.03128410354106363,
+      "upper": 0.08540296213457131,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-11-21",
+      "target_date": "2024-11-29",
+      "prediction": -0.004925547644223509,
+      "actual": -0.021721262352167425,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-11-21",
+      "lower": -0.050155531131860165,
+      "upper": 0.06653153454377478,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-11-29",
+      "target_date": "2024-12-06",
+      "prediction": 0.012171420743765841,
+      "actual": -0.019131444419845378,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-11-29",
+      "lower": -0.03305856274387081,
+      "upper": 0.08362850293176413,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-12-06",
+      "target_date": "2024-12-13",
+      "prediction": 0.017207137726554723,
+      "actual": 0.05652052023695875,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-12-06",
+      "lower": -0.02802284576108193,
+      "upper": 0.088664219914553,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-12-13",
+      "target_date": "2024-12-20",
+      "prediction": -0.004814420384065729,
+      "actual": -0.014957561299630995,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-12-13",
+      "lower": -0.050044403871702385,
+      "upper": 0.06664266180393257,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-12-20",
+      "target_date": "2024-12-30",
+      "prediction": 0.005248523944032003,
+      "actual": 0.023529428954941034,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-12-20",
+      "lower": -0.03998145954360465,
+      "upper": 0.07670560613203029,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2024-12-30",
+      "target_date": "2025-01-07",
+      "prediction": 0.009396649576871172,
+      "actual": 0.04477410435425111,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2024-12-30",
+      "lower": -0.035833333910765486,
+      "upper": 0.08085373176486946,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-01-07",
+      "target_date": "2025-01-15",
+      "prediction": -0.0005613773062307652,
+      "actual": 0.07893051443611876,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-01-07",
+      "lower": -0.04579136079386742,
+      "upper": 0.07089570488176752,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-01-15",
+      "target_date": "2025-01-23",
+      "prediction": -0.020119161329037034,
+      "actual": -0.06082520128250546,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-01-15",
+      "lower": -0.06534914481667368,
+      "upper": 0.05133792085896126,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-01-23",
+      "target_date": "2025-01-30",
+      "prediction": 0.020558324767211124,
+      "actual": -0.018432004814387892,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-01-23",
+      "lower": -0.02467165872042553,
+      "upper": 0.0920154069552094,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-01-30",
+      "target_date": "2025-02-06",
+      "prediction": 0.006346090767940292,
+      "actual": -0.02958203282003613,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-01-30",
+      "lower": -0.03888389271969636,
+      "upper": 0.07780317295593858,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-02-06",
+      "target_date": "2025-02-13",
+      "prediction": 0.014856346406487014,
+      "actual": 0.012458614704134119,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-02-06",
+      "lower": -0.03037363708114964,
+      "upper": 0.0863134285944853,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-02-13",
+      "target_date": "2025-02-21",
+      "prediction": 0.014856486782237619,
+      "actual": -0.013614359521362585,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-02-13",
+      "lower": -0.030373496705399038,
+      "upper": 0.08631356897023591,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-02-21",
+      "target_date": "2025-02-28",
+      "prediction": 0.016674237464769114,
+      "actual": -0.0017252456012009088,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-02-21",
+      "lower": -0.02855574602286754,
+      "upper": 0.08813131965276741,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-02-28",
+      "target_date": "2025-03-07",
+      "prediction": 0.004260389989396034,
+      "actual": -0.04161133783591342,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-02-28",
+      "lower": -0.04096959349824062,
+      "upper": 0.07571747217739433,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-03-07",
+      "target_date": "2025-03-14",
+      "prediction": 0.013803024697640108,
+      "actual": 0.0026356283958692828,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-03-07",
+      "lower": -0.031426958789996545,
+      "upper": 0.0852601068856384,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-03-14",
+      "target_date": "2025-03-21",
+      "prediction": -0.0009303630218393292,
+      "actual": 0.020891009431823315,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-03-14",
+      "lower": -0.04616034650947599,
+      "upper": 0.07052671916615896,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-03-21",
+      "target_date": "2025-03-28",
+      "prediction": 0.005357140862853835,
+      "actual": 0.01328087431061209,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-03-21",
+      "lower": -0.03987284262478282,
+      "upper": 0.07681422305085213,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-03-28",
+      "target_date": "2025-04-04",
+      "prediction": 0.006256917567876015,
+      "actual": -0.09161426750921631,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-03-28",
+      "lower": -0.03897306591976064,
+      "upper": 0.0777139997558743,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-04-04",
+      "target_date": "2025-04-11",
+      "prediction": 0.010213199801231816,
+      "actual": -0.021495864602955828,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-04-04",
+      "lower": -0.03501678368640484,
+      "upper": 0.0816702819892301,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-04-11",
+      "target_date": "2025-04-21",
+      "prediction": -0.004192627927003439,
+      "actual": 0.032500807882406724,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-04-11",
+      "lower": -0.04942261141464009,
+      "upper": 0.06726445426099485,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-04-21",
+      "target_date": "2025-04-28",
+      "prediction": -0.0017392334446077605,
+      "actual": -0.012532797667286544,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-04-21",
+      "lower": -0.046969216932244415,
+      "upper": 0.06971784874339053,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-04-28",
+      "target_date": "2025-05-05",
+      "prediction": 0.01249152170143074,
+      "actual": -0.07954549932730492,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-04-28",
+      "lower": -0.032738461786205916,
+      "upper": 0.08394860388942903,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-05-05",
+      "target_date": "2025-05-12",
+      "prediction": 0.022564589920306036,
+      "actual": 0.08385441128431137,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-05-05",
+      "lower": -0.02266539356733062,
+      "upper": 0.09402167210830432,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-05-12",
+      "target_date": "2025-05-19",
+      "prediction": -0.005012667648745755,
+      "actual": 0.013461592938611489,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-05-12",
+      "lower": -0.05024265113638241,
+      "upper": 0.06644441453925254,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-05-19",
+      "target_date": "2025-05-27",
+      "prediction": 0.010998885848574143,
+      "actual": -0.01795363185783827,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-05-19",
+      "lower": -0.03423109763906251,
+      "upper": 0.08245596803657243,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-05-27",
+      "target_date": "2025-06-03",
+      "prediction": -0.000953983512263896,
+      "actual": 0.038793113223936304,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-05-27",
+      "lower": -0.04618396699990055,
+      "upper": 0.0705030986757344,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-06-03",
+      "target_date": "2025-06-10",
+      "prediction": 6.412732197662107e-05,
+      "actual": 0.024467006716356154,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-06-03",
+      "lower": -0.04516585616566003,
+      "upper": 0.07152120950997491,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-06-10",
+      "target_date": "2025-06-17",
+      "prediction": -0.00016043999754066288,
+      "actual": 0.14944140790036609,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-06-10",
+      "lower": -0.045390423485177314,
+      "upper": 0.07129664219045763,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-06-17",
+      "target_date": "2025-06-25",
+      "prediction": -0.05730376313684873,
+      "actual": -0.10923457059303288,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-06-17",
+      "lower": -0.10253374662448539,
+      "upper": 0.014153319051149561,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-06-25",
+      "target_date": "2025-07-02",
+      "prediction": -0.03053902322317208,
+      "actual": 0.031100789186012,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-06-25",
+      "lower": -0.07576900671080873,
+      "upper": 0.04091805896482621,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-07-02",
+      "target_date": "2025-07-10",
+      "prediction": -0.039573772142323604,
+      "actual": -0.0026458123816832657,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-07-02",
+      "lower": -0.08480375562996026,
+      "upper": 0.031883310045674684,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-07-10",
+      "target_date": "2025-07-17",
+      "prediction": -0.047785205293862376,
+      "actual": 0.01021361292870182,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-07-10",
+      "lower": -0.09301518878149903,
+      "upper": 0.023671876894135913,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-07-17",
+      "target_date": "2025-07-24",
+      "prediction": -0.02279312302054422,
+      "actual": -0.000919213771697569,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-07-17",
+      "lower": -0.06802310650818087,
+      "upper": 0.04866395916745407,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-07-24",
+      "target_date": "2025-07-31",
+      "prediction": 0.0032575544329051147,
+      "actual": 0.045998162287426814,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-07-24",
+      "lower": -0.04197242905473154,
+      "upper": 0.0747146366209034,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-07-31",
+      "target_date": "2025-08-07",
+      "prediction": -0.028889495319772796,
+      "actual": -0.07752228235758751,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-07-31",
+      "lower": -0.07411947880740945,
+      "upper": 0.042567586868225496,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-08-07",
+      "target_date": "2025-08-14",
+      "prediction": 0.0007623484990666621,
+      "actual": 0.004358481378436974,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-08-07",
+      "lower": -0.044467634988569996,
+      "upper": 0.07221943068706495,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-08-14",
+      "target_date": "2025-08-21",
+      "prediction": 0.006664942384941082,
+      "actual": 0.005288844601934128,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-08-14",
+      "lower": -0.038565041102695576,
+      "upper": 0.07812202457293937,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-08-21",
+      "target_date": "2025-08-28",
+      "prediction": -0.005800145316718183,
+      "actual": 0.01497370364869921,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-08-21",
+      "lower": -0.05103012880435484,
+      "upper": 0.0656569368712801,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-08-28",
+      "target_date": "2025-09-05",
+      "prediction": 0.003900910322046581,
+      "actual": -0.034689004312270955,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-08-28",
+      "lower": -0.04132907316559008,
+      "upper": 0.07535799251004487,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-09-05",
+      "target_date": "2025-09-12",
+      "prediction": 0.0076247928526677845,
+      "actual": 0.009362526929515669,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-09-05",
+      "lower": -0.03760519063496887,
+      "upper": 0.07908187504066608,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-09-12",
+      "target_date": "2025-09-19",
+      "prediction": 0.011951488908862471,
+      "actual": 0.0028645354176257687,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-09-12",
+      "lower": -0.03327849457877419,
+      "upper": 0.08340857109686076,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-09-19",
+      "target_date": "2025-09-26",
+      "prediction": 0.016296960945637255,
+      "actual": 0.047606095753679245,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-09-19",
+      "lower": -0.0289330225419994,
+      "upper": 0.08775404313363555,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-09-26",
+      "target_date": "2025-10-03",
+      "prediction": -0.004207113465678483,
+      "actual": -0.06894310296067474,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-09-26",
+      "lower": -0.049437096953315135,
+      "upper": 0.06724996872231981,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-10-03",
+      "target_date": "2025-10-10",
+      "prediction": 0.03025136653359265,
+      "actual": -0.03235252718510451,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-10-03",
+      "lower": -0.014978616954044004,
+      "upper": 0.10170844872159093,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-10-10",
+      "target_date": "2025-10-17",
+      "prediction": 0.016968741073004806,
+      "actual": -0.02031987383076972,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-10-10",
+      "lower": -0.02826124241463185,
+      "upper": 0.0884258232610031,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-10-17",
+      "target_date": "2025-10-24",
+      "prediction": 0.014139531750714265,
+      "actual": 0.07649303753251169,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-10-17",
+      "lower": -0.03109045173692239,
+      "upper": 0.08559661393871255,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-10-24",
+      "target_date": "2025-10-31",
+      "prediction": -0.003898985149251001,
+      "actual": -0.008472297676912932,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-10-24",
+      "lower": -0.049128968636887656,
+      "upper": 0.0675580970387473,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-10-31",
+      "target_date": "2025-11-07",
+      "prediction": 0.007888030124767098,
+      "actual": -0.017916144791949695,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-10-31",
+      "lower": -0.03734195336286956,
+      "upper": 0.07934511231276539,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-11-07",
+      "target_date": "2025-11-14",
+      "prediction": 0.006255947690805284,
+      "actual": 0.0016839056074977599,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-11-07",
+      "lower": -0.03897403579683137,
+      "upper": 0.07771302987880357,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-11-14",
+      "target_date": "2025-11-21",
+      "prediction": 0.0014535751936471059,
+      "actual": -0.02913973496350275,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-11-14",
+      "lower": -0.04377640829398955,
+      "upper": 0.0729106573816454,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-11-21",
+      "target_date": "2025-12-01",
+      "prediction": 0.009847174548677484,
+      "actual": 0.025396745011994515,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-11-21",
+      "lower": -0.03538280893895917,
+      "upper": 0.08130425673667577,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-12-01",
+      "target_date": "2025-12-08",
+      "prediction": 0.015436684072262197,
+      "actual": -0.008021386355300919,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-12-01",
+      "lower": -0.02979329941537446,
+      "upper": 0.08689376626026049,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-12-08",
+      "target_date": "2025-12-15",
+      "prediction": 0.0047933058614793665,
+      "actual": -0.0368846439624797,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-12-08",
+      "lower": -0.04043667762615729,
+      "upper": 0.07625038804947766,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-12-15",
+      "target_date": "2025-12-22",
+      "prediction": 0.017947748673449237,
+      "actual": 0.02710272475809905,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-12-15",
+      "lower": -0.027282234814187418,
+      "upper": 0.08940483086144753,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-12-22",
+      "target_date": "2025-12-30",
+      "prediction": 0.0040462576396064626,
+      "actual": 0.0001433315123302581,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-12-22",
+      "lower": -0.04118372584803019,
+      "upper": 0.07550333982760475,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2025-12-30",
+      "target_date": "2026-01-07",
+      "prediction": 0.007774149435677759,
+      "actual": -0.027960955089951667,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2025-12-30",
+      "lower": -0.037455834051958896,
+      "upper": 0.07923123162367604,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-01-07",
+      "target_date": "2026-01-14",
+      "prediction": 0.009560587559912436,
+      "actual": 0.07110192697637507,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-01-07",
+      "lower": -0.035669395927724216,
+      "upper": 0.08101766974791072,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-01-14",
+      "target_date": "2026-01-22",
+      "prediction": -0.0223831446497954,
+      "actual": -0.010880056588440823,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-01-14",
+      "lower": -0.06761312813743206,
+      "upper": 0.04907393753820289,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-01-22",
+      "target_date": "2026-01-29",
+      "prediction": -0.010797364422257975,
+      "actual": 0.10192146652642964,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-01-22",
+      "lower": -0.05602734790989463,
+      "upper": 0.06065971776574031,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-01-29",
+      "target_date": "2026-02-05",
+      "prediction": -0.02458048979462458,
+      "actual": -0.030957757987582823,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-01-29",
+      "lower": -0.06981047328226123,
+      "upper": 0.04687659239337371,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-02-05",
+      "target_date": "2026-02-12",
+      "prediction": -0.015556960531271934,
+      "actual": -0.004042315531612273,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-02-05",
+      "lower": -0.06078694401890859,
+      "upper": 0.05590012165672635,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-02-12",
+      "target_date": "2026-02-20",
+      "prediction": -0.007328442297626331,
+      "actual": 0.058523191692090526,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-02-12",
+      "lower": -0.052558425785262985,
+      "upper": 0.06412863989037196,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-02-20",
+      "target_date": "2026-02-27",
+      "prediction": -0.02563990038045253,
+      "actual": 0.013605423560684171,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-02-20",
+      "lower": -0.07086988386808918,
+      "upper": 0.04581718180754576,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-02-27",
+      "target_date": "2026-03-06",
+      "prediction": -0.008223068475423392,
+      "actual": 0.3272727357361971,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-02-27",
+      "lower": -0.05345305196306005,
+      "upper": 0.0632340137125749,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-03-06",
+      "target_date": "2026-03-13",
+      "prediction": -0.07048370490088347,
+      "actual": 0.10223410030132496,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-03-06",
+      "lower": -0.11571368838852013,
+      "upper": 0.0009733772871148155,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-03-13",
+      "target_date": "2026-03-20",
+      "prediction": -0.0010327347103782046,
+      "actual": 0.012845115717469158,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-03-13",
+      "lower": -0.04626271819801486,
+      "upper": 0.07042434747762008,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-03-20",
+      "target_date": "2026-03-27",
+      "prediction": 0.029287740072681277,
+      "actual": 0.022811468632997656,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-03-20",
+      "lower": -0.015942243414955377,
+      "upper": 0.10074482226067957,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-03-27",
+      "target_date": "2026-04-06",
+      "prediction": 0.00618606691351981,
+      "actual": 0.11867959625882007,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-03-27",
+      "lower": -0.03904391657411684,
+      "upper": 0.0776431491015181,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-04-06",
+      "target_date": "2026-04-13",
+      "prediction": 0.06916603890387016,
+      "actual": -0.07535627635474196,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-04-06",
+      "lower": 0.023936055416233504,
+      "upper": 0.14062312109186845,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-04-13",
+      "target_date": "2026-04-20",
+      "prediction": 0.06167359557206439,
+      "actual": -0.05565502808391565,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-04-13",
+      "lower": 0.016443612084427732,
+      "upper": 0.13313067776006268,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-04-20",
+      "target_date": "2026-04-27",
+      "prediction": 0.015242373017608323,
+      "actual": 0.11045171084393424,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-04-20",
+      "lower": -0.029987610470028334,
+      "upper": 0.08669945520560661,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-04-27",
+      "target_date": "2026-05-04",
+      "prediction": 0.007203572025572785,
+      "actual": 0.09567992334361386,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-04-27",
+      "lower": -0.03802641146206387,
+      "upper": 0.07866065421357107,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-05-04",
+      "target_date": "2026-05-11",
+      "prediction": 0.0299887993084718,
+      "actual": -0.06063272753360138,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-05-04",
+      "lower": -0.015241184179164854,
+      "upper": 0.10144588149647009,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-05-11",
+      "target_date": "2026-05-18",
+      "prediction": 0.02865941763456797,
+      "actual": 0.07666226268049803,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-05-11",
+      "lower": -0.016570565853068684,
+      "upper": 0.10011649982256626,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-05-18",
+      "target_date": "2026-05-26",
+      "prediction": 0.010761666908994487,
+      "actual": -0.08232295424233504,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-05-18",
+      "lower": -0.03446831657864217,
+      "upper": 0.08221874909699278,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-05-26",
+      "target_date": "2026-06-02",
+      "prediction": 0.020576064738597025,
+      "actual": 0.001970834105554209,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-05-26",
+      "lower": -0.02465391874903963,
+      "upper": 0.09203314692659531,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-06-02",
+      "target_date": "2026-06-09",
+      "prediction": -0.00040542897013187,
+      "actual": -0.04349093782246516,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-06-02",
+      "lower": -0.045635412457768525,
+      "upper": 0.07105165321786641,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-06-09",
+      "target_date": "2026-06-16",
+      "prediction": 0.006817747321780845,
+      "actual": -0.12056360596438509,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-06-09",
+      "lower": -0.03841223616585581,
+      "upper": 0.07827482950977914,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-06-16",
+      "target_date": "2026-06-24",
+      "prediction": 0.01917005804125948,
+      "actual": -0.07950117093728637,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-06-16",
+      "lower": -0.026059925446377176,
+      "upper": 0.09062714022925777,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-06-24",
+      "target_date": "2026-07-01",
+      "prediction": -0.014332939629666749,
+      "actual": -0.028412872767411557,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-06-24",
+      "lower": -0.05956292311730341,
+      "upper": 0.05712414255833154,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-07-01",
+      "target_date": "2026-07-09",
+      "prediction": -0.012377251990195617,
+      "actual": 0.05558250876102311,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-07-01",
+      "lower": -0.05760723547783227,
+      "upper": 0.05907983019780267,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-07-09",
+      "target_date": "2026-07-16",
+      "prediction": -0.022999856694111302,
+      "actual": 0.09439501618088086,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-07-09",
+      "lower": -0.06822984018174796,
+      "upper": 0.048457225493886986,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-07-16",
+      "target_date": "2026-07-23",
+      "prediction": -0.006543416567240903,
+      "actual": 0.1692372332349974,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-07-16",
+      "lower": -0.05177340005487756,
+      "upper": 0.06491366562075739,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-07-23",
+      "target_date": "2026-07-30",
+      "prediction": 0.016207091680334598,
+      "actual": -0.08609937388538591,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-07-23",
+      "lower": -0.029022891807302057,
+      "upper": 0.08766417386833289,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-07-30",
+      "target_date": "2026-08-06",
+      "prediction": 0.034592971329686965,
+      "actual": -0.06754000928478376,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-07-30",
+      "lower": -0.01063701215794969,
+      "upper": 0.10605005351768526,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-08-06",
+      "target_date": "2026-08-13",
+      "prediction": 0.0323827699549366,
+      "actual": 0.05182128283320808,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-08-06",
+      "lower": -0.012847213532700054,
+      "upper": 0.1038398521429349,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-08-13",
+      "target_date": "2026-08-20",
+      "prediction": 0.015396765680836528,
+      "actual": 0.0760617019890002,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-08-13",
+      "lower": -0.02983321780680013,
+      "upper": 0.08685384786883482,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-08-20",
+      "target_date": "2026-08-27",
+      "prediction": 0.026101937277444375,
+      "actual": -0.033670276537495436,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-08-20",
+      "lower": -0.01912804621019228,
+      "upper": 0.09755901946544267,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-08-27",
+      "target_date": "2026-09-03",
+      "prediction": 0.019946650696090525,
+      "actual": 0.09291594755370536,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-08-27",
+      "lower": -0.02528333279154613,
+      "upper": 0.09140373288408882,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-09-03",
+      "target_date": "2026-09-11",
+      "prediction": 0.014971929635804421,
+      "actual": 0.09015411280700936,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-09-03",
+      "lower": -0.030258053851832233,
+      "upper": 0.0864290118238027,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-09-11",
+      "target_date": "2026-09-18",
+      "prediction": 0.015001716825104152,
+      "actual": -0.006972153743190934,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-09-11",
+      "lower": -0.030228266662532505,
+      "upper": 0.08645879901310244,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-09-18",
+      "target_date": "2026-09-25",
+      "prediction": 0.016523736189837625,
+      "actual": -0.03569110149365895,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-09-18",
+      "lower": -0.02870624729779903,
+      "upper": 0.08798081837783592,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-09-25",
+      "target_date": "2026-10-02",
+      "prediction": 0.005351198688502657,
+      "actual": -0.00647210073495863,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-09-25",
+      "lower": -0.039878784799133996,
+      "upper": 0.07680828087650095,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-10-02",
+      "target_date": "2026-10-09",
+      "prediction": -0.00206925414397906,
+      "actual": 0.0056320951248907125,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-10-02",
+      "lower": -0.04729923763161571,
+      "upper": 0.06938782804401923,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-10-09",
+      "target_date": "2026-10-16",
+      "prediction": 0.007161202399864244,
+      "actual": 0.09149796111891617,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-10-09",
+      "lower": -0.03806878108777241,
+      "upper": 0.07861828458786253,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-10-16",
+      "target_date": "2026-10-23",
+      "prediction": 0.0041592509560112925,
+      "actual": 0.048034152672604025,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-10-16",
+      "lower": -0.04107073253162536,
+      "upper": 0.07561633314400958,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-10-23",
+      "target_date": "2026-10-30",
+      "prediction": 0.004611851083309183,
+      "actual": -0.004129044731212894,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-10-23",
+      "lower": -0.040618132404327476,
+      "upper": 0.07606893327130747,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-10-30",
+      "target_date": "2026-11-06",
+      "prediction": 0.00314512047310584,
+      "actual": -0.12095005595853314,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-10-30",
+      "lower": -0.042084863014530814,
+      "upper": 0.07460220266110412,
+      "calibration_latest_label_date": "2023-12-22"
+    },
+    {
+      "origin_date": "2026-11-06",
+      "target_date": "2026-11-13",
+      "prediction": 0.00392918941393381,
+      "actual": -0.019068807770518337,
+      "no_change_prediction": 0.0,
+      "period": "test",
+      "training_count": 756,
+      "training_latest_label_date": "2026-11-06",
+      "lower": -0.041300794073702844,
+      "upper": 0.07538627160193209,
+      "calibration_latest_label_date": "2023-12-22"
+    }
+  ],
+  "recent_history": [
+    {
+      "date": "2026-05-18",
+      "close": 149.2899932861328
+    },
+    {
+      "date": "2026-05-19",
+      "close": 152.9600067138672
+    },
+    {
+      "date": "2026-05-20",
+      "close": 144.27000427246094
+    },
+    {
+      "date": "2026-05-21",
+      "close": 142.5399932861328
+    },
+    {
+      "date": "2026-05-22",
+      "close": 140.9199981689453
+    },
+    {
+      "date": "2026-05-26",
+      "close": 137.0
+    },
+    {
+      "date": "2026-05-27",
+      "close": 131.02999877929688
+    },
+    {
+      "date": "2026-05-28",
+      "close": 130.77999877929688
+    },
+    {
+      "date": "2026-05-29",
+      "close": 129.08999633789062
+    },
+    {
+      "date": "2026-06-01",
+      "close": 135.5
+    },
+    {
+      "date": "2026-06-02",
+      "close": 137.27000427246094
+    },
+    {
+      "date": "2026-06-03",
+      "close": 140.86000061035156
+    },
+    {
+      "date": "2026-06-04",
+      "close": 136.74000549316406
+    },
+    {
+      "date": "2026-06-05",
+      "close": 133.02000427246094
+    },
+    {
+      "date": "2026-06-08",
+      "close": 135.14999389648438
+    },
+    {
+      "date": "2026-06-09",
+      "close": 131.3000030517578
+    },
+    {
+      "date": "2026-06-10",
+      "close": 134.3000030517578
+    },
+    {
+      "date": "2026-06-11",
+      "close": 128.8300018310547
+    },
+    {
+      "date": "2026-06-12",
+      "close": 125.43000030517578
+    },
+    {
+      "date": "2026-06-15",
+      "close": 121.20999908447266
+    },
+    {
+      "date": "2026-06-16",
+      "close": 115.47000122070312
+    },
+    {
+      "date": "2026-06-17",
+      "close": 114.2300033569336
+    },
+    {
+      "date": "2026-06-18",
+      "close": 114.87000274658203
+    },
+    {
+      "date": "2026-06-22",
+      "close": 112.69000244140625
+    },
+    {
+      "date": "2026-06-23",
+      "close": 111.26000213623047
+    },
+    {
+      "date": "2026-06-24",
+      "close": 106.29000091552734
+    },
+    {
+      "date": "2026-06-25",
+      "close": 109.30999755859375
+    },
+    {
+      "date": "2026-06-26",
+      "close": 105.4800033569336
+    },
+    {
+      "date": "2026-06-29",
+      "close": 107.08000183105469
+    },
+    {
+      "date": "2026-06-30",
+      "close": 106.44000244140625
+    },
+    {
+      "date": "2026-07-01",
+      "close": 103.2699966430664
+    },
+    {
+      "date": "2026-07-02",
+      "close": 103.9800033569336
+    },
+    {
+      "date": "2026-07-06",
+      "close": 104.3499984741211
+    },
+    {
+      "date": "2026-07-07",
+      "close": 108.91999816894531
+    },
+    {
+      "date": "2026-07-08",
+      "close": 112.20999908447266
+    },
+    {
+      "date": "2026-07-09",
+      "close": 109.01000213623047
+    },
+    {
+      "date": "2026-07-10",
+      "close": 108.69999694824219
+    },
+    {
+      "date": "2026-07-13",
+      "close": 117.79000091552734
+    },
+    {
+      "date": "2026-07-14",
+      "close": 120.16999816894531
+    },
+    {
+      "date": "2026-07-15",
+      "close": 121.37999725341797
+    },
+    {
+      "date": "2026-07-16",
+      "close": 119.30000305175781
+    },
+    {
+      "date": "2026-07-17",
+      "close": 123.95999908447266
+    },
+    {
+      "date": "2026-07-20",
+      "close": 125.51000213623047
+    },
+    {
+      "date": "2026-07-21",
+      "close": 128.85000610351562
+    },
+    {
+      "date": "2026-07-22",
+      "close": 131.67999267578125
+    },
+    {
+      "date": "2026-07-23",
+      "close": 139.49000549316406
+    },
+    {
+      "date": "2026-07-24",
+      "close": 136.69000244140625
+    },
+    {
+      "date": "2026-07-27",
+      "close": 124.76000213623047
+    },
+    {
+      "date": "2026-07-28",
+      "close": 120.48999786376953
+    },
+    {
+      "date": "2026-07-29",
+      "close": 129.30999755859375
+    },
+    {
+      "date": "2026-07-30",
+      "close": 127.4800033569336
+    },
+    {
+      "date": "2026-07-31",
+      "close": 129.1699981689453
+    },
+    {
+      "date": "2026-08-03",
+      "close": 122.12000274658203
+    },
+    {
+      "date": "2026-08-04",
+      "close": 115.77999877929688
+    },
+    {
+      "date": "2026-08-05",
+      "close": 114.87999725341797
+    },
+    {
+      "date": "2026-08-06",
+      "close": 118.87000274658203
+    },
+    {
+      "date": "2026-08-07",
+      "close": 117.9800033569336
+    },
+    {
+      "date": "2026-08-10",
+      "close": 125.91999816894531
+    },
+    {
+      "date": "2026-08-11",
+      "close": 127.61000061035156
+    },
+    {
+      "date": "2026-08-12",
+      "close": 127.30000305175781
+    },
+    {
+      "date": "2026-08-13",
+      "close": 125.02999877929688
+    },
+    {
+      "date": "2026-08-14",
+      "close": 126.5999984741211
+    },
+    {
+      "date": "2026-08-17",
+      "close": 130.2899932861328
+    },
+    {
+      "date": "2026-08-18",
+      "close": 130.66000366210938
+    },
+    {
+      "date": "2026-08-19",
+      "close": 130.91000366210938
+    },
+    {
+      "date": "2026-08-20",
+      "close": 134.5399932861328
+    },
+    {
+      "date": "2026-08-21",
+      "close": 134.63999938964844
+    },
+    {
+      "date": "2026-08-24",
+      "close": 132.2100067138672
+    },
+    {
+      "date": "2026-08-25",
+      "close": 126.1500015258789
+    },
+    {
+      "date": "2026-08-26",
+      "close": 127.3499984741211
+    },
+    {
+      "date": "2026-08-27",
+      "close": 130.00999450683594
+    },
+    {
+      "date": "2026-08-28",
+      "close": 129.6999969482422
+    },
+    {
+      "date": "2026-08-31",
+      "close": 133.6999969482422
+    },
+    {
+      "date": "2026-09-01",
+      "close": 141.0
+    },
+    {
+      "date": "2026-09-02",
+      "close": 141.14999389648438
+    },
+    {
+      "date": "2026-09-03",
+      "close": 142.08999633789062
+    },
+    {
+      "date": "2026-09-04",
+      "close": 141.9600067138672
+    },
+    {
+      "date": "2026-09-08",
+      "close": 146.02999877929688
+    },
+    {
+      "date": "2026-09-09",
+      "close": 149.97000122070312
+    },
+    {
+      "date": "2026-09-10",
+      "close": 158.3800048828125
+    },
+    {
+      "date": "2026-09-11",
+      "close": 154.89999389648438
+    },
+    {
+      "date": "2026-09-14",
+      "close": 156.66000366210938
+    },
+    {
+      "date": "2026-09-15",
+      "close": 161.86000061035156
+    },
+    {
+      "date": "2026-09-16",
+      "close": 156.1699981689453
+    },
+    {
+      "date": "2026-09-17",
+      "close": 155.30999755859375
+    },
+    {
+      "date": "2026-09-18",
+      "close": 153.82000732421875
+    },
+    {
+      "date": "2026-09-21",
+      "close": 148.16000366210938
+    },
+    {
+      "date": "2026-09-22",
+      "close": 144.0800018310547
+    },
+    {
+      "date": "2026-09-23",
+      "close": 148.8300018310547
+    },
+    {
+      "date": "2026-09-24",
+      "close": 153.08999633789062
+    },
+    {
+      "date": "2026-09-25",
+      "close": 148.3300018310547
+    },
+    {
+      "date": "2026-09-28",
+      "close": 150.00999450683594
+    },
+    {
+      "date": "2026-09-29",
+      "close": 143.35000610351562
+    },
+    {
+      "date": "2026-09-30",
+      "close": 145.66000366210938
+    },
+    {
+      "date": "2026-10-01",
+      "close": 150.02000427246094
+    },
+    {
+      "date": "2026-10-02",
+      "close": 147.3699951171875
+    },
+    {
+      "date": "2026-10-05",
+      "close": 143.99000549316406
+    },
+    {
+      "date": "2026-10-06",
+      "close": 144.91000366210938
+    },
+    {
+      "date": "2026-10-07",
+      "close": 143.91000366210938
+    },
+    {
+      "date": "2026-10-08",
+      "close": 147.5800018310547
+    },
+    {
+      "date": "2026-10-09",
+      "close": 148.1999969482422
+    },
+    {
+      "date": "2026-10-12",
+      "close": 151.02999877929688
+    },
+    {
+      "date": "2026-10-13",
+      "close": 153.08999633789062
+    },
+    {
+      "date": "2026-10-14",
+      "close": 153.55999755859375
+    },
+    {
+      "date": "2026-10-15",
+      "close": 157.30999755859375
+    },
+    {
+      "date": "2026-10-16",
+      "close": 161.75999450683594
+    },
+    {
+      "date": "2026-10-19",
+      "close": 160.80999755859375
+    },
+    {
+      "date": "2026-10-20",
+      "close": 160.61000061035156
+    },
+    {
+      "date": "2026-10-21",
+      "close": 159.8000030517578
+    },
+    {
+      "date": "2026-10-22",
+      "close": 162.50999450683594
+    },
+    {
+      "date": "2026-10-23",
+      "close": 169.52999877929688
+    },
+    {
+      "date": "2026-10-26",
+      "close": 166.22999572753906
+    },
+    {
+      "date": "2026-10-27",
+      "close": 163.8800048828125
+    },
+    {
+      "date": "2026-10-28",
+      "close": 166.57000732421875
+    },
+    {
+      "date": "2026-10-29",
+      "close": 168.19000244140625
+    },
+    {
+      "date": "2026-10-30",
+      "close": 168.8300018310547
+    },
+    {
+      "date": "2026-11-02",
+      "close": 156.8699951171875
+    },
+    {
+      "date": "2026-11-03",
+      "close": 158.1699981689453
+    },
+    {
+      "date": "2026-11-04",
+      "close": 145.41000366210938
+    },
+    {
+      "date": "2026-11-05",
+      "close": 148.2100067138672
+    },
+    {
+      "date": "2026-11-06",
+      "close": 148.41000366210938
+    },
+    {
+      "date": "2026-11-09",
+      "close": 142.66000366210938
+    },
+    {
+      "date": "2026-11-10",
+      "close": 141.4499969482422
+    },
+    {
+      "date": "2026-11-11",
+      "close": 141.47000122070312
+    },
+    {
+      "date": "2026-11-12",
+      "close": 146.07000732421875
+    },
+    {
+      "date": "2026-11-13",
+      "close": 145.5800018310547
+    }
+  ],
+  "assumptions": [
+    "Targets are returns over the next 1 or 5 available observations; calendar dates are not promised. FX forecasts target ECB reference observations, not executable broker prices.",
+    "Features: own 1/5/20/63-observation returns, 60-observation average gap, 20-return annualized volatility; strictly earlier VIX, US 13-week bill-yield proxy and SPY five-session return. External context is carried at most seven calendar days.",
+    "All external observations precede the forecast origin date. This conservative lag avoids using the US close after the ECB reference observation on the same calendar day. It is not a complete point-in-time publication-vintage database.",
+    "Ridge alpha 10, maximum 756 training rows, minimum 252; feature scaling is fit on the training slice only. Every training label ends no later than its forecast origin. No hyperparameter optimization.",
+    "Validation origins/labels stay in 2023. Their signed residual 10th/90th percentiles define an illustrative nominal 80% interval. Test origins start in 2024 and are scored on known future labels. Rolling training may use prior test labels once observed.",
+    "Test origins are separated by the forecast horizon to avoid overlapping target windows within the test period. Interval coverage is measured, not assumed. Calibration can fail under regime changes.",
+    "Current-vintage adjusted prices/reference rates can be revised. Repeated inspection of historical tests weakens independence; this is not preregistered or independent forward validation.",
+    "Current news, political outcomes and FRED snapshots are excluded from numerical features because point-in-time historical coverage is not available. Transmission Map remains a separately labelled hypothesis framework.",
+    "Feature contributions are model arithmetic, not causal effects. Directional accuracy is scored only on nonzero actual returns; the no-change forecast has no directional prediction.",
+    "Statistical forecast evaluation is not a trading P&L backtest. No leverage, costs, funding, execution or tradable strategy is inferred. Forecast trading profitability has not been validated."
+  ],
+  "symbol": "USO",
+  "kind": "asset",
+  "source": {
+    "symbol": "USO",
+    "name": "Oil ETF · PROXY",
+    "category": "Commodity proxy",
+    "provider": "Yahoo Finance chart API",
+    "url": "https://finance.yahoo.com/quote/USO/history/",
+    "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=10y&interval=1d",
+    "frequency": "daily",
+    "currency": "USD",
+    "timezone": "America/New_York",
+    "adjustment": "Provider-adjusted close (dividends/splits)",
+    "caveat": "May be delayed or revised. Personal research only; not exchange real-time quotes. GLD/USO are ETFs, not futures P&L.",
+    "sha256": "b378b670148265a6c8a39a036eea2f6ff8025a9d26aae5025ed0d527d8e6d2bc",
+    "retrieved_at": "2026-11-14T13:30:33.330911+00:00",
+    "cache_status": "cached"
+  },
+  "context_sources": [
+    {
+      "symbol": "^VIX",
+      "name": "Cboe Volatility Index",
+      "category": "Risk indicator",
+      "provider": "Cboe Global Markets (official historical CSV)",
+      "url": "https://www.cboe.com/tradable-products/vix/vix-historical-data",
+      "request_url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+      "frequency": "daily",
+      "timezone": "America/Chicago",
+      "currency": null,
+      "units": "index points",
+      "adjustment": "Unadjusted published VIX daily close",
+      "caveat": "Expected 30-day S&P 500 volatility implied by options. Not directly investable; not VIX futures, a volatility ETF or a return series. End-of-day history may be delayed or revised.",
+      "sha256": "d830941efb5ba1134e1ba9a41dd38bca2d512bf5e9c3b691cadcf80911bda608",
+      "retrieved_at": "2026-11-14T13:40:59.179402+00:00",
+      "cache_status": "cached"
+    },
+    {
+      "symbol": "^IRX",
+      "name": "13-week US Treasury-bill yield proxy",
+      "category": "Custom",
+      "provider": "Yahoo Finance chart API",
+      "url": "https://finance.yahoo.com/quote/^IRX/history/",
+      "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/^IRX?range=10y&interval=1d",
+      "frequency": "daily",
+      "currency": null,
+      "timezone": "America/Chicago",
+      "adjustment": "Yield-index quote; not an investable price or return",
+      "caveat": "Yahoo ^IRX short-yield proxy, not FRED DFF. Only pre-signal observations, maximum seven-day carry. May be revised or delayed.",
+      "sha256": "a99e347c42b9181cde777014d2dcd20b6f89739de5ef233fa30a786034870d3d",
+      "retrieved_at": "2026-11-14T13:32:09.484494+00:00",
+      "cache_status": "cached",
+      "units": "percent per annum"
+    },
+    {
+      "symbol": "SPY",
+      "name": "US large caps",
+      "category": "Index",
+      "provider": "Yahoo Finance chart API",
+      "url": "https://finance.yahoo.com/quote/SPY/history/",
+      "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=10y&interval=1d",
+      "frequency": "daily",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "adjustment": "Provider-adjusted close (dividends/splits)",
+      "caveat": "May be delayed or revised. Personal research only; not exchange real-time quotes. GLD/USO are ETFs, not futures P&L.",
+      "sha256": "bbc28a9309fa108a5b0a40f654d733d2f253641af7445f65d35c602bf63bc9ae",
+      "retrieved_at": "2026-11-14T13:30:32.930696+00:00",
+      "cache_status": "cached"
+    }
+  ],
+  "generated_at": "2026-11-14T19:29:15.423986+00:00",
+  "stale": false,
+  "forecast_status": "RESEARCH ESTIMATE / NOT A TRADE INSTRUCTION",
+  "dataset_sha256": "35b896f113b22a37a9567e8389ec060ae0314058c445d48e57aa94ca29a905e6"
+}

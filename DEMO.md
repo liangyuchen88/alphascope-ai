@@ -12,6 +12,8 @@
 
 **2:40–3:00 — Close:** “We connect the creative New Worlds theme to an honest risk-learning loop: observe, decide, reveal and compare. This is not an unexplained buy button. It is a way to understand what risk feels like before taking it.”
 
+Optional extension: open Forecast Lab, show the no-change benchmark and uncertainty band, and explain that lower forecast error is different from tradable profit. FX & Arbitrage separately checks actual fiat bid/ask loops; no positive result is fabricated when fees or depth erase it.
+
 The longer research walkthrough follows below.
 
 # Research dashboard walkthrough
@@ -53,7 +55,7 @@ Open Sources & Methods or export a backtest. Show provenance, fees and the separ
 ## Judge questions
 
 - **How do you prevent look-ahead?** Historical price signals execute next close. Rate proxies use only earlier observation dates, maximum seven-day carry. Current news and FRED snapshots are excluded from historical rules. Prefix-invariance and exact timing are tested.
-- **Is this an AI price predictor?** No. It is a transparent quantitative research tool, implemented with AI assistance. The financial models are deterministic and inspectable.
+- **Does it forecast prices?** Forecast Lab fits an inspectable ridge-regression model and tests it against no change. Most evaluated cases did not beat that benchmark. The separate strategy/replay rules are fixed and explainable; no LLM-generated price targets or factual news are used.
 - **What is new?** A market-weather workflow joining global markets, political event windows, VIX, explainable models and hypothesis-controlled “New Worlds” scenarios, with an evidence panel instead of an unexplained trade command.
 - **Can it trade futures?** The current release explicitly uses GLD/USO ETF proxies. Executable futures need contract specifications, rolls, margin and realistic execution; those are not claimed.
 - **Is the election analysis causal?** No. It is descriptive, lacks a controlled causal design and uses too few selected events to validate a robust trading rule.

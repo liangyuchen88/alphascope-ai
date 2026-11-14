@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-14T19:28:04.469Z",
+  "checks": [
+    "Eight sourced FX reference pairs are visible",
+    "Reference rates are not labelled arbitrage opportunities",
+    "FX chart switches quote orientation correctly",
+    "Both fiat triangles use three independent bid/ask books",
+    "Snapshot candidates never claim verified execution",
+    "Every route retains three leg conversions and capacity checks",
+    "Quote audit preserves original public-book sources",
+    "FX-to-model link preserves the selected currency pair",
+    "fx:EUR/USD horizon 5: historical out-of-sample evaluation available",
+    "fx:EUR/USD horizon 5: label and interval timing checks pass",
+    "fx:EUR/USD horizon 5: forecast and uncertainty are finite",
+    "fx:USD/JPY horizon 1: historical out-of-sample evaluation available",
+    "fx:USD/JPY horizon 1: label and interval timing checks pass",
+    "fx:USD/JPY horizon 1: forecast and uncertainty are finite",
+    "asset:SPY horizon 5: historical out-of-sample evaluation available",
+    "asset:SPY horizon 5: label and interval timing checks pass",
+    "asset:SPY horizon 5: forecast and uncertainty are finite",
+    "Forecast export retains context provenance and dataset fingerprint",
+    "Statistical forecast accuracy is separated from trading P&L",
+    "Populated forecast view fits mobile",
+    "FX reference and arbitrage form fit mobile",
+    "FX interface is fully English",
+    "No FX or forecast JavaScript errors"
+  ],
+  "errors": []
+}

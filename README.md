@@ -20,6 +20,8 @@ In the supplied environment, pandas/numpy/pytest are already installed. Cached r
 
 - **Market Overview:** market weather, SPY, effective federal funds rate, matched-date 10Y–2Y spread, official Cboe VIX history, watchlist and 11-sector ETF heatmap.
 - **Global Markets:** ten representative major-market indices: S&P 500, FTSE 100, Nikkei 225, Shanghai Composite, Hang Seng, DAX, CAC 40, Nifty 50, S&P/TSX Composite and S&P/ASX 200. Daily local-currency levels, moves, dates, exchange timezones and an exact-common-date normalized comparison. This is a geographically diverse watchlist, not a capitalization ranking.
+- **FX & Arbitrage:** official ECB reference history, cross rates, and a separate fiat bid/ask triangle scanner with cost, depth and timing checks; positive candidates remain execution-unverified.
+- **Forecast Lab:** fixed ridge forecasts for FX and market assets, label-aware walk-forward evaluation, no-change benchmarks, residual-calibrated intervals and full timing/source audits. No tradable forecast-profit claim.
 - **Asset Explorer:** ticker search, adjusted history, 20/60-session averages, 63-session momentum, Wilder-style RSI and realized volatility. Source metadata stays with each series.
 - **Strategy Lab:** five deterministic models, matched-period benchmark, costs, equity/drawdown curves, return statistics, position episodes and complete execution-fill export.
 - **Storm Replay / Market Multiverse:** build a hypothetical portfolio, navigate source-backed historical storms, and compare your decisions with buy-and-hold and a fixed risk rule. The flagship creative demo includes a spacecraft, a drawdown-budget meter and a three-route debrief.
@@ -63,7 +65,7 @@ This is research and learning software. It does not connect to a broker. GLD/USO
 
 ## Files
 
-`server.py` serves local JSON endpoints and static assets. `data_service.py` handles providers and cached provenance. `engine.py` implements indicators and the cash/units ledger. `politics.py` implements sourced news and descriptive event windows. `research.py` reproduces batch reports. `tests/` contains numeric, timing, provenance and event-window tests.
+`server.py` serves local JSON endpoints and static assets. `data_service.py` handles providers and cached provenance. `engine.py` implements indicators and the cash/units ledger. `politics.py` implements sourced news and descriptive event windows. `research.py` reproduces strategy reports; `forecast_research.py` reproduces all 32 supported forecast evaluations. `tests/` contains numeric, timing, provenance and event-window tests.
 
 All Git history is local. There is no configured GitHub dependency or remote repository. The sibling `AlphaScope-backup.zip` is a private copy of code, source data, tests, reports, screenshots and local Git history.
 
@@ -96,3 +98,23 @@ Seven clickable nodes use four explicit evidence types. Dashed arrows are **unes
 The exposure form changes only user assumptions, never the observed market evidence. It does not estimate portfolio returns or look through ETF constituents. Links open the matching election/asset study, a separate fixed-strategy backtest, or a separately dated current Risk Radar allocation check. Export includes the graph, event sources, all fifteen asset/sector windows and the assumptions.
 
 Implementation: `transmission.py`. Tests: `tests/test_transmission.py`. Browser verification: `tools/transmission_browser_qa.cjs`. No generated news claims, political winner inference, causal effect estimates or future return forecasts are supplied.
+
+## FX & Arbitrage
+
+The FX reference dashboard uses the ECB's official daily historical XML for eight major pairs and a nine-currency cross-rate matrix. Rates are units of quote currency per one base unit. Cross rates are derived from the same euro-based observations and cannot establish independent triangular arbitrage. ECB reference rates are informational, not transaction quotes.
+
+A separate fiat-only scanner fetches public Kraken EUR/USD, EUR/GBP and GBP/USD order-book snapshots. It checks both three-leg loops using bid for selling base and ask for buying base, applies user-entered fees/slippage on every leg, and checks first-level size and snapshot/HTTP timing. Default costs are assumptions; confirm your own fee tier. An apparent positive net result is only a **candidate with execution unverified**. Independent snapshots are not atomic; balances, account eligibility, minimum orders, precision, fee settlement, latency, changing depth and actual fills are not verified. No orders are placed and no executable-arbitrage guarantee is made. There is no historical tick-level arbitrage P&L backtest. Current snapshots may correctly show no positive candidate.
+
+The public scanner is explicitly refreshed with its button; it does not run continuously. Export retains each quote, source URL, acquisition time, leg, cost assumption and capacity check. Unavailable data never produces invented quotes.
+
+## Forecast Lab
+
+Forecast either an ECB currency reference series or a selected stock/ETF adjusted series over the next one or five available observations. A fixed ridge regression uses historical returns/trend/volatility plus strictly earlier VIX, US short-yield-proxy and SPY context. The US yield is not a bilateral currency interest differential. Current news, political winners and FRED snapshots are excluded from numeric features without point-in-time historical coverage.
+
+The model is evaluated with label-aware rolling fits, at most 756 training rows and at least 252. Fixed alpha 10; scaling uses only the fit slice. Validation labels stay in 2023 and calibrate an illustrative nominal 80% interval from signed out-of-sample residuals. Test origins begin in 2024 and are spaced by horizon to avoid overlapping target windows. Training can use earlier test labels only after they have become observed. Metrics include RMSE/MAE against a no-change benchmark, directional accuracy and actual interval coverage. Lower historical error does not demonstrate statistical significance or trading profitability.
+
+Exports retain source fingerprints, feature arithmetic contributions, each test prediction and timing audit. Contributions are not causal effects. Forecasts on stale inputs are labelled historical-only. Current-vintage history can be revised; this is not an independent preregistered forward test. No tradable forecast-strategy P&L is claimed. Existing Strategy Lab evaluates separate deterministic rules.
+
+Source/method context: [ECB reference-rate policy](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html), [Kraken order-book API](https://docs.kraken.com/api-reference/market-data/get-order-book), [Kraken fee reference](https://www.kraken.com/pro/fees), [ECB discussion of exchange-rate predictability and no-change forecasts](https://www.ecb.europa.eu/press/economic-bulletin/articles/2021/html/ecb.ebart202107_01~e584b31d1a.en.html).
+
+To reproduce all supported forecast comparisons: `python3 forecast_research.py`. The summary is `reports/forecast-summary.json`. Historical results mostly do not improve on the no-change RMSE benchmark; no statistical significance or trading edge is claimed.

@@ -16,7 +16,7 @@ Missing observations are omitted, never invented or interpolated. Returns use ad
 - **Volatility target:** `min(1, 0.12 / realized_volatility)` when close exceeds its 60-session SMA; otherwise 0. Realized volatility is the 20-return sample standard deviation times sqrt(252). No leverage.
 - **Rate-aware risk budget:** the volatility-target weight divided by `1 + 5 × max(short_yield, 0) / 100`. The short yield is historical Yahoo ^IRX, a 13-week Treasury-bill yield proxy in percent. An as-of join uses observations **strictly before** each signal date, maximum seven calendar days old. Missing yield means zero exposure; coverage below 95% in the evaluation period invalidates the backtest. Coefficient 5 is a fixed educational assumption, not a fitted optimum.
 
-All models have at least 63 initial observations reserved for warm-up. No parameter search, optimization, expected-profit forecast or machine-learning model is used.
+These five strategy rules reserve at least 63 initial observations for warm-up and use no parameter search, expected-profit forecast or learned prediction model. The separate Forecast Lab fits a ridge model and has its own statistical evaluation described below.
 
 ## Execution ledger
 
@@ -132,3 +132,23 @@ For each event, the existing descriptive event-window method is applied separate
 Missing series remain unavailable. Changing user-entered target weights never changes historical observations. SPY/GLD/USO/TLT weights describe broad exposures only; there is no issuer-level look-through or estimated event-specific sensitivity. Map links explicitly distinguish matching retrospective election evidence from Strategy Lab's separate evaluation periods and Risk Radar's current-date allocation checks.
 
 The interface supplies alternative explanations and reversal conditions at every node. Inflation, earnings, growth, prior expectations, policy enactment, positioning and other events can invalidate a simple story. Price co-movement is a reason to investigate, not proof of the arrows. The map is not used as a historical trading signal, and current news never enters its retrospective strategy calculations.
+
+## FX references and fiat triangular screening
+
+ECB daily historical XML is retained from 2016 onward for EUR, USD, GBP, JPY, CHF, AUD, CAD, CNY and HKD. A BASE/QUOTE observation equals the ECB QUOTE-per-EUR rate divided by its BASE-per-EUR rate, so it gives quote units per one base. These coherent same-base reference rates cannot demonstrate independent triangular arbitrage. They have no executable bid/ask spread and ECB discourages transaction use.
+
+The separate public fiat scanner uses Kraken EUR/USD, EUR/GBP and GBP/USD books. For source currency equal to pair base, sell at bid; in the other direction, buy base using the inverse ask. Each leg's output is multiplied by `(1 − fee_bps/10000) × (1 − slippage_bps/10000)`. These are explicitly user assumptions and a simplified output-fee model; actual account fee settlement may differ. First-level source capacity equals bid base size when selling, or ask base size times ask when buying. No multi-level fill is inferred beyond that size.
+
+Snapshots must have arrival ages within 10 seconds, arrival skew at most two seconds and available HTTP server timestamps within 15 seconds. Price-level update timestamps are retained but are not confused with a firm executable snapshot timestamp. Independent REST snapshots are not atomic. A positive candidate requires positive net arithmetic under costs plus quote-quality and first-level-capacity checks. It is always execution-unverified: funding, eligibility, minimum orders, precision, latency, balances, changing depth and fills remain unchecked. No order, guaranteed profit or historical tick-level arbitrage P&L is claimed.
+
+## Forecast Lab: fixed, label-aware statistical forecasts
+
+Targets are one- or five-observation simple returns from the origin close/reference observation. FX targets are ECB reference rates, not broker prices; asset targets use provider-adjusted histories. Calendar target dates are not promised. Features are own 1/5/20/63-observation returns, the gap to a 60-observation SMA, and 20-return annualized volatility, plus strictly earlier VIX/100, ^IRX/100 and SPY five-observation return. External inputs are joined backward with no same-date match and maximum seven-calendar-day carry. This conservative lag prevents using the US close after the same-day ECB reference publication. The US bill proxy is not an interest differential between two currencies.
+
+For each origin, select at most the latest 756 valid training rows whose full target endpoint is already observed, with a minimum 252. Standardize features using that slice only, center the training targets and solve ridge regression with fixed alpha 10 and an unpenalized target-mean intercept. No hyperparameter search is performed. Contributions are the standardized-input coefficient products plus intercept, not causal effects.
+
+Validation origins and their complete target labels are confined to 2023. Signed validation residual 10th/90th percentiles define an illustrative nominal 80% prediction interval. They are fixed before the test, whose origins start in 2024. Within each evaluation period, origins are spaced by horizon so target windows do not overlap. Rolling fits can use prior test labels only after they have become observed; this is prequential rolling evaluation, not a single frozen model. Each exported origin retains the latest training-label endpoint and calibration-label endpoint for audit.
+
+Report return RMSE and MAE against a zero-return/no-change forecast, nonzero-actual-return directional accuracy, sample counts and empirical interval coverage. Lower historical RMSE alone does not establish significance, generalization or profitable trading; MAE may tell a different story. The no-change benchmark has no directional prediction. Calibration can fail under regime changes. Future-dated sources are rejected; stale inputs yield historical-only output labels. Current-vintage source revisions and repeated test inspection remain limitations.
+
+Current news, election outcomes and FRED snapshots are not numerical predictors because point-in-time historical coverage is unavailable. Political mechanisms remain hypotheses in Transmission Map. Statistical forecast evaluation is not a costed trading P&L backtest: no forecast-driven tradable profitability, funding or executable return is claimed. Strategy Lab continues to evaluate different deterministic rules.

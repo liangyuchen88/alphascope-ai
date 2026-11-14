@@ -1,0 +1,164 @@
+{
+  "as_of_epoch": 1794684483.428923,
+  "routes": [
+    {
+      "route": "USD → EUR → GBP → USD",
+      "start_currency": "USD",
+      "notional": 100,
+      "gross_return_using_bid_ask": -0.0001340137735538205,
+      "net_return_under_assumptions": -0.006717427308924329,
+      "final_amount": 99.32825726910757,
+      "difference": -0.6717427308924329,
+      "top_level_capacity_ok": true,
+      "positive_candidate": false,
+      "execution_verified": false,
+      "status": "NO POSITIVE NET CANDIDATE",
+      "legs": [
+        {
+          "from": "USD",
+          "to": "EUR",
+          "pair": "EUR/USD",
+          "side": "buy base at ask",
+          "price": 1.10066,
+          "input": 100,
+          "output_after_assumed_costs": 90.65473443206804,
+          "top_level_source_capacity": 418.91779995999997,
+          "capacity_ok": true,
+          "source_url": "https://api.kraken.com/0/public/Depth?pair=EURUSD&count=10"
+        },
+        {
+          "from": "EUR",
+          "to": "GBP",
+          "pair": "EUR/GBP",
+          "side": "sell base at bid",
+          "price": 0.83436,
+          "input": 90.65473443206804,
+          "output_after_assumed_costs": 75.47230937092834,
+          "top_level_source_capacity": 846.356,
+          "capacity_ok": true,
+          "source_url": "https://api.kraken.com/0/public/Depth?pair=EURGBP&count=10"
+        },
+        {
+          "from": "GBP",
+          "to": "USD",
+          "pair": "GBP/USD",
+          "side": "sell base at bid",
+          "price": 1.31899,
+          "input": 75.47230937092834,
+          "output_after_assumed_costs": 99.32825726910757,
+          "top_level_source_capacity": 244.559,
+          "capacity_ok": true,
+          "source_url": "https://api.kraken.com/0/public/Depth?pair=GBPUSD&count=10"
+        }
+      ]
+    },
+    {
+      "route": "USD → GBP → EUR → USD",
+      "start_currency": "USD",
+      "notional": 100,
+      "gross_return_using_bid_ask": -0.0001005898043540121,
+      "net_return_under_assumptions": -0.006684223413028545,
+      "final_amount": 99.33157765869714,
+      "difference": -0.6684223413028576,
+      "top_level_capacity_ok": false,
+      "positive_candidate": false,
+      "execution_verified": false,
+      "status": "TOP-LEVEL CAPACITY INSUFFICIENT",
+      "legs": [
+        {
+          "from": "USD",
+          "to": "GBP",
+          "pair": "GBP/USD",
+          "side": "buy base at ask",
+          "price": 1.31907,
+          "input": 100,
+          "output_after_assumed_costs": 75.64423419530426,
+          "top_level_source_capacity": 323.45838819,
+          "capacity_ok": true,
+          "source_url": "https://api.kraken.com/0/public/Depth?pair=GBPUSD&count=10"
+        },
+        {
+          "from": "GBP",
+          "to": "EUR",
+          "pair": "EUR/GBP",
+          "side": "buy base at ask",
+          "price": 0.83449,
+          "input": 75.64423419530426,
+          "output_after_assumed_costs": 90.44787491493999,
+          "top_level_source_capacity": 53.90805399999999,
+          "capacity_ok": false,
+          "source_url": "https://api.kraken.com/0/public/Depth?pair=EURGBP&count=10"
+        },
+        {
+          "from": "EUR",
+          "to": "USD",
+          "pair": "EUR/USD",
+          "side": "sell base at bid",
+          "price": 1.10064,
+          "input": 90.44787491493999,
+          "output_after_assumed_costs": 99.33157765869714,
+          "top_level_source_capacity": 8399.865,
+          "capacity_ok": true,
+          "source_url": "https://api.kraken.com/0/public/Depth?pair=EURUSD&count=10"
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "pair": "EUR/USD",
+      "bid": 1.10064,
+      "ask": 1.10066,
+      "bid_base_size": 8399.865,
+      "ask_base_size": 380.606,
+      "bid_level_timestamp": 1794684481,
+      "ask_level_timestamp": 1794684478,
+      "observed_at": "2026-11-14T19:28:03.428779+00:00",
+      "observed_epoch": 1794684483.4287832,
+      "request_started_epoch": 1794684483.298194,
+      "server_date": "Sat, 14 Nov 2026 19:28:03 GMT",
+      "url": "https://api.kraken.com/0/public/Depth?pair=EURUSD&count=10",
+      "provider": "Kraken public fiat spot order book",
+      "caveat": "Independent REST snapshots, not an atomic synchronized or firm executable quote set. Price-level timestamps describe updates, not a guarantee of current executable liquidity."
+    },
+    {
+      "pair": "EUR/GBP",
+      "bid": 0.83436,
+      "ask": 0.83449,
+      "bid_base_size": 846.356,
+      "ask_base_size": 64.6,
+      "bid_level_timestamp": 1794684481,
+      "ask_level_timestamp": 1794684471,
+      "observed_at": "2026-11-14T19:28:03.423380+00:00",
+      "observed_epoch": 1794684483.42339,
+      "request_started_epoch": 1794684483.29848,
+      "server_date": "Sat, 14 Nov 2026 19:28:03 GMT",
+      "url": "https://api.kraken.com/0/public/Depth?pair=EURGBP&count=10",
+      "provider": "Kraken public fiat spot order book",
+      "caveat": "Independent REST snapshots, not an atomic synchronized or firm executable quote set. Price-level timestamps describe updates, not a guarantee of current executable liquidity."
+    },
+    {
+      "pair": "GBP/USD",
+      "bid": 1.31899,
+      "ask": 1.31907,
+      "bid_base_size": 244.559,
+      "ask_base_size": 245.217,
+      "bid_level_timestamp": 1794684472,
+      "ask_level_timestamp": 1794684482,
+      "observed_at": "2026-11-14T19:28:03.427764+00:00",
+      "observed_epoch": 1794684483.4277701,
+      "request_started_epoch": 1794684483.2985759,
+      "server_date": "Sat, 14 Nov 2026 19:28:03 GMT",
+      "url": "https://api.kraken.com/0/public/Depth?pair=GBPUSD&count=10",
+      "provider": "Kraken public fiat spot order book",
+      "caveat": "Independent REST snapshots, not an atomic synchronized or firm executable quote set. Price-level timestamps describe updates, not a guarantee of current executable liquidity."
+    }
+  ],
+  "quote_quality_ok": true,
+  "quality_issues": [],
+  "arrival_skew_seconds": 0.005393266677856445,
+  "fee_bps_per_leg": 20,
+  "slippage_bps_per_leg": 2,
+  "executable_arbitrage_verified": false,
+  "notice": "Conditional arithmetic screening only. No guaranteed or verified executable arbitrage. Independent public snapshots are not atomic; account eligibility, balances, minimum orders, fee currency, execution latency, depth changes and settlement remain unchecked. Fees and slippage are user assumptions deducted from output on each leg. No orders are placed. This snapshot scanner has no historical tick-level P&L backtest."
+}
