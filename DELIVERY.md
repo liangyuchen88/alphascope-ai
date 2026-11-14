@@ -6,6 +6,7 @@ Verified on 2026-11-14T13:57:13.073304+00:00.
 - Unit/calculation/provenance/event-window tests: **36 passed**. Raw output: `reports/pytest-result.txt`.
 - Isolated Chrome browser checks: **38 passed**, no JavaScript page errors. Full list: `reports/browser-qa.json`.
 - Fixed historical research runs: **125/125 completed** across 25 assets and five models. Exact metrics and source fingerprints: `reports/summary.json`.
+- HTTP smoke checks: six passed, including non-investable index rejection, malformed-symbol rejection and missing-file behavior. Evidence: `reports/http-smoke.json`.
 - Actual browser download verified: `reports/browser-export-rate-aware.json`, including strict rate-date alignment and source provenance.
 - Global markets: ten reporting exchanges ranked from the WFE September 2026 observation column in the November 2026 publication; all ten representative-index histories retrieved. Source/export: `reports/global-markets.json`.
 - Elections: 2018 and 2022 completed +20-session windows; 2026 has only +8 completed post-event sessions as of the delivered 2026-11-13 observations and is explicitly partial. Source-tagged examples: `reports/event-*.json`.

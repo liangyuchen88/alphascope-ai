@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/api/health",
+    "status": 200
+  },
+  {
+    "path": "/api/global-markets",
+    "status": 200
+  },
+  {
+    "path": "/api/backtest?symbol=%5EVIX",
+    "status": 400
+  },
+  {
+    "path": "/api/backtest?symbol=000001.SS",
+    "status": 400
+  },
+  {
+    "path": "/api/asset?symbol=..%2Fsecret",
+    "status": 400
+  },
+  {
+    "path": "/missing-file",
+    "status": 404
+  }
+]
