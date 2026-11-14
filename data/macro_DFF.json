@@ -1,0 +1,34 @@
+{
+  "series": "DFF",
+  "provider": "FRED / Federal Reserve H.15",
+  "url": "https://fred.stlouisfed.org/series/DFF",
+  "frequency": "daily",
+  "units": "percent",
+  "rows": [
+    {
+      "date": "2026-11-08",
+      "value": 3.88
+    },
+    {
+      "date": "2026-11-09",
+      "value": 3.88
+    },
+    {
+      "date": "2026-11-10",
+      "value": 3.88
+    },
+    {
+      "date": "2026-11-11",
+      "value": 3.88
+    },
+    {
+      "date": "2026-11-12",
+      "value": 3.88
+    }
+  ],
+  "retrieved_at": "2026-11-14T13:29:32.847276+00:00",
+  "ingestion": "official_page_snapshot_verified_with_web_reader",
+  "source_updated_at": "2026-11-13T15:16:00-06:00",
+  "sha256": "110e5387d543f8ced16eee83c012299a1c413b5b24296d155759b394aad300af",
+  "caveat": "Official-page observation snapshot, not an automatic live feed. CSV endpoint timed out; verified with a web reader on 2026-11-14. Context only, never historical signals. Stale after five days."
+}

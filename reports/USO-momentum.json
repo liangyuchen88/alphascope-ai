@@ -1,0 +1,6752 @@
+{
+  "fills": [
+    {
+      "date": "2024-02-12",
+      "signal_date": "2024-02-09",
+      "side": "buy",
+      "adjusted_price": 72.11000061035156,
+      "normalized_notional": 0.9990009990009991,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0004995004995004995,
+      "normalized_slippage": 0.0004995004995004995,
+      "normalized_total_cost": 0.0009990009990009992,
+      "nav_before_cost": 1.0,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-02-15",
+      "signal_date": "2024-02-14",
+      "side": "sell",
+      "adjusted_price": 72.83999633789062,
+      "normalized_notional": 1.0091142489650171,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0005045571244825085,
+      "normalized_slippage": 0.0005045571244825085,
+      "normalized_total_cost": 0.0010091142489650172,
+      "nav_before_cost": 1.009114248965017,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-02-16",
+      "signal_date": "2024-02-15",
+      "side": "buy",
+      "adjusted_price": 73.41000366210938,
+      "normalized_notional": 1.0070980366793727,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0005035490183396864,
+      "normalized_slippage": 0.0005035490183396864,
+      "normalized_total_cost": 0.0010070980366793728,
+      "nav_before_cost": 1.008105134716052,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-02-26",
+      "signal_date": "2024-02-23",
+      "side": "sell",
+      "adjusted_price": 72.79000091552734,
+      "normalized_notional": 0.9985923355804791,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0004992961677902396,
+      "normalized_slippage": 0.0004992961677902396,
+      "normalized_total_cost": 0.0009985923355804792,
+      "nav_before_cost": 0.998592335580479,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-02-27",
+      "signal_date": "2024-02-26",
+      "side": "buy",
+      "adjusted_price": 73.8499984741211,
+      "normalized_notional": 0.9965971460987998,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0004982985730493999,
+      "normalized_slippage": 0.0004982985730493999,
+      "normalized_total_cost": 0.0009965971460987998,
+      "nav_before_cost": 0.9975937432448985,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-06-03",
+      "signal_date": "2024-05-31",
+      "side": "sell",
+      "adjusted_price": 71.83000183105469,
+      "normalized_notional": 0.9693375261772815,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0004846687630886407,
+      "normalized_slippage": 0.0004846687630886407,
+      "normalized_total_cost": 0.0009693375261772816,
+      "nav_before_cost": 0.9693375261772815,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-06-11",
+      "signal_date": "2024-06-10",
+      "side": "buy",
+      "adjusted_price": 75.51000213623047,
+      "normalized_notional": 0.9674007878632411,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00048370039393162055,
+      "normalized_slippage": 0.00048370039393162055,
+      "normalized_total_cost": 0.0009674007878632411,
+      "nav_before_cost": 0.9683681886511043,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-06-14",
+      "signal_date": "2024-06-13",
+      "side": "sell",
+      "adjusted_price": 76.08000183105469,
+      "normalized_notional": 0.9747033721335994,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0004873516860667997,
+      "normalized_slippage": 0.0004873516860667997,
+      "normalized_total_cost": 0.0009747033721335994,
+      "nav_before_cost": 0.9747033721335993,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-06-20",
+      "signal_date": "2024-06-18",
+      "side": "buy",
+      "adjusted_price": 79.41000366210938,
+      "normalized_notional": 0.9727559128486172,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0004863779564243086,
+      "normalized_slippage": 0.0004863779564243086,
+      "normalized_total_cost": 0.0009727559128486172,
+      "nav_before_cost": 0.9737286687614657,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-07-08",
+      "signal_date": "2024-07-05",
+      "side": "sell",
+      "adjusted_price": 80.41999816894531,
+      "normalized_notional": 0.9851281340192611,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0004925640670096306,
+      "normalized_slippage": 0.0004925640670096306,
+      "normalized_total_cost": 0.0009851281340192612,
+      "nav_before_cost": 0.985128134019261,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-07-19",
+      "signal_date": "2024-07-18",
+      "side": "buy",
+      "adjusted_price": 78.0,
+      "normalized_notional": 0.9831598460392026,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0004915799230196013,
+      "normalized_slippage": 0.0004915799230196013,
+      "normalized_total_cost": 0.0009831598460392026,
+      "nav_before_cost": 0.9841430058852417,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-07-22",
+      "signal_date": "2024-07-19",
+      "side": "sell",
+      "adjusted_price": 77.62000274658203,
+      "normalized_notional": 0.9783701275627189,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0004891850637813595,
+      "normalized_slippage": 0.0004891850637813595,
+      "normalized_total_cost": 0.000978370127562719,
+      "nav_before_cost": 0.9783701275627188,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-08-02",
+      "signal_date": "2024-08-01",
+      "side": "buy",
+      "adjusted_price": 73.38999938964844,
+      "normalized_notional": 0.9764153420930631,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00048820767104653154,
+      "normalized_slippage": 0.00048820767104653154,
+      "normalized_total_cost": 0.0009764153420930632,
+      "nav_before_cost": 0.977391757435156,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-08-05",
+      "signal_date": "2024-08-02",
+      "side": "sell",
+      "adjusted_price": 73.22000122070312,
+      "normalized_notional": 0.9741536058665147,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0004870768029332574,
+      "normalized_slippage": 0.0004870768029332574,
+      "normalized_total_cost": 0.0009741536058665147,
+      "nav_before_cost": 0.9741536058665146,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-08-13",
+      "signal_date": "2024-08-12",
+      "side": "buy",
+      "adjusted_price": 77.63999938964844,
+      "normalized_notional": 0.9722072450156325,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0004861036225078163,
+      "normalized_slippage": 0.0004861036225078163,
+      "normalized_total_cost": 0.0009722072450156326,
+      "nav_before_cost": 0.9731794522606481,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-08-20",
+      "signal_date": "2024-08-19",
+      "side": "sell",
+      "adjusted_price": 73.83000183105469,
+      "normalized_notional": 0.9244984961867321,
+      "target_weight": 0.0,
+      "normalized_fee": 0.000462249248093366,
+      "normalized_slippage": 0.000462249248093366,
+      "normalized_total_cost": 0.000924498496186732,
+      "nav_before_cost": 0.924498496186732,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-08-26",
+      "signal_date": "2024-08-23",
+      "side": "buy",
+      "adjusted_price": 77.83000183105469,
+      "normalized_notional": 0.9226513463442012,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00046132567317210064,
+      "normalized_slippage": 0.00046132567317210064,
+      "normalized_total_cost": 0.0009226513463442012,
+      "nav_before_cost": 0.9235739976905453,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-08-28",
+      "signal_date": "2024-08-27",
+      "side": "sell",
+      "adjusted_price": 75.4800033569336,
+      "normalized_notional": 0.8947928187193244,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0004473964093596622,
+      "normalized_slippage": 0.0004473964093596622,
+      "normalized_total_cost": 0.0008947928187193244,
+      "nav_before_cost": 0.8947928187193244,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-08-30",
+      "signal_date": "2024-08-29",
+      "side": "buy",
+      "adjusted_price": 74.33999633789062,
+      "normalized_notional": 0.8930050208797254,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00044650251043986273,
+      "normalized_slippage": 0.00044650251043986273,
+      "normalized_total_cost": 0.0008930050208797255,
+      "nav_before_cost": 0.8938980259006051,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-09-03",
+      "signal_date": "2024-08-30",
+      "side": "sell",
+      "adjusted_price": 71.08999633789062,
+      "normalized_notional": 0.8539645788454306,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0004269822894227153,
+      "normalized_slippage": 0.0004269822894227153,
+      "normalized_total_cost": 0.0008539645788454307,
+      "nav_before_cost": 0.8539645788454305,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-11-05",
+      "signal_date": "2024-11-04",
+      "side": "buy",
+      "adjusted_price": 74.7300033569336,
+      "normalized_notional": 0.8522583559106744,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0004261291779553372,
+      "normalized_slippage": 0.0004261291779553372,
+      "normalized_total_cost": 0.0008522583559106745,
+      "nav_before_cost": 0.8531106142665851,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-11-07",
+      "signal_date": "2024-11-06",
+      "side": "sell",
+      "adjusted_price": 74.66000366210938,
+      "normalized_notional": 0.8514600443604903,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0004257300221802451,
+      "normalized_slippage": 0.0004257300221802451,
+      "normalized_total_cost": 0.0008514600443604903,
+      "nav_before_cost": 0.8514600443604903,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-12-04",
+      "signal_date": "2024-12-03",
+      "side": "buy",
+      "adjusted_price": 71.87999725341797,
+      "normalized_notional": 0.8497588254906392,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00042487941274531955,
+      "normalized_slippage": 0.00042487941274531955,
+      "normalized_total_cost": 0.0008497588254906392,
+      "nav_before_cost": 0.8506085843161297,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-12-20",
+      "signal_date": "2024-12-19",
+      "side": "sell",
+      "adjusted_price": 73.0999984741211,
+      "normalized_notional": 0.8641815695643047,
+      "target_weight": 0.0,
+      "normalized_fee": 0.00043209078478215234,
+      "normalized_slippage": 0.00043209078478215234,
+      "normalized_total_cost": 0.0008641815695643047,
+      "nav_before_cost": 0.8641815695643047,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-12-23",
+      "signal_date": "2024-12-20",
+      "side": "buy",
+      "adjusted_price": 73.05999755859375,
+      "normalized_notional": 0.8624549330616788,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00043122746653083936,
+      "normalized_slippage": 0.00043122746653083936,
+      "normalized_total_cost": 0.0008624549330616787,
+      "nav_before_cost": 0.8633173879947403,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-12-24",
+      "signal_date": "2024-12-23",
+      "side": "sell",
+      "adjusted_price": 73.6500015258789,
+      "normalized_notional": 0.8694197818040148,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0004347098909020074,
+      "normalized_slippage": 0.0004347098909020074,
+      "normalized_total_cost": 0.0008694197818040148,
+      "nav_before_cost": 0.8694197818040147,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2024-12-26",
+      "signal_date": "2024-12-24",
+      "side": "buy",
+      "adjusted_price": 73.12999725341797,
+      "normalized_notional": 0.8676826793428679,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00043384133967143396,
+      "normalized_slippage": 0.00043384133967143396,
+      "normalized_total_cost": 0.0008676826793428679,
+      "nav_before_cost": 0.8685503620222107,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-01-08",
+      "signal_date": "2025-01-07",
+      "side": "sell",
+      "adjusted_price": 77.30000305175781,
+      "normalized_notional": 0.9171595279668394,
+      "target_weight": 0.0,
+      "normalized_fee": 0.00045857976398341974,
+      "normalized_slippage": 0.00045857976398341974,
+      "normalized_total_cost": 0.0009171595279668395,
+      "nav_before_cost": 0.9171595279668394,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-01-10",
+      "signal_date": "2025-01-08",
+      "side": "buy",
+      "adjusted_price": 80.63999938964844,
+      "normalized_notional": 0.9153270413974751,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0004576635206987375,
+      "normalized_slippage": 0.0004576635206987375,
+      "normalized_total_cost": 0.0009153270413974751,
+      "nav_before_cost": 0.9162423684388725,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-03-06",
+      "signal_date": "2025-03-05",
+      "side": "sell",
+      "adjusted_price": 71.12999725341797,
+      "normalized_notional": 0.8073810817629948,
+      "target_weight": 0.0,
+      "normalized_fee": 0.00040369054088149737,
+      "normalized_slippage": 0.00040369054088149737,
+      "normalized_total_cost": 0.0008073810817629948,
+      "nav_before_cost": 0.8073810817629947,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-03-07",
+      "signal_date": "2025-03-06",
+      "side": "buy",
+      "adjusted_price": 72.08999633789062,
+      "normalized_notional": 0.8057679327484832,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0004028839663742416,
+      "normalized_slippage": 0.0004028839663742416,
+      "normalized_total_cost": 0.0008057679327484833,
+      "nav_before_cost": 0.8065737006812317,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-03-10",
+      "signal_date": "2025-03-07",
+      "side": "sell",
+      "adjusted_price": 70.88999938964844,
+      "normalized_notional": 0.7923552665061716,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0003961776332530858,
+      "normalized_slippage": 0.0003961776332530858,
+      "normalized_total_cost": 0.0007923552665061716,
+      "nav_before_cost": 0.7923552665061716,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-03-13",
+      "signal_date": "2025-03-12",
+      "side": "buy",
+      "adjusted_price": 71.62000274658203,
+      "normalized_notional": 0.790772139100565,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0003953860695502825,
+      "normalized_slippage": 0.0003953860695502825,
+      "normalized_total_cost": 0.000790772139100565,
+      "nav_before_cost": 0.7915629112396655,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-03-18",
+      "signal_date": "2025-03-17",
+      "side": "sell",
+      "adjusted_price": 72.20999908447266,
+      "normalized_notional": 0.7972864179093232,
+      "target_weight": 0.0,
+      "normalized_fee": 0.00039864320895466164,
+      "normalized_slippage": 0.00039864320895466164,
+      "normalized_total_cost": 0.0007972864179093232,
+      "nav_before_cost": 0.7972864179093232,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-03-21",
+      "signal_date": "2025-03-20",
+      "side": "buy",
+      "adjusted_price": 73.79000091552734,
+      "normalized_notional": 0.7956934380533606,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0003978467190266803,
+      "normalized_slippage": 0.0003978467190266803,
+      "normalized_total_cost": 0.0007956934380533606,
+      "nav_before_cost": 0.7964891314914139,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-04-04",
+      "signal_date": "2025-04-03",
+      "side": "sell",
+      "adjusted_price": 67.91999816894531,
+      "normalized_notional": 0.7323959369168932,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0003661979684584466,
+      "normalized_slippage": 0.0003661979684584466,
+      "normalized_total_cost": 0.0007323959369168932,
+      "nav_before_cost": 0.7323959369168931,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-06-10",
+      "signal_date": "2025-06-09",
+      "side": "buy",
+      "adjusted_price": 71.5999984741211,
+      "normalized_notional": 0.7309326083716047,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00036546630418580236,
+      "normalized_slippage": 0.00036546630418580236,
+      "normalized_total_cost": 0.0007309326083716047,
+      "nav_before_cost": 0.7316635409799762,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-06-25",
+      "signal_date": "2025-06-24",
+      "side": "sell",
+      "adjusted_price": 73.30999755859375,
+      "normalized_notional": 0.7483892301280759,
+      "target_weight": 0.0,
+      "normalized_fee": 0.00037419461506403795,
+      "normalized_slippage": 0.00037419461506403795,
+      "normalized_total_cost": 0.0007483892301280759,
+      "nav_before_cost": 0.7483892301280759,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-07-08",
+      "signal_date": "2025-07-07",
+      "side": "buy",
+      "adjusted_price": 76.95999908447266,
+      "normalized_notional": 0.7468939469509969,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00037344697347549844,
+      "normalized_slippage": 0.00037344697347549844,
+      "normalized_total_cost": 0.0007468939469509969,
+      "nav_before_cost": 0.7476408408979478,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-09-12",
+      "signal_date": "2025-09-11",
+      "side": "sell",
+      "adjusted_price": 73.30999755859375,
+      "normalized_notional": 0.711470817033225,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0003557354085166125,
+      "normalized_slippage": 0.0003557354085166125,
+      "normalized_total_cost": 0.000711470817033225,
+      "nav_before_cost": 0.7114708170332249,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-09-24",
+      "signal_date": "2025-09-23",
+      "side": "buy",
+      "adjusted_price": 76.38999938964844,
+      "normalized_notional": 0.7100492969192724,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0003550246484596362,
+      "normalized_slippage": 0.0003550246484596362,
+      "normalized_total_cost": 0.0007100492969192724,
+      "nav_before_cost": 0.7107593462161916,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-10-01",
+      "signal_date": "2025-09-30",
+      "side": "sell",
+      "adjusted_price": 73.13999938964844,
+      "normalized_notional": 0.679840365993422,
+      "target_weight": 0.0,
+      "normalized_fee": 0.000339920182996711,
+      "normalized_slippage": 0.000339920182996711,
+      "normalized_total_cost": 0.000679840365993422,
+      "nav_before_cost": 0.679840365993422,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-11-12",
+      "signal_date": "2025-11-11",
+      "side": "buy",
+      "adjusted_price": 69.79000091552734,
+      "normalized_notional": 0.6784820435838448,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0003392410217919224,
+      "normalized_slippage": 0.0003392410217919224,
+      "normalized_total_cost": 0.0006784820435838448,
+      "nav_before_cost": 0.6791605256274286,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-11-13",
+      "signal_date": "2025-11-12",
+      "side": "sell",
+      "adjusted_price": 69.8499984741211,
+      "normalized_notional": 0.6790653257966363,
+      "target_weight": 0.0,
+      "normalized_fee": 0.00033953266289831813,
+      "normalized_slippage": 0.00033953266289831813,
+      "normalized_total_cost": 0.0006790653257966363,
+      "nav_before_cost": 0.6790653257966361,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-01-13",
+      "signal_date": "2026-01-12",
+      "side": "buy",
+      "adjusted_price": 73.4800033569336,
+      "normalized_notional": 0.6777085519189207,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00033885427595946034,
+      "normalized_slippage": 0.00033885427595946034,
+      "normalized_total_cost": 0.0006777085519189207,
+      "nav_before_cost": 0.6783862604708395,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-06-17",
+      "signal_date": "2026-06-16",
+      "side": "sell",
+      "adjusted_price": 114.2300033569336,
+      "normalized_notional": 1.053547177790324,
+      "target_weight": 0.0,
+      "normalized_fee": 0.000526773588895162,
+      "normalized_slippage": 0.000526773588895162,
+      "normalized_total_cost": 0.001053547177790324,
+      "nav_before_cost": 1.053547177790324,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-06-24",
+      "signal_date": "2026-06-23",
+      "side": "buy",
+      "adjusted_price": 106.29000091552734,
+      "normalized_notional": 1.0514421884241096,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0005257210942120549,
+      "normalized_slippage": 0.0005257210942120549,
+      "normalized_total_cost": 0.0010514421884241097,
+      "nav_before_cost": 1.0524936306125336,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-06-25",
+      "signal_date": "2026-06-24",
+      "side": "sell",
+      "adjusted_price": 109.30999755859375,
+      "normalized_notional": 1.0813166060745787,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0005406583030372893,
+      "normalized_slippage": 0.0005406583030372893,
+      "normalized_total_cost": 0.0010813166060745787,
+      "nav_before_cost": 1.0813166060745787,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-07-21",
+      "signal_date": "2026-07-20",
+      "side": "buy",
+      "adjusted_price": 128.85000610351562,
+      "normalized_notional": 1.0791561333351691,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0005395780666675845,
+      "normalized_slippage": 0.0005395780666675845,
+      "normalized_total_cost": 0.0010791561333351692,
+      "nav_before_cost": 1.0802352894685041,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-07-28",
+      "signal_date": "2026-07-27",
+      "side": "sell",
+      "adjusted_price": 120.48999786376953,
+      "normalized_notional": 1.0091386421492807,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0005045693210746404,
+      "normalized_slippage": 0.0005045693210746404,
+      "normalized_total_cost": 0.0010091386421492807,
+      "nav_before_cost": 1.0091386421492807,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-08-31",
+      "signal_date": "2026-08-28",
+      "side": "buy",
+      "adjusted_price": 133.6999969482422,
+      "normalized_notional": 1.0071223811260055,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0005035611905630027,
+      "normalized_slippage": 0.0005035611905630027,
+      "normalized_total_cost": 0.0010071223811260056,
+      "nav_before_cost": 1.0081295035071314,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-09-01",
+      "signal_date": "2026-08-31",
+      "side": "sell",
+      "adjusted_price": 141.0,
+      "normalized_notional": 1.062111136724553,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0005310555683622765,
+      "normalized_slippage": 0.0005310555683622765,
+      "normalized_total_cost": 0.001062111136724553,
+      "nav_before_cost": 1.0621111367245528,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-09-02",
+      "signal_date": "2026-09-01",
+      "side": "buy",
+      "adjusted_price": 141.14999389648438,
+      "normalized_notional": 1.059989036551277,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0005299945182756385,
+      "normalized_slippage": 0.0005299945182756385,
+      "normalized_total_cost": 0.001059989036551277,
+      "nav_before_cost": 1.0610490255878282,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-11-13",
+      "signal_date": null,
+      "side": "sell",
+      "adjusted_price": 145.5800018310547,
+      "normalized_notional": 1.0932569079330032,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0005466284539665016,
+      "normalized_slippage": 0.0005466284539665016,
+      "normalized_total_cost": 0.0010932569079330032,
+      "nav_before_cost": 1.0932569079330032,
+      "terminal_liquidation": true
+    }
+  ],
+  "rate_alignment": [],
+  "metrics": {
+    "total_return": 0.09216365102506807,
+    "cagr": 0.031293107405825804,
+    "annual_return": 0.07918570042762539,
+    "volatility": 0.3114422979662292,
+    "sharpe": 0.25425480400292894,
+    "sortino": 0.3690191768786549,
+    "max_drawdown": -0.41002960076418016,
+    "win_rate": 0.4444444444444444,
+    "trade_count": 27
+  },
+  "benchmark": {
+    "total_return": 1.2090488081519997,
+    "cagr": 0.319182158807797,
+    "annual_return": 0.3496945485005405,
+    "volatility": 0.3814933767620251,
+    "sharpe": 0.916646447360682,
+    "sortino": 1.363636043830142,
+    "max_drawdown": -0.32485622312865636,
+    "win_rate": null,
+    "trade_count": 0
+  },
+  "curve": [
+    {
+      "date": "2024-01-02",
+      "strategy": 1.0,
+      "benchmark": 0.9990009990009991,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-03",
+      "strategy": 1.0,
+      "benchmark": 1.0357592221046121,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-04",
+      "strategy": 1.0,
+      "benchmark": 1.0263418069482726,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-05",
+      "strategy": 1.0,
+      "benchmark": 1.0485181885565038,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-08",
+      "strategy": 1.0,
+      "benchmark": 1.0085703397251717,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-09",
+      "strategy": 1.0,
+      "benchmark": 1.0236077261535452,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-10",
+      "strategy": 1.0,
+      "benchmark": 1.0110005693842328,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-11",
+      "strategy": 1.0,
+      "benchmark": 1.02755697972043,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-12",
+      "strategy": 1.0,
+      "benchmark": 1.0331769509924642,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-16",
+      "strategy": 1.0,
+      "benchmark": 1.021481231744897,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-17",
+      "strategy": 1.0,
+      "benchmark": 1.0319618941055606,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-18",
+      "strategy": 1.0,
+      "benchmark": 1.0489738493747496,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-19",
+      "strategy": 1.0,
+      "benchmark": 1.045328446943531,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-22",
+      "strategy": 1.0,
+      "benchmark": 1.0585431900989222,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-23",
+      "strategy": 1.0,
+      "benchmark": 1.0580875292806766,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-24",
+      "strategy": 1.0,
+      "benchmark": 1.0714540821186471,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-25",
+      "strategy": 1.0,
+      "benchmark": 1.0971240564755176,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-26",
+      "strategy": 1.0,
+      "benchmark": 1.1103386837456548,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-29",
+      "strategy": 1.0,
+      "benchmark": 1.0943899756807902,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-30",
+      "strategy": 1.0,
+      "benchmark": 1.1059337693605245,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-31",
+      "strategy": 1.0,
+      "benchmark": 1.0772259789585144,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-01",
+      "strategy": 1.0,
+      "benchmark": 1.0491257749425829,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-02",
+      "strategy": 1.0,
+      "benchmark": 1.0254304853117817,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-05",
+      "strategy": 1.0,
+      "benchmark": 1.0356072965367793,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-06",
+      "strategy": 1.0,
+      "benchmark": 1.045176521375698,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-07",
+      "strategy": 1.0,
+      "benchmark": 1.0544420109642045,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-08",
+      "strategy": 1.0,
+      "benchmark": 1.0863395429791876,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-09",
+      "strategy": 1.0,
+      "benchmark": 1.0886179629556694,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-12",
+      "strategy": 0.999000999000999,
+      "benchmark": 1.0953012973172815,
+      "drawdown": -0.0009990009990009652,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2024-02-13",
+      "strategy": 1.0064820896889364,
+      "benchmark": 1.1035035397014636,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.007488571778625275
+    },
+    {
+      "date": "2024-02-14",
+      "strategy": 0.9912428778563851,
+      "benchmark": 1.0867953196826872,
+      "drawdown": -0.015141066084207289,
+      "exposure": 1.0,
+      "return": -0.015141066084207289
+    },
+    {
+      "date": "2024-02-15",
+      "strategy": 1.008105134716052,
+      "benchmark": 1.1063894301787704,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.017011226245713162
+    },
+    {
+      "date": "2024-02-16",
+      "strategy": 1.0070980366793725,
+      "benchmark": 1.115047449266452,
+      "drawdown": -0.0009990009990010762,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2024-02-20",
+      "strategy": 0.9935163374731383,
+      "benchmark": 1.1000099469528246,
+      "drawdown": -0.014471503755432047,
+      "exposure": 1.0000000000000002,
+      "return": -0.013485975259187377
+    },
+    {
+      "date": "2024-02-21",
+      "strategy": 1.0042169940601866,
+      "benchmark": 1.1118575917682252,
+      "drawdown": -0.003856880122885653,
+      "exposure": 1.0,
+      "return": 0.010770488801687739
+    },
+    {
+      "date": "2024-02-22",
+      "strategy": 1.009704539779917,
+      "benchmark": 1.1179333397437585,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.0054645019474759415
+    },
+    {
+      "date": "2024-02-23",
+      "strategy": 0.9866569314900325,
+      "benchmark": 1.0924152909547213,
+      "drawdown": -0.022826091576163443,
+      "exposure": 1.0,
+      "return": -0.022826091576163443
+    },
+    {
+      "date": "2024-02-26",
+      "strategy": 0.9975937432448985,
+      "benchmark": 1.1056300341101126,
+      "drawdown": -0.01199439643765321,
+      "exposure": 1.0000000000000002,
+      "return": 0.011084715878242779
+    },
+    {
+      "date": "2024-02-27",
+      "strategy": 0.9965971460987997,
+      "benchmark": 1.1217306677428103,
+      "drawdown": -0.012981415022630505,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2024-02-28",
+      "strategy": 0.9934933804872043,
+      "benchmark": 1.1182371908794249,
+      "drawdown": -0.01605534951466714,
+      "exposure": 1.0000000000000002,
+      "return": -0.0031143633350197986
+    },
+    {
+      "date": "2024-02-29",
+      "strategy": 0.9899846818778512,
+      "benchmark": 1.11428793731254,
+      "drawdown": -0.019530325085360123,
+      "exposure": 1.0,
+      "return": -0.0035316778936488324
+    },
+    {
+      "date": "2024-03-01",
+      "strategy": 1.011576475324269,
+      "benchmark": 1.13859081332942,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.021810229836548123
+    },
+    {
+      "date": "2024-03-04",
+      "strategy": 0.9987563769223374,
+      "benchmark": 1.1241610132871251,
+      "drawdown": -0.012673385270077664,
+      "exposure": 1.0,
+      "return": -0.012673385270077664
+    },
+    {
+      "date": "2024-03-05",
+      "strategy": 0.9911991719977468,
+      "benchmark": 1.115654919767277,
+      "drawdown": -0.02014410558528479,
+      "exposure": 1.0000000000000002,
+      "return": -0.0075666149415517525
+    },
+    {
+      "date": "2024-03-06",
+      "strategy": 1.0032096103197479,
+      "benchmark": 1.1291733981730805,
+      "drawdown": -0.008271114649872735,
+      "exposure": 1.0,
+      "return": 0.012117078647063684
+    },
+    {
+      "date": "2024-03-07",
+      "strategy": 1.001725267825806,
+      "benchmark": 1.1275026804679313,
+      "drawdown": -0.009738470336911775,
+      "exposure": 1.0000000000000002,
+      "return": -0.0014795935751341638
+    },
+    {
+      "date": "2024-03-08",
+      "strategy": 0.9899846818778509,
+      "benchmark": 1.1142879373125403,
+      "drawdown": -0.02134469708728326,
+      "exposure": 1.0,
+      "return": -0.011720365179004988
+    },
+    {
+      "date": "2024-03-11",
+      "strategy": 0.993493380487204,
+      "benchmark": 1.118237190879425,
+      "drawdown": -0.01787615200449222,
+      "exposure": 1.0000000000000002,
+      "return": 0.003544194848245086
+    },
+    {
+      "date": "2024-03-12",
+      "strategy": 0.9898497042119316,
+      "benchmark": 1.1141360117447072,
+      "drawdown": -0.02147813006957555,
+      "exposure": 1.0,
+      "return": -0.003667539559735755
+    },
+    {
+      "date": "2024-03-13",
+      "strategy": 1.0133307731500492,
+      "benchmark": 1.1405653821702355,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.023721852760275386
+    },
+    {
+      "date": "2024-03-14",
+      "strategy": 1.0296596731191263,
+      "benchmark": 1.1589445516646688,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.016114086734301925
+    },
+    {
+      "date": "2024-03-15",
+      "strategy": 1.0300645031590916,
+      "benchmark": 1.1594002124829144,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.00039316878239858966
+    },
+    {
+      "date": "2024-03-18",
+      "strategy": 1.0523310819773135,
+      "benchmark": 1.1844626004537062,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.021616683955162808
+    },
+    {
+      "date": "2024-03-19",
+      "strategy": 1.0584037384923775,
+      "benchmark": 1.1912977444978976,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.005770671055019605
+    },
+    {
+      "date": "2024-03-20",
+      "strategy": 1.042479771521058,
+      "benchmark": 1.1733743517069637,
+      "drawdown": -0.01504526712462484,
+      "exposure": 1.0000000000000002,
+      "return": -0.01504526712462484
+    },
+    {
+      "date": "2024-03-21",
+      "strategy": 1.0366769673800402,
+      "benchmark": 1.1668429429131846,
+      "drawdown": -0.020527866939780037,
+      "exposure": 1.0,
+      "return": -0.005566346992566751
+    },
+    {
+      "date": "2024-03-22",
+      "strategy": 1.0347876918883407,
+      "benchmark": 1.164716448504536,
+      "drawdown": -0.022312890388762385,
+      "exposure": 1.0,
+      "return": -0.001822434134399864
+    },
+    {
+      "date": "2024-03-25",
+      "strategy": 1.049362191073845,
+      "benchmark": 1.1811209332729,
+      "drawdown": -0.008542626116770369,
+      "exposure": 1.0000000000000002,
+      "return": 0.014084530865368095
+    },
+    {
+      "date": "2024-03-26",
+      "strategy": 1.0430195792269426,
+      "benchmark": 1.1739819380930423,
+      "drawdown": -0.014535246528275314,
+      "exposure": 1.0,
+      "return": -0.006044254215421985
+    },
+    {
+      "date": "2024-03-27",
+      "strategy": 1.0459884701304112,
+      "benchmark": 1.1773236052738485,
+      "drawdown": -0.011730181886593583,
+      "exposure": 1.0000000000000002,
+      "return": 0.0028464383244550806
+    },
+    {
+      "date": "2024-03-28",
+      "strategy": 1.0624522448076152,
+      "benchmark": 1.1958545844508612,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.015739919843620553
+    },
+    {
+      "date": "2024-04-01",
+      "strategy": 1.0751373655436276,
+      "benchmark": 1.2101324589253228,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.011939473795652189
+    },
+    {
+      "date": "2024-04-02",
+      "strategy": 1.0902516724350164,
+      "benchmark": 1.2271445300797656,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.014058024003050562
+    },
+    {
+      "date": "2024-04-03",
+      "strategy": 1.0964593066159998,
+      "benchmark": 1.23413159969179,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.005693762585219364
+    },
+    {
+      "date": "2024-04-04",
+      "strategy": 1.110224042763781,
+      "benchmark": 1.2496246469384094,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.012553804837740268
+    },
+    {
+      "date": "2024-04-05",
+      "strategy": 1.1119784435473539,
+      "benchmark": 1.2515993316644787,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.0015802222938763322
+    },
+    {
+      "date": "2024-04-08",
+      "strategy": 1.1092794050179313,
+      "benchmark": 1.248561399734085,
+      "drawdown": -0.0024272399749155626,
+      "exposure": 1.0000000000000002,
+      "return": -0.0024272399749155626
+    },
+    {
+      "date": "2024-04-09",
+      "strategy": 1.0951098388301845,
+      "benchmark": 1.2326126916692202,
+      "drawdown": -0.015169902631706034,
+      "exposure": 1.0,
+      "return": -0.012773667412961376
+    },
+    {
+      "date": "2024-04-10",
+      "strategy": 1.107794959566197,
+      "benchmark": 1.246890566143682,
+      "drawdown": -0.0037621988136848916,
+      "exposure": 1.0,
+      "return": 0.011583423220416611
+    },
+    {
+      "date": "2024-04-11",
+      "strategy": 1.1005078129312371,
+      "benchmark": 1.2386884396447537,
+      "drawdown": -0.010315515271612563,
+      "exposure": 1.0,
+      "return": -0.006578064444175968
+    },
+    {
+      "date": "2024-04-12",
+      "strategy": 1.1002378575993987,
+      "benchmark": 1.2383845885090874,
+      "drawdown": -0.01055828556397298,
+      "exposure": 1.0,
+      "return": -0.00024530069543016175
+    },
+    {
+      "date": "2024-04-15",
+      "strategy": 1.1018572807170521,
+      "benchmark": 1.2402073476673237,
+      "drawdown": -0.009101941579023665,
+      "exposure": 1.0000000000000002,
+      "return": 0.0014718845624770438
+    },
+    {
+      "date": "2024-04-16",
+      "strategy": 1.0975389220277685,
+      "benchmark": 1.2353467724639478,
+      "drawdown": -0.012985432949150888,
+      "exposure": 1.0,
+      "return": -0.003919163366124301
+    },
+    {
+      "date": "2024-04-17",
+      "strategy": 1.064881328005199,
+      "benchmark": 1.1985886652455886,
+      "drawdown": -0.0423543422225966,
+      "exposure": 1.0000000000000002,
+      "return": -0.029755294657097586
+    },
+    {
+      "date": "2024-04-18",
+      "strategy": 1.0631269272216262,
+      "benchmark": 1.1966139805195193,
+      "drawdown": -0.04393207135372612,
+      "exposure": 1.0,
+      "return": -0.0016475082597787738
+    },
+    {
+      "date": "2024-04-19",
+      "strategy": 1.064071564967476,
+      "benchmark": 1.1976772277238437,
+      "drawdown": -0.04308256050994019,
+      "exposure": 1.0000000000000002,
+      "return": 0.0008885465334966813
+    },
+    {
+      "date": "2024-04-22",
+      "strategy": 1.0631269272216262,
+      "benchmark": 1.1966139805195193,
+      "drawdown": -0.04393207135372612,
+      "exposure": 1.0,
+      "return": -0.0008877577194524866
+    },
+    {
+      "date": "2024-04-23",
+      "strategy": 1.0793208495247841,
+      "benchmark": 1.2148412244461195,
+      "drawdown": -0.02936890927344582,
+      "exposure": 1.0000000000000002,
+      "return": 0.015232350802626193
+    },
+    {
+      "date": "2024-04-24",
+      "strategy": 1.074732535503662,
+      "benchmark": 1.2096767981070773,
+      "drawdown": -0.03349517093593335,
+      "exposure": 1.0,
+      "return": -0.004251112190728268
+    },
+    {
+      "date": "2024-04-25",
+      "strategy": 1.0855284837057675,
+      "benchmark": 1.2218282940581442,
+      "drawdown": -0.023786396215746408,
+      "exposure": 1.0,
+      "return": 0.010045241811764694
+    },
+    {
+      "date": "2024-04-26",
+      "strategy": 1.0848536983339636,
+      "benchmark": 1.2210687821042323,
+      "drawdown": -0.024393229356909907,
+      "exposure": 1.0,
+      "return": -0.0006216192222798789
+    },
+    {
+      "date": "2024-04-29",
+      "strategy": 1.0728432600119624,
+      "benchmark": 1.2075503036984288,
+      "drawdown": -0.03519419262350554,
+      "exposure": 1.0,
+      "return": -0.011071021226591093
+    },
+    {
+      "date": "2024-04-30",
+      "strategy": 1.0577289531205736,
+      "benchmark": 1.190538232543986,
+      "drawdown": -0.04878645871381959,
+      "exposure": 1.0000000000000002,
+      "return": -0.014088084862666994
+    },
+    {
+      "date": "2024-05-01",
+      "strategy": 1.0246665290580388,
+      "benchmark": 1.1533244645073812,
+      "drawdown": -0.07851943083606805,
+      "exposure": 1.0,
+      "return": -0.0312579361328742
+    },
+    {
+      "date": "2024-05-02",
+      "strategy": 1.0246665290580388,
+      "benchmark": 1.1533244645073812,
+      "drawdown": -0.07851943083606805,
+      "exposure": 1.0000000000000002,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-03",
+      "strategy": 1.0138705808559334,
+      "benchmark": 1.1411729685563143,
+      "drawdown": -0.08822820555625499,
+      "exposure": 1.0,
+      "return": -0.010536060167818606
+    },
+    {
+      "date": "2024-05-06",
+      "strategy": 1.0210229557405588,
+      "benchmark": 1.149223401257917,
+      "drawdown": -0.08179608906503211,
+      "exposure": 1.0000000000000002,
+      "return": 0.007054524531708184
+    },
+    {
+      "date": "2024-05-07",
+      "strategy": 1.0188637249170207,
+      "benchmark": 1.1467930557136021,
+      "drawdown": -0.0837378810449646,
+      "exposure": 1.0,
+      "return": -0.0021147720640345424
+    },
+    {
+      "date": "2024-05-08",
+      "strategy": 1.0270956122556227,
+      "benchmark": 1.1560585453021086,
+      "drawdown": -0.07633496115351301,
+      "exposure": 1.0000000000000002,
+      "return": 0.0080794782828022
+    },
+    {
+      "date": "2024-05-09",
+      "strategy": 1.032628461064802,
+      "benchmark": 1.1622861029602214,
+      "drawdown": -0.07135928123697721,
+      "exposure": 1.0,
+      "return": 0.00538688778645291
+    },
+    {
+      "date": "2024-05-10",
+      "strategy": 1.0161647893453905,
+      "benchmark": 1.1437552396684625,
+      "drawdown": -0.08616502843014251,
+      "exposure": 1.0000000000000002,
+      "return": -0.01594346111905043
+    },
+    {
+      "date": "2024-05-13",
+      "strategy": 1.0273654646296686,
+      "benchmark": 1.1563622805525209,
+      "drawdown": -0.07609228345089047,
+      "exposure": 1.0,
+      "return": 0.011022498911317014
+    },
+    {
+      "date": "2024-05-14",
+      "strategy": 1.014950196267702,
+      "benchmark": 1.1423881413284718,
+      "drawdown": -0.08725730956628908,
+      "exposure": 1.0,
+      "return": -0.012084568529312723
+    },
+    {
+      "date": "2024-05-15",
+      "strategy": 1.0239917436862347,
+      "benchmark": 1.1525649525534694,
+      "drawdown": -0.07912626397723177,
+      "exposure": 1.0000000000000002,
+      "return": 0.008908365604323398
+    },
+    {
+      "date": "2024-05-16",
+      "strategy": 1.028984887747322,
+      "benchmark": 1.1581850397107571,
+      "drawdown": -0.07463593946594127,
+      "exposure": 1.0,
+      "return": 0.0048761565626620484
+    },
+    {
+      "date": "2024-05-17",
+      "strategy": 1.0387012205376582,
+      "benchmark": 1.1691213628896666,
+      "drawdown": -0.06589806073572069,
+      "exposure": 1.0000000000000002,
+      "return": 0.00944263896004105
+    },
+    {
+      "date": "2024-05-20",
+      "strategy": 1.0354624772601437,
+      "benchmark": 1.1654759604584481,
+      "drawdown": -0.06881065611588155,
+      "exposure": 1.0,
+      "return": -0.0031180701567271596
+    },
+    {
+      "date": "2024-05-21",
+      "strategy": 1.0277703976274262,
+      "benchmark": 1.1568180572560205,
+      "drawdown": -0.07572812801234996,
+      "exposure": 1.0000000000000002,
+      "return": -0.007428641598941299
+    },
+    {
+      "date": "2024-05-22",
+      "strategy": 1.0103619852043724,
+      "benchmark": 1.1372238308746834,
+      "drawdown": -0.09138347863903906,
+      "exposure": 1.0,
+      "return": -0.016938036416733304
+    },
+    {
+      "date": "2024-05-23",
+      "strategy": 1.0046940557714812,
+      "benchmark": 1.1308442317634837,
+      "drawdown": -0.09648063629149295,
+      "exposure": 1.0000000000000002,
+      "return": -0.005609800760412287
+    },
+    {
+      "date": "2024-05-24",
+      "strategy": 1.0168394717594016,
+      "benchmark": 1.1445146357371205,
+      "drawdown": -0.08555828787871711,
+      "exposure": 1.0,
+      "return": 0.012088671091613268
+    },
+    {
+      "date": "2024-05-28",
+      "strategy": 1.0480127232880292,
+      "benchmark": 1.1796020252503305,
+      "drawdown": -0.057524244854302964,
+      "exposure": 1.0,
+      "return": 0.03065700377925884
+    },
+    {
+      "date": "2024-05-29",
+      "strategy": 1.0333032464366054,
+      "benchmark": 1.1630456149141333,
+      "drawdown": -0.07075244809581427,
+      "exposure": 1.0000000000000002,
+      "return": -0.014035589954742522
+    },
+    {
+      "date": "2024-05-30",
+      "strategy": 1.0192685549569855,
+      "benchmark": 1.147248716531848,
+      "drawdown": -0.08337381819616208,
+      "exposure": 1.0,
+      "return": -0.013582354965030019
+    },
+    {
+      "date": "2024-05-31",
+      "strategy": 1.0096871998325685,
+      "benchmark": 1.1364643189207717,
+      "drawdown": -0.09199031178020245,
+      "exposure": 1.0000000000000002,
+      "return": -0.009400226346452323
+    },
+    {
+      "date": "2024-06-03",
+      "strategy": 0.9683681886511043,
+      "benchmark": 1.091048308499985,
+      "drawdown": -0.12914841625716633,
+      "exposure": 1.0,
+      "return": -0.04092258591404929
+    },
+    {
+      "date": "2024-06-04",
+      "strategy": 0.9683681886511043,
+      "benchmark": 1.079808134185409,
+      "drawdown": -0.12914841625716633,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-05",
+      "strategy": 0.9683681886511043,
+      "benchmark": 1.091959630136476,
+      "drawdown": -0.12914841625716633,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-06",
+      "strategy": 0.9683681886511043,
+      "benchmark": 1.1127690292899706,
+      "drawdown": -0.12914841625716633,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-07",
+      "strategy": 0.9683681886511043,
+      "benchmark": 1.1091235109734983,
+      "drawdown": -0.12914841625716633,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-10",
+      "strategy": 0.9683681886511043,
+      "benchmark": 1.1461854693275237,
+      "drawdown": -0.12914841625716633,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-11",
+      "strategy": 0.967400787863241,
+      "benchmark": 1.1469449812814356,
+      "drawdown": -0.13001839785930702,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2024-06-12",
+      "strategy": 0.9734222358614093,
+      "benchmark": 1.1540839764612933,
+      "drawdown": -0.12460332166506083,
+      "exposure": 1.0000000000000002,
+      "return": 0.006224357136888736
+    },
+    {
+      "date": "2024-06-13",
+      "strategy": 0.9703473915148347,
+      "benchmark": 1.1504384581448208,
+      "drawdown": -0.12736852306299928,
+      "exposure": 1.0,
+      "return": -0.003158798138459984
+    },
+    {
+      "date": "2024-06-14",
+      "strategy": 0.9737286687614657,
+      "benchmark": 1.155602884483863,
+      "drawdown": -0.1243277471682398,
+      "exposure": 1.0,
+      "return": 0.003484604870583885
+    },
+    {
+      "date": "2024-06-17",
+      "strategy": 0.9737286687614657,
+      "benchmark": 1.1815765940911458,
+      "drawdown": -0.1243277471682398,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-18",
+      "strategy": 0.9737286687614657,
+      "benchmark": 1.194943146929116,
+      "drawdown": -0.1243277471682398,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-20",
+      "strategy": 0.9727559128486171,
+      "benchmark": 1.2061833212436919,
+      "drawdown": -0.12520254462361613,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2024-06-21",
+      "strategy": 0.9634460458582882,
+      "benchmark": 1.1946394116787038,
+      "drawdown": -0.1335748894692853,
+      "exposure": 1.0000000000000002,
+      "return": -0.009570609509908734
+    },
+    {
+      "date": "2024-06-24",
+      "strategy": 0.9763082698661587,
+      "benchmark": 1.2105881197435684,
+      "drawdown": -0.12200791703154779,
+      "exposure": 1.0000000000000002,
+      "return": 0.013350227615924526
+    },
+    {
+      "date": "2024-06-25",
+      "strategy": 0.9665084934970887,
+      "benchmark": 1.1984367396777553,
+      "drawdown": -0.13082083640596254,
+      "exposure": 1.0000000000000002,
+      "return": -0.010037584102830066
+    },
+    {
+      "date": "2024-06-26",
+      "strategy": 0.9646710062221113,
+      "benchmark": 1.1961583197012735,
+      "drawdown": -0.1324732850533621,
+      "exposure": 0.9999999999999999,
+      "return": -0.0019011599870465412
+    },
+    {
+      "date": "2024-06-27",
+      "strategy": 0.9790032387416605,
+      "benchmark": 1.2139297869243744,
+      "drawdown": -0.11958433688829917,
+      "exposure": 1.0,
+      "return": 0.014857119605654612
+    },
+    {
+      "date": "2024-06-28",
+      "strategy": 0.9749607854284076,
+      "benchmark": 1.2089172861531652,
+      "drawdown": -0.1232197071031722,
+      "exposure": 1.0,
+      "return": -0.00412915213482723
+    },
+    {
+      "date": "2024-07-01",
+      "strategy": 0.9988479330861414,
+      "benchmark": 1.2385365140769204,
+      "drawdown": -0.10173804278103782,
+      "exposure": 1.0000000000000002,
+      "return": 0.02450062404021458
+    },
+    {
+      "date": "2024-07-02",
+      "strategy": 0.9935805194090653,
+      "benchmark": 1.2320051052831413,
+      "drawdown": -0.10647501741183396,
+      "exposure": 1.0,
+      "return": -0.005273489089376526
+    },
+    {
+      "date": "2024-07-03",
+      "strategy": 0.9955404372994853,
+      "benchmark": 1.2344353349422024,
+      "drawdown": -0.10471246715576288,
+      "exposure": 1.0,
+      "return": 0.001972580834803006
+    },
+    {
+      "date": "2024-07-05",
+      "strategy": 0.9960304401367115,
+      "benchmark": 1.235042921328281,
+      "drawdown": -0.10427180857998775,
+      "exposure": 1.0,
+      "return": 0.0004921978242846681
+    },
+    {
+      "date": "2024-07-08",
+      "strategy": 0.9841430058852417,
+      "benchmark": 1.2215244429224774,
+      "drawdown": -0.11496215453089242,
+      "exposure": 1.0000000000000002,
+      "return": -0.01193481019499576
+    },
+    {
+      "date": "2024-07-09",
+      "strategy": 0.9841430058852417,
+      "benchmark": 1.2116513669478923,
+      "drawdown": -0.11496215453089242,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-10",
+      "strategy": 0.9841430058852417,
+      "benchmark": 1.2224358804442226,
+      "drawdown": -0.11496215453089242,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-11",
+      "strategy": 0.9841430058852417,
+      "benchmark": 1.229422950056247,
+      "drawdown": -0.11496215453089242,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-12",
+      "strategy": 0.9841430058852417,
+      "benchmark": 1.218942287695583,
+      "drawdown": -0.11496215453089242,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-15",
+      "strategy": 0.9841430058852417,
+      "benchmark": 1.2169677188547676,
+      "drawdown": -0.11496215453089242,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-16",
+      "strategy": 0.9841430058852417,
+      "benchmark": 1.200866969336816,
+      "drawdown": -0.11496215453089242,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-17",
+      "strategy": 0.9841430058852417,
+      "benchmark": 1.224562374852871,
+      "drawdown": -0.11496215453089242,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-18",
+      "strategy": 0.9841430058852417,
+      "benchmark": 1.2136260516739614,
+      "drawdown": -0.11496215453089242,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-19",
+      "strategy": 0.9831598460392025,
+      "benchmark": 1.184766335704118,
+      "drawdown": -0.11584630822266984,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2024-07-22",
+      "strategy": 0.977391757435156,
+      "benchmark": 1.1789944388642508,
+      "drawdown": -0.1210335388182967,
+      "exposure": 1.0000000000000002,
+      "return": -0.005866887899545481
+    },
+    {
+      "date": "2024-07-23",
+      "strategy": 0.977391757435156,
+      "benchmark": 1.1638051268680443,
+      "drawdown": -0.1210335388182967,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-24",
+      "strategy": 0.977391757435156,
+      "benchmark": 1.1666910173453509,
+      "drawdown": -0.1210335388182967,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-25",
+      "strategy": 0.977391757435156,
+      "benchmark": 1.1765640933199357,
+      "drawdown": -0.1210335388182967,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-26",
+      "strategy": 0.977391757435156,
+      "benchmark": 1.1560585453021075,
+      "drawdown": -0.1210335388182967,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-29",
+      "strategy": 0.977391757435156,
+      "benchmark": 1.1420844060780584,
+      "drawdown": -0.1210335388182967,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-30",
+      "strategy": 0.977391757435156,
+      "benchmark": 1.1309961573313159,
+      "drawdown": -0.1210335388182967,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-31",
+      "strategy": 0.977391757435156,
+      "benchmark": 1.180817082137233,
+      "drawdown": -0.1210335388182967,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-01",
+      "strategy": 0.977391757435156,
+      "benchmark": 1.1587926260968349,
+      "drawdown": -0.1210335388182967,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-02",
+      "strategy": 0.976415342093063,
+      "benchmark": 1.1147435981307847,
+      "drawdown": -0.1219116271911056,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2024-08-05",
+      "strategy": 0.9731794522606481,
+      "benchmark": 1.1121614429038906,
+      "drawdown": -0.12482165647377053,
+      "exposure": 1.0000000000000002,
+      "return": -0.0033140505816698917
+    },
+    {
+      "date": "2024-08-06",
+      "strategy": 0.9731794522606481,
+      "benchmark": 1.1004656077710693,
+      "drawdown": -0.12482165647377053,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-07",
+      "strategy": 0.9731794522606481,
+      "benchmark": 1.134489750079955,
+      "drawdown": -0.12482165647377053,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-08",
+      "strategy": 0.9731794522606481,
+      "benchmark": 1.1446665613049525,
+      "drawdown": -0.12482165647377053,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-09",
+      "strategy": 0.9731794522606481,
+      "benchmark": 1.1577293788925105,
+      "drawdown": -0.12482165647377053,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-12",
+      "strategy": 0.9731794522606481,
+      "benchmark": 1.1943355605430366,
+      "drawdown": -0.12482165647377053,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-13",
+      "strategy": 0.9722072450156324,
+      "benchmark": 1.179298174114663,
+      "drawdown": -0.12569596051325727,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2024-08-14",
+      "strategy": 0.9590591179904849,
+      "benchmark": 1.1633493501645444,
+      "drawdown": -0.13752004496511339,
+      "exposure": 1.0000000000000002,
+      "return": -0.013523996136169503
+    },
+    {
+      "date": "2024-08-15",
+      "strategy": 0.9693272409662514,
+      "benchmark": 1.1758046972512777,
+      "drawdown": -0.12828594241991487,
+      "exposure": 1.0,
+      "return": 0.010706454673285792
+    },
+    {
+      "date": "2024-08-16",
+      "strategy": 0.9556782229031253,
+      "benchmark": 1.1592482869150804,
+      "drawdown": -0.14056047718480114,
+      "exposure": 1.0,
+      "return": -0.014080918689049149
+    },
+    {
+      "date": "2024-08-19",
+      "strategy": 0.9313855330047449,
+      "benchmark": 1.1297809845591582,
+      "drawdown": -0.162406844836393,
+      "exposure": 1.0,
+      "return": -0.02541931930245822
+    },
+    {
+      "date": "2024-08-20",
+      "strategy": 0.9235739976905453,
+      "benchmark": 1.1214269324923969,
+      "drawdown": -0.16943174298934627,
+      "exposure": 1.0000000000000002,
+      "return": -0.008387005206102804
+    },
+    {
+      "date": "2024-08-21",
+      "strategy": 0.9235739976905453,
+      "benchmark": 1.102744027747551,
+      "drawdown": -0.16943174298934627,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-22",
+      "strategy": 0.9235739976905453,
+      "benchmark": 1.1176296044933454,
+      "drawdown": -0.16943174298934627,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-23",
+      "strategy": 0.9235739976905453,
+      "benchmark": 1.1475525676675131,
+      "drawdown": -0.16943174298934627,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-26",
+      "strategy": 0.9226513463442011,
+      "benchmark": 1.1821841804772235,
+      "drawdown": -0.17026148150783849,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2024-08-27",
+      "strategy": 0.9067660009062558,
+      "benchmark": 1.1618304421419745,
+      "drawdown": -0.18454714102770198,
+      "exposure": 1.0000000000000002,
+      "return": -0.017217062003851646
+    },
+    {
+      "date": "2024-08-28",
+      "strategy": 0.8938980259006051,
+      "benchmark": 1.1464893204631885,
+      "drawdown": -0.1961192853262913,
+      "exposure": 1.0,
+      "return": -0.014191064720986413
+    },
+    {
+      "date": "2024-08-29",
+      "strategy": 0.8938980259006051,
+      "benchmark": 1.1660834309592716,
+      "drawdown": -0.1961192853262913,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-30",
+      "strategy": 0.8930050208797253,
+      "benchmark": 1.1291733981730794,
+      "drawdown": -0.196922362963328,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2024-09-03",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0798081341854078,
+      "drawdown": -0.23279932338881248,
+      "exposure": 1.0000000000000002,
+      "return": -0.04467433629190476
+    },
+    {
+      "date": "2024-09-04",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.057328017326764,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-05",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0615810061440614,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-06",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0469992805339334,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-09",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0521635909877218,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-10",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.017076317359766,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-11",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0305947957655694,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-12",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0615810061440614,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-13",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0608214941901495,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-16",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0766183925724349,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-17",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0893774749095806,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-18",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0732768412768827,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-19",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.105022447724033,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-20",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.107604602950927,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-23",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0974277917259296,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-24",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.113224690108215,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-25",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0857320724783621,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-26",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.048214453306091,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-27",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0673529029839288,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-30",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0620366669623074,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-01",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.095301297317281,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-02",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1051743732918662,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-03",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1502866484622405,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-04",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1597039477333262,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-07",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.2029934637454642,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-08",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1511979700987316,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-09",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1429957277145495,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-10",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1812727429554786,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-11",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1770197541381813,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-14",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1533244645073801,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-15",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1051743732918662,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-16",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0997062117024115,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-17",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1030478788832176,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-18",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0842130485705386,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-21",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.097579717293763,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-22",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.123705352468879,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-23",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1171739436750998,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-24",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1097310973595758,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-25",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1275026804679307,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-28",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.069783248528244,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-29",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0580875292806764,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-30",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.083909313320126,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-31",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.110034948495242,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-01",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.0939341989772904,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-04",
+      "strategy": 0.8531106142665851,
+      "benchmark": 1.1284140021044218,
+      "drawdown": -0.23279932338881248,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-05",
+      "strategy": 0.8522583559106744,
+      "benchmark": 1.1350973364660337,
+      "drawdown": -0.23356575763118126,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2024-11-06",
+      "strategy": 0.8500914729847033,
+      "benchmark": 1.132211330103473,
+      "drawdown": -0.2355144311315942,
+      "exposure": 1.0,
+      "return": -0.0025425188394376796
+    },
+    {
+      "date": "2024-11-07",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.1340340892617093,
+      "drawdown": -0.2350493939409659,
+      "exposure": 1.0,
+      "return": 0.0006083008098067832
+    },
+    {
+      "date": "2024-11-08",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.1107943445639,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-11",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.07752983009418,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-12",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.0737325020951283,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-13",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.074340088481207,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-14",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.0828460661158017,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-15",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.059454511735413,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-18",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.0946937109312023,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-19",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.0983391133624207,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-20",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.0939341989772904,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-21",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.1118575917682245,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-22",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.1278064157183432,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-25",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.095149371749448,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-26",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.0877066413191778,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-27",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.0893774749095808,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-29",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.0877066413191778,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-02",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.0790487381167502,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-03",
+      "strategy": 0.8506085843161297,
+      "benchmark": 1.1094273621091635,
+      "drawdown": -0.2350493939409659,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-04",
+      "strategy": 0.8497588254906391,
+      "benchmark": 1.0918077045686418,
+      "drawdown": -0.2358135803606054,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2024-12-05",
+      "strategy": 0.8449118894788403,
+      "benchmark": 1.085580146910529,
+      "drawdown": -0.24017242026431462,
+      "exposure": 1.0000000000000002,
+      "return": -0.005703896054271906
+    },
+    {
+      "date": "2024-12-06",
+      "strategy": 0.83037090105542,
+      "benchmark": 1.0668972421656833,
+      "drawdown": -0.2532491021980333,
+      "exposure": 1.0,
+      "return": -0.017210064865331165
+    },
+    {
+      "date": "2024-12-09",
+      "strategy": 0.8413652805382953,
+      "benchmark": 1.0810233069575657,
+      "drawdown": -0.24336187862218617,
+      "exposure": 1.0000000000000002,
+      "return": 0.013240323654045705
+    },
+    {
+      "date": "2024-12-10",
+      "strategy": 0.8440843594185814,
+      "benchmark": 1.084516899706205,
+      "drawdown": -0.24091661639964523,
+      "exposure": 1.0,
+      "return": 0.0032317460004369636
+    },
+    {
+      "date": "2024-12-11",
+      "strategy": 0.8669006484445908,
+      "benchmark": 1.1138322764942938,
+      "drawdown": -0.22039797311262033,
+      "exposure": 1.0000000000000002,
+      "return": 0.027030816021428983
+    },
+    {
+      "date": "2024-12-12",
+      "strategy": 0.8654819868295703,
+      "benchmark": 1.1120095173360576,
+      "drawdown": -0.221673772678028,
+      "exposure": 1.0,
+      "return": -0.001636475434141027
+    },
+    {
+      "date": "2024-12-13",
+      "strategy": 0.8773038963727046,
+      "benchmark": 1.1271988293322643,
+      "drawdown": -0.21104235296685014,
+      "exposure": 1.0000000000000002,
+      "return": 0.013659336327079608
+    },
+    {
+      "date": "2024-12-16",
+      "strategy": 0.8712746972513827,
+      "benchmark": 1.1194522477663278,
+      "drawdown": -0.21646439973071363,
+      "exposure": 1.0,
+      "return": -0.006872418036954042
+    },
+    {
+      "date": "2024-12-17",
+      "strategy": 0.8665460055893387,
+      "benchmark": 1.1133766156760483,
+      "drawdown": -0.2207169027261484,
+      "exposure": 1.0000000000000002,
+      "return": -0.00542732582153671
+    },
+    {
+      "date": "2024-12-18",
+      "strategy": 0.8622901109382894,
+      "benchmark": 1.1079084540865936,
+      "drawdown": -0.22454422031107601,
+      "exposure": 1.0,
+      "return": -0.004911331451069145
+    },
+    {
+      "date": "2024-12-19",
+      "strategy": 0.8583888591424923,
+      "benchmark": 1.1028959533153844,
+      "drawdown": -0.22805260828247553,
+      "exposure": 1.0000000000000002,
+      "return": -0.004524291472567166
+    },
+    {
+      "date": "2024-12-20",
+      "strategy": 0.8633173879947403,
+      "benchmark": 1.1103386837456546,
+      "drawdown": -0.22362039209982598,
+      "exposure": 1.0,
+      "return": 0.005741603935973227
+    },
+    {
+      "date": "2024-12-23",
+      "strategy": 0.8624549330616786,
+      "benchmark": 1.109731097359576,
+      "drawdown": -0.2243959961037223,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2024-12-24",
+      "strategy": 0.8685503620222107,
+      "benchmark": 1.11869285169767,
+      "drawdown": -0.2189143889773406,
+      "exposure": 1.0000000000000002,
+      "return": 0.007067533301587714
+    },
+    {
+      "date": "2024-12-26",
+      "strategy": 0.8676826793428678,
+      "benchmark": 1.1107943445639004,
+      "drawdown": -0.21969469428305755,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2024-12-27",
+      "strategy": 0.8762254471778635,
+      "benchmark": 1.1217306677428098,
+      "drawdown": -0.21201220018025535,
+      "exposure": 1.0000000000000002,
+      "return": 0.009845497712902995
+    },
+    {
+      "date": "2024-12-30",
+      "strategy": 0.88773444881544,
+      "benchmark": 1.1364643189207708,
+      "drawdown": -0.20166217792545227,
+      "exposure": 1.0000000000000002,
+      "return": 0.013134749366894516
+    },
+    {
+      "date": "2024-12-31",
+      "strategy": 0.896395891348775,
+      "benchmark": 1.1475525676675133,
+      "drawdown": -0.19387295990275033,
+      "exposure": 1.0000000000000002,
+      "return": 0.009756794438801508
+    },
+    {
+      "date": "2025-01-02",
+      "strategy": 0.9127694693510022,
+      "benchmark": 1.1685137765035871,
+      "drawdown": -0.1791482338100453,
+      "exposure": 1.0,
+      "return": 0.018266011881860056
+    },
+    {
+      "date": "2025-01-03",
+      "strategy": 0.9245157298629854,
+      "benchmark": 1.1835511629319606,
+      "drawdown": -0.16858484512194172,
+      "exposure": 1.0000000000000002,
+      "return": 0.012868813984690863
+    },
+    {
+      "date": "2025-01-06",
+      "strategy": 0.9171595279668394,
+      "benchmark": 1.1741338636608751,
+      "drawdown": -0.17520026283874457,
+      "exposure": 1.0,
+      "return": -0.007956816372649667
+    },
+    {
+      "date": "2025-01-07",
+      "strategy": 0.927481963665566,
+      "benchmark": 1.1873484909310124,
+      "drawdown": -0.16591731696994094,
+      "exposure": 1.0000000000000002,
+      "return": 0.01125478761760168
+    },
+    {
+      "date": "2025-01-08",
+      "strategy": 0.9162423684388725,
+      "benchmark": 1.1741338636608751,
+      "drawdown": -0.1760250625759059,
+      "exposure": 1.0,
+      "return": -0.012118397626054822
+    },
+    {
+      "date": "2025-01-10",
+      "strategy": 0.915327041397475,
+      "benchmark": 1.2248661101032834,
+      "drawdown": -0.1768482143615443,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2025-01-13",
+      "strategy": 0.9333748295696087,
+      "benchmark": 1.249017176437584,
+      "drawdown": -0.16061787439689634,
+      "exposure": 1.0000000000000002,
+      "return": 0.019717311251483682
+    },
+    {
+      "date": "2025-01-14",
+      "strategy": 0.9270183328462922,
+      "benchmark": 1.2405110829177357,
+      "drawdown": -0.16633425924248602,
+      "exposure": 1.0,
+      "return": -0.006810229419029423
+    },
+    {
+      "date": "2025-01-15",
+      "strategy": 0.957324899599951,
+      "benchmark": 1.2810665181351466,
+      "drawdown": -0.13907962411037234,
+      "exposure": 1.0000000000000002,
+      "return": 0.032692521474312564
+    },
+    {
+      "date": "2025-01-16",
+      "strategy": 0.941433874290642,
+      "benchmark": 1.2598015740486603,
+      "drawdown": -0.15337039152724297,
+      "exposure": 1.0,
+      "return": -0.016599406654887683
+    },
+    {
+      "date": "2025-01-17",
+      "strategy": 0.9366664800982563,
+      "benchmark": 1.2534219749374607,
+      "drawdown": -0.15765769963114573,
+      "exposure": 1.0,
+      "return": -0.005063971376617293
+    },
+    {
+      "date": "2025-01-21",
+      "strategy": 0.9206619227225685,
+      "benchmark": 1.2320051052831413,
+      "drawdown": -0.1720505662092343,
+      "exposure": 1.0000000000000002,
+      "return": -0.017086719462843236
+    },
+    {
+      "date": "2025-01-22",
+      "strategy": 0.9129433876010786,
+      "benchmark": 1.2216763684903107,
+      "drawdown": -0.178991829474075,
+      "exposure": 1.0000000000000002,
+      "return": -0.008383680188124631
+    },
+    {
+      "date": "2025-01-23",
+      "strategy": 0.8990954198890296,
+      "benchmark": 1.203145389313298,
+      "drawdown": -0.19144527926206922,
+      "exposure": 1.0,
+      "return": -0.015168484596221221
+    },
+    {
+      "date": "2025-01-24",
+      "strategy": 0.903522217882279,
+      "benchmark": 1.2090692117209982,
+      "drawdown": -0.18746426864182075,
+      "exposure": 1.0000000000000002,
+      "return": 0.004923613106377234
+    },
+    {
+      "date": "2025-01-27",
+      "strategy": 0.8845664329778941,
+      "benchmark": 1.183703088499794,
+      "drawdown": -0.20451116825968885,
+      "exposure": 1.0,
+      "return": -0.020979876896458083
+    },
+    {
+      "date": "2025-01-28",
+      "strategy": 0.8951226635617024,
+      "benchmark": 1.1978291532916765,
+      "drawdown": -0.19501797111628683,
+      "exposure": 1.0,
+      "return": 0.01193379060097377
+    },
+    {
+      "date": "2025-01-29",
+      "strategy": 0.8828637983805844,
+      "benchmark": 1.1814246685233125,
+      "drawdown": -0.20604234416259404,
+      "exposure": 1.0000000000000002,
+      "return": -0.013695179085668419
+    },
+    {
+      "date": "2025-01-30",
+      "strategy": 0.882523288781041,
+      "benchmark": 1.180969007705067,
+      "drawdown": -0.20634856376740673,
+      "exposure": 1.0,
+      "return": -0.0003856875773680102
+    },
+    {
+      "date": "2025-01-31",
+      "strategy": 0.8855879617765241,
+      "benchmark": 1.185070070954531,
+      "drawdown": -0.20359250944525065,
+      "exposure": 1.0000000000000002,
+      "return": 0.003472625634294735
+    },
+    {
+      "date": "2025-02-03",
+      "strategy": 0.8833178400465065,
+      "benchmark": 1.1820322549093911,
+      "drawdown": -0.20563402539656317,
+      "exposure": 1.0,
+      "return": -0.002563406265667423
+    },
+    {
+      "date": "2025-02-04",
+      "strategy": 0.8797991253851013,
+      "benchmark": 1.1773236052738483,
+      "drawdown": -0.20879839848475013,
+      "exposure": 1.0000000000000002,
+      "return": -0.0039835204293167115
+    },
+    {
+      "date": "2025-02-05",
+      "strategy": 0.8636809493434419,
+      "benchmark": 1.1557546941664418,
+      "drawdown": -0.22329344210289825,
+      "exposure": 1.0,
+      "return": -0.018320291048941728
+    },
+    {
+      "date": "2025-02-06",
+      "strategy": 0.8564164558878741,
+      "benchmark": 1.1460335437596898,
+      "drawdown": -0.22982638660170807,
+      "exposure": 1.0000000000000002,
+      "return": -0.008411084511115052
+    },
+    {
+      "date": "2025-02-07",
+      "strategy": 0.861070318013881,
+      "benchmark": 1.1522612173030564,
+      "drawdown": -0.22564117765902347,
+      "exposure": 1.0000000000000002,
+      "return": 0.005434111049608559
+    },
+    {
+      "date": "2025-02-10",
+      "strategy": 0.878550532453714,
+      "benchmark": 1.175652771683445,
+      "drawdown": -0.20992125562162423,
+      "exposure": 1.0000000000000002,
+      "return": 0.020300565556773842
+    },
+    {
+      "date": "2025-02-11",
+      "strategy": 0.8884256572388427,
+      "benchmark": 1.1888673989535825,
+      "drawdown": -0.20104057556668908,
+      "exposure": 1.0,
+      "return": 0.011240246770494178
+    },
+    {
+      "date": "2025-02-12",
+      "strategy": 0.8662916672725959,
+      "benchmark": 1.159248286915081,
+      "drawdown": -0.22094562866793144,
+      "exposure": 1.0,
+      "return": -0.024913722139720207
+    },
+    {
+      "date": "2025-02-13",
+      "strategy": 0.8670862185380613,
+      "benchmark": 1.1603115341194052,
+      "drawdown": -0.22023109029708787,
+      "exposure": 1.0000000000000002,
+      "return": 0.0009171867807145073
+    },
+    {
+      "date": "2025-02-14",
+      "strategy": 0.8606162763479589,
+      "benchmark": 1.1516536309169776,
+      "drawdown": -0.22604949642505423,
+      "exposure": 1.0,
+      "return": -0.007461705712508038
+    },
+    {
+      "date": "2025-02-18",
+      "strategy": 0.8735561607281637,
+      "benchmark": 1.168969437321833,
+      "drawdown": -0.21441268416912163,
+      "exposure": 1.0000000000000002,
+      "return": 0.015035602667329728
+    },
+    {
+      "date": "2025-02-19",
+      "strategy": 0.8791180195864218,
+      "benchmark": 1.176412167752103,
+      "drawdown": -0.2094109155732169,
+      "exposure": 1.0,
+      "return": 0.006366916185013061
+    },
+    {
+      "date": "2025-02-20",
+      "strategy": 0.8826368208474198,
+      "benchmark": 1.1811209332728996,
+      "drawdown": -0.20624646460618867,
+      "exposure": 1.0,
+      "return": 0.004002649453884954
+    },
+    {
+      "date": "2025-02-21",
+      "strategy": 0.8552813950228653,
+      "benchmark": 1.1445146357371196,
+      "drawdown": -0.23084714457736433,
+      "exposure": 1.0,
+      "return": -0.030992844597498848
+    },
+    {
+      "date": "2025-02-24",
+      "strategy": 0.8623189109452685,
+      "benchmark": 1.1539320508934592,
+      "drawdown": -0.22451832052214926,
+      "exposure": 1.0000000000000002,
+      "return": 0.008228304699899436
+    },
+    {
+      "date": "2025-02-25",
+      "strategy": 0.8414334273108163,
+      "benchmark": 1.125983656560107,
+      "drawdown": -0.24330059436535867,
+      "exposure": 1.0,
+      "return": -0.024220138708958228
+    },
+    {
+      "date": "2025-02-26",
+      "strategy": 0.8382552222489544,
+      "benchmark": 1.1217306677428096,
+      "drawdown": -0.24615874784873282,
+      "exposure": 1.0000000000000002,
+      "return": -0.0037771319259555236
+    },
+    {
+      "date": "2025-02-27",
+      "strategy": 0.8544868437573998,
+      "benchmark": 1.1434513885327953,
+      "drawdown": -0.2315616829482079,
+      "exposure": 1.0,
+      "return": 0.019363579346272974
+    },
+    {
+      "date": "2025-02-28",
+      "strategy": 0.8538058245583131,
+      "benchmark": 1.1425400668963042,
+      "drawdown": -0.2321741221578334,
+      "exposure": 1.0000000000000002,
+      "return": -0.0007969920239989658
+    },
+    {
+      "date": "2025-03-03",
+      "strategy": 0.8322393217247742,
+      "benchmark": 1.1136803509264608,
+      "drawdown": -0.2515688352106683,
+      "exposure": 1.0,
+      "return": -0.025259259439575188
+    },
+    {
+      "date": "2025-03-04",
+      "strategy": 0.8321257896583955,
+      "benchmark": 1.1135284253586275,
+      "drawdown": -0.25167093437188637,
+      "exposure": 1.0000000000000002,
+      "return": -0.00013641757054150272
+    },
+    {
+      "date": "2025-03-05",
+      "strategy": 0.8106728188912353,
+      "benchmark": 1.0848206349566174,
+      "drawdown": -0.2709635482635031,
+      "exposure": 1.0,
+      "return": -0.025780922828947506
+    },
+    {
+      "date": "2025-03-06",
+      "strategy": 0.8065737006812317,
+      "benchmark": 1.080415720571487,
+      "drawdown": -0.27464987710718736,
+      "exposure": 1.0000000000000002,
+      "return": -0.005056439681313196
+    },
+    {
+      "date": "2025-03-07",
+      "strategy": 0.8057679327484832,
+      "benchmark": 1.0949974461816148,
+      "drawdown": -0.27537450260458274,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2025-03-10",
+      "strategy": 0.7915629112396655,
+      "benchmark": 1.0767703181402684,
+      "drawdown": -0.2881490501610101,
+      "exposure": 1.0,
+      "return": -0.017629172037616714
+    },
+    {
+      "date": "2025-03-11",
+      "strategy": 0.7915629112396655,
+      "benchmark": 1.0852762957748627,
+      "drawdown": -0.2881490501610101,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-12",
+      "strategy": 0.7915629112396655,
+      "benchmark": 1.1057819596779448,
+      "drawdown": -0.2881490501610101,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-13",
+      "strategy": 0.7907721391005649,
+      "benchmark": 1.0878585668870109,
+      "drawdown": -0.2888601899710391,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2025-03-14",
+      "strategy": 0.7980592998737152,
+      "benchmark": 1.0978834525441754,
+      "drawdown": -0.28230686079866474,
+      "exposure": 1.0000000000000002,
+      "return": 0.009215247241055824
+    },
+    {
+      "date": "2025-03-17",
+      "strategy": 0.8028070274372131,
+      "benchmark": 1.1044148613379545,
+      "drawdown": -0.2780372388549587,
+      "exposure": 1.0,
+      "return": 0.005949091206943091
+    },
+    {
+      "date": "2025-03-18",
+      "strategy": 0.7964891314914139,
+      "benchmark": 1.0968202053398513,
+      "drawdown": -0.2837189100981927,
+      "exposure": 1.0,
+      "return": -0.007869756653685167
+    },
+    {
+      "date": "2025-03-19",
+      "strategy": 0.7964891314914139,
+      "benchmark": 1.1000099469528242,
+      "drawdown": -0.2837189100981927,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-20",
+      "strategy": 0.7964891314914139,
+      "benchmark": 1.1199080244698274,
+      "drawdown": -0.2837189100981927,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-21",
+      "strategy": 0.7956934380533605,
+      "benchmark": 1.1208193461063185,
+      "drawdown": -0.2844344756225702,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2025-03-24",
+      "strategy": 0.8074471028155364,
+      "benchmark": 1.137375640557262,
+      "drawdown": -0.2738644283070123,
+      "exposure": 1.0000000000000002,
+      "return": 0.014771599462892304
+    },
+    {
+      "date": "2025-03-25",
+      "strategy": 0.8068001362471673,
+      "benchmark": 1.1364643189207708,
+      "drawdown": -0.2744462440536425,
+      "exposure": 1.0,
+      "return": -0.0008012494764216838
+    },
+    {
+      "date": "2025-03-26",
+      "strategy": 0.8132700487390606,
+      "benchmark": 1.145577882941444,
+      "drawdown": -0.2686278646332164,
+      "exposure": 1.0,
+      "return": 0.008019225829569265
+    },
+    {
+      "date": "2025-03-27",
+      "strategy": 0.8139170975768305,
+      "benchmark": 1.146489320463189,
+      "drawdown": -0.268045974901878,
+      "exposure": 1.0000000000000002,
+      "return": 0.0007956137555700238
+    },
+    {
+      "date": "2025-03-28",
+      "strategy": 0.8062609425939259,
+      "benchmark": 1.135704806966859,
+      "drawdown": -0.27493113983230644,
+      "exposure": 1.0,
+      "return": -0.009406553819422458
+    },
+    {
+      "date": "2025-03-31",
+      "strategy": 0.8338660287057517,
+      "benchmark": 1.1745895244791205,
+      "drawdown": -0.25010594086193605,
+      "exposure": 1.0000000000000002,
+      "return": 0.034238401804524754
+    },
+    {
+      "date": "2025-04-01",
+      "strategy": 0.831170224978346,
+      "benchmark": 1.170792196480069,
+      "drawdown": -0.2525302717858393,
+      "exposure": 1.0,
+      "return": -0.0032328978931901453
+    },
+    {
+      "date": "2025-04-02",
+      "strategy": 0.8382871040386084,
+      "benchmark": 1.1808170821372332,
+      "drawdown": -0.24613007661878317,
+      "exposure": 1.0000000000000002,
+      "return": 0.008562480760722302
+    },
+    {
+      "date": "2025-04-03",
+      "strategy": 0.779087277220214,
+      "benchmark": 1.0974277917259299,
+      "drawdown": -0.2993683629919789,
+      "exposure": 1.0,
+      "return": -0.0706199898974802
+    },
+    {
+      "date": "2025-04-04",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0316580429698943,
+      "drawdown": -0.3420164345579617,
+      "exposure": 1.0000000000000002,
+      "return": -0.06087089036987725
+    },
+    {
+      "date": "2025-04-07",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0021908564992261,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-08",
+      "strategy": 0.7316635409799762,
+      "benchmark": 0.9620910241574339,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-09",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0264937325161059,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-10",
+      "strategy": 0.7316635409799762,
+      "benchmark": 0.9921658549568078,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-11",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.009481661361663,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-14",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0125195932920568,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-15",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0097855124973294,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-16",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0290758877430002,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-17",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0553534484859493,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-21",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0422906308983912,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-22",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0536826148955463,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-23",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0336327276959636,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-24",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0398602853540764,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-25",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.048518188556504,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-28",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0292278133108332,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-29",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0002161717731566,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-04-30",
+      "strategy": 0.7316635409799762,
+      "benchmark": 0.9654326913382398,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-01",
+      "strategy": 0.7316635409799762,
+      "benchmark": 0.9800143590057407,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-02",
+      "strategy": 0.7316635409799762,
+      "benchmark": 0.9722678933250581,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-05",
+      "strategy": 0.7316635409799762,
+      "benchmark": 0.9473573729794726,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-06",
+      "strategy": 0.7316635409799762,
+      "benchmark": 0.9812295317778983,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-07",
+      "strategy": 0.7316635409799762,
+      "benchmark": 0.964673179384328,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-08",
+      "strategy": 0.7316635409799762,
+      "benchmark": 0.996418843774105,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-09",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0117600813381449,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-12",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0267974677665184,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-13",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0570241661910984,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-14",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0439614644887942,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-15",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.026645542198685,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-16",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0343921237646216,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-19",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0406197973079883,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-20",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0428982172844699,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-21",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0266455421986849,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-22",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0198103981544935,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-23",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0327212901742184,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-27",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0219368925631422,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-28",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0312023821516487,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-29",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0205699101084056,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-30",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0199623237223268,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-02",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0564166956902734,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-03",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0615810061440618,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-04",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0532268381920467,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-05",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0621885925301406,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-06",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0842130485705388,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-09",
+      "strategy": 0.7316635409799762,
+      "benchmark": 1.0943899756807902,
+      "drawdown": -0.3420164345579617,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-10",
+      "strategy": 0.7309326083716046,
+      "benchmark": 1.0875547157513448,
+      "drawdown": -0.3426737607971646,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2025-06-11",
+      "strategy": 0.7638041717985085,
+      "benchmark": 1.1364643189207708,
+      "drawdown": -0.31311242926447824,
+      "exposure": 1.0000000000000002,
+      "return": 0.0449720850464399
+    },
+    {
+      "date": "2025-06-12",
+      "strategy": 0.7661521739940457,
+      "benchmark": 1.1399579116694099,
+      "drawdown": -0.3110008755656072,
+      "exposure": 1.0000000000000002,
+      "return": 0.0030740892524958596
+    },
+    {
+      "date": "2025-06-13",
+      "strategy": 0.8189303908576879,
+      "benchmark": 1.2184866268773373,
+      "drawdown": -0.26353753023737136,
+      "exposure": 1.0,
+      "return": 0.06888738119543913
+    },
+    {
+      "date": "2025-06-16",
+      "strategy": 0.8022903944045704,
+      "benchmark": 1.1937279741569582,
+      "drawdown": -0.2785018459124431,
+      "exposure": 1.0,
+      "return": -0.020319182971937355
+    },
+    {
+      "date": "2025-06-17",
+      "strategy": 0.8401642064469441,
+      "benchmark": 1.250080423641908,
+      "drawdown": -0.24444200216084,
+      "exposure": 1.0,
+      "return": 0.04720711142314271
+    },
+    {
+      "date": "2025-06-18",
+      "strategy": 0.8398578843374457,
+      "benchmark": 1.2496246469384087,
+      "drawdown": -0.24471747702393287,
+      "exposure": 1.0000000000000002,
+      "return": -0.0003645979049665682
+    },
+    {
+      "date": "2025-06-20",
+      "strategy": 0.8485352194158678,
+      "benchmark": 1.2625356548433875,
+      "drawdown": -0.23691396686708088,
+      "exposure": 1.0,
+      "return": 0.010331908814867674
+    },
+    {
+      "date": "2025-06-23",
+      "strategy": 0.7800358166573975,
+      "benchmark": 1.1606153852550714,
+      "drawdown": -0.2985153433649458,
+      "exposure": 1.0000000000000002,
+      "return": -0.08072664656821826
+    },
+    {
+      "date": "2025-06-24",
+      "strategy": 0.7452246026291849,
+      "benchmark": 1.1088197757230849,
+      "drawdown": -0.32982099882096383,
+      "exposure": 1.0,
+      "return": -0.044627712324012636
+    },
+    {
+      "date": "2025-06-25",
+      "strategy": 0.7476408408979478,
+      "benchmark": 1.1135284253586277,
+      "drawdown": -0.3276480805573194,
+      "exposure": 1.0,
+      "return": 0.0032422953566459967
+    },
+    {
+      "date": "2025-06-26",
+      "strategy": 0.7476408408979478,
+      "benchmark": 1.117781414175925,
+      "drawdown": -0.3276480805573194,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-27",
+      "strategy": 0.7476408408979478,
+      "benchmark": 1.1130727645403822,
+      "drawdown": -0.3276480805573194,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-30",
+      "strategy": 0.7476408408979478,
+      "benchmark": 1.1104906093134879,
+      "drawdown": -0.3276480805573194,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-01",
+      "strategy": 0.7476408408979478,
+      "benchmark": 1.122945840514967,
+      "drawdown": -0.3276480805573194,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-02",
+      "strategy": 0.7476408408979478,
+      "benchmark": 1.1481600381683381,
+      "drawdown": -0.3276480805573194,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-03",
+      "strategy": 0.7476408408979478,
+      "benchmark": 1.1420844060780586,
+      "drawdown": -0.3276480805573194,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-07",
+      "strategy": 0.7476408408979478,
+      "benchmark": 1.1616786324593957,
+      "drawdown": -0.3276480805573194,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-08",
+      "strategy": 0.7468939469509968,
+      "benchmark": 1.168969437321833,
+      "drawdown": -0.3283197607965229,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2025-07-09",
+      "strategy": 0.7466028099065671,
+      "benchmark": 1.1685137765035873,
+      "drawdown": -0.32858157976083746,
+      "exposure": 1.0000000000000002,
+      "return": -0.0003897970329229672
+    },
+    {
+      "date": "2025-07-10",
+      "strategy": 0.7316571579342501,
+      "benchmark": 1.1451222221231987,
+      "drawdown": -0.3420221748182726,
+      "exposure": 1.0,
+      "return": -0.020018210183521012
+    },
+    {
+      "date": "2025-07-11",
+      "strategy": 0.7500966025257058,
+      "benchmark": 1.173981938093042,
+      "drawdown": -0.3254396190156337,
+      "exposure": 1.0,
+      "return": 0.0252023019135319
+    },
+    {
+      "date": "2025-07-14",
+      "strategy": 0.7338893320131967,
+      "benchmark": 1.148615814871838,
+      "drawdown": -0.34001478511400307,
+      "exposure": 1.0,
+      "return": -0.021606910973781646
+    },
+    {
+      "date": "2025-07-15",
+      "strategy": 0.7303955393940581,
+      "benchmark": 1.1431476532823832,
+      "drawdown": -0.34315674585920686,
+      "exposure": 1.0000000000000002,
+      "return": -0.004760653230309941
+    },
+    {
+      "date": "2025-07-16",
+      "strategy": 0.7297161949427251,
+      "benchmark": 1.1420844060780588,
+      "drawdown": -0.3437676789715124,
+      "exposure": 1.0,
+      "return": -0.0009301048742665907
+    },
+    {
+      "date": "2025-07-17",
+      "strategy": 0.7391300209419046,
+      "benchmark": 1.1568180572560198,
+      "drawdown": -0.33530184399619745,
+      "exposure": 1.0000000000000002,
+      "return": 0.012900667498435325
+    },
+    {
+      "date": "2025-07-18",
+      "strategy": 0.7368978468629581,
+      "benchmark": 1.1533244645073806,
+      "drawdown": -0.33730923370046684,
+      "exposure": 1.0,
+      "return": -0.003020001915362558
+    },
+    {
+      "date": "2025-07-21",
+      "strategy": 0.7335981209257751,
+      "benchmark": 1.1481600381683383,
+      "drawdown": -0.34027667066503287,
+      "exposure": 1.0,
+      "return": -0.004477860739083739
+    },
+    {
+      "date": "2025-07-22",
+      "strategy": 0.7312689505273468,
+      "benchmark": 1.1445146357371199,
+      "drawdown": -0.34237128896626357,
+      "exposure": 1.0000000000000002,
+      "return": -0.0031749950442744312
+    },
+    {
+      "date": "2025-07-23",
+      "strategy": 0.7305896060760138,
+      "benchmark": 1.1434513885327955,
+      "drawdown": -0.3429822220785691,
+      "exposure": 1.0,
+      "return": -0.0009289939779927314
+    },
+    {
+      "date": "2025-07-24",
+      "strategy": 0.7384506024475797,
+      "benchmark": 1.1557546941664416,
+      "drawdown": -0.3359128436952181,
+      "exposure": 1.0,
+      "return": 0.010759797711586971
+    },
+    {
+      "date": "2025-07-25",
+      "strategy": 0.726416469005542,
+      "benchmark": 1.1369199797390164,
+      "drawdown": -0.34673511593607853,
+      "exposure": 1.0,
+      "return": -0.01629646370678106
+    },
+    {
+      "date": "2025-07-28",
+      "strategy": 0.7489319803049954,
+      "benchmark": 1.1721591789348056,
+      "drawdown": -0.32648696145960676,
+      "exposure": 1.0,
+      "return": 0.030995320535996296
+    },
+    {
+      "date": "2025-07-29",
+      "strategy": 0.7744560804972022,
+      "benchmark": 1.2121071436513915,
+      "drawdown": -0.3035331889828836,
+      "exposure": 1.0,
+      "return": 0.034080665352028694
+    },
+    {
+      "date": "2025-07-30",
+      "strategy": 0.7864902139392396,
+      "benchmark": 1.2309418580788165,
+      "drawdown": -0.29271091674202343,
+      "exposure": 0.9999999999999999,
+      "return": 0.015538819753744493
+    },
+    {
+      "date": "2025-07-31",
+      "strategy": 0.7724179731002111,
+      "benchmark": 1.2089172861531645,
+      "drawdown": -0.30536605490651536,
+      "exposure": 1.0,
+      "return": -0.01789245509940396
+    },
+    {
+      "date": "2025-08-01",
+      "strategy": 0.7517464284728008,
+      "benchmark": 1.1765640933199357,
+      "drawdown": -0.3239559338267086,
+      "exposure": 1.0,
+      "return": -0.02676212277200396
+    },
+    {
+      "date": "2025-08-04",
+      "strategy": 0.738644743172527,
+      "benchmark": 1.1560585453021075,
+      "drawdown": -0.3357382533278652,
+      "exposure": 1.0,
+      "return": -0.01742833062325322
+    },
+    {
+      "date": "2025-08-05",
+      "strategy": 0.7280662949526373,
+      "benchmark": 1.1395021349659102,
+      "drawdown": -0.34525143074715325,
+      "exposure": 1.0000000000000002,
+      "return": -0.014321428965235139
+    },
+    {
+      "date": "2025-08-06",
+      "strategy": 0.7161292318730735,
+      "benchmark": 1.1208193461063183,
+      "drawdown": -0.3559864078043371,
+      "exposure": 1.0,
+      "return": -0.01639557161527483
+    },
+    {
+      "date": "2025-08-07",
+      "strategy": 0.7125383688914612,
+      "benchmark": 1.1151992589490305,
+      "drawdown": -0.35921566373321734,
+      "exposure": 1.0,
+      "return": -0.005014266729791661
+    },
+    {
+      "date": "2025-08-08",
+      "strategy": 0.7113738207137429,
+      "benchmark": 1.1133766156760483,
+      "drawdown": -0.3602629395904752,
+      "exposure": 1.0000000000000002,
+      "return": -0.0016343655704184057
+    },
+    {
+      "date": "2025-08-11",
+      "strategy": 0.7162263022355474,
+      "benchmark": 1.1209712716741516,
+      "drawdown": -0.35589911262066054,
+      "exposure": 1.0,
+      "return": 0.0068212821170954285
+    },
+    {
+      "date": "2025-08-12",
+      "strategy": 0.7079770244140862,
+      "benchmark": 1.1080602637691728,
+      "drawdown": -0.36331767173871765,
+      "exposure": 1.0000000000000002,
+      "return": -0.011517697403338634
+    },
+    {
+      "date": "2025-08-13",
+      "strategy": 0.7032216132547554,
+      "benchmark": 1.1006175333389026,
+      "drawdown": -0.36759420352485583,
+      "exposure": 1.0,
+      "return": -0.006716900401204762
+    },
+    {
+      "date": "2025-08-14",
+      "strategy": 0.7156439541036964,
+      "benchmark": 1.1200598341524064,
+      "drawdown": -0.35642281713600454,
+      "exposure": 1.0000000000000002,
+      "return": 0.017664901952381795
+    },
+    {
+      "date": "2025-08-15",
+      "strategy": 0.7065213391919385,
+      "benchmark": 1.1057819596779448,
+      "drawdown": -0.3646267665602898,
+      "exposure": 1.0000000000000002,
+      "return": -0.01274742119939165
+    },
+    {
+      "date": "2025-08-18",
+      "strategy": 0.710112128130559,
+      "benchmark": 1.1114019309499787,
+      "drawdown": -0.3613975772181246,
+      "exposure": 1.0,
+      "return": 0.00508235029776638
+    },
+    {
+      "date": "2025-08-19",
+      "strategy": 0.701668857670134,
+      "benchmark": 1.0981873036798415,
+      "drawdown": -0.36899059353010444,
+      "exposure": 1.0000000000000002,
+      "return": -0.011890052466295375
+    },
+    {
+      "date": "2025-08-20",
+      "strategy": 0.7135088503872238,
+      "benchmark": 1.1167181669716002,
+      "drawdown": -0.3583429116565974,
+      "exposure": 0.9999999999999999,
+      "return": 0.016874046193818604
+    },
+    {
+      "date": "2025-08-21",
+      "strategy": 0.7194288837672647,
+      "benchmark": 1.1259836565601065,
+      "drawdown": -0.3530190374264862,
+      "exposure": 1.0000000000000002,
+      "return": 0.008297070704628373
+    },
+    {
+      "date": "2025-08-22",
+      "strategy": 0.724378435651543,
+      "benchmark": 1.1337302381260428,
+      "drawdown": -0.3485679152729949,
+      "exposure": 1.0,
+      "return": 0.006879834818919406
+    },
+    {
+      "date": "2025-08-25",
+      "strategy": 0.7351509505533885,
+      "benchmark": 1.1505903837126525,
+      "drawdown": -0.338880214073069,
+      "exposure": 1.0000000000000002,
+      "return": 0.014871390935535134
+    },
+    {
+      "date": "2025-08-26",
+      "strategy": 0.7186525429964499,
+      "benchmark": 1.1247685996732029,
+      "drawdown": -0.35371719913575295,
+      "exposure": 1.0,
+      "return": -0.02244220393719054
+    },
+    {
+      "date": "2025-08-27",
+      "strategy": 0.7247666430584464,
+      "benchmark": 1.1343378245121218,
+      "drawdown": -0.3482188011250039,
+      "exposure": 1.0,
+      "return": 0.008507727582099056
+    },
+    {
+      "date": "2025-08-28",
+      "strategy": 0.7302013986691102,
+      "benchmark": 1.1428438021467162,
+      "drawdown": -0.3433313362265603,
+      "exposure": 1.0000000000000002,
+      "return": 0.0074986282311912955
+    },
+    {
+      "date": "2025-08-29",
+      "strategy": 0.726319398643068,
+      "benchmark": 1.1367680541711829,
+      "drawdown": -0.3468224111197552,
+      "exposure": 1.0,
+      "return": -0.005316341536893199
+    },
+    {
+      "date": "2025-09-02",
+      "strategy": 0.7449529839594714,
+      "benchmark": 1.1659316212766924,
+      "drawdown": -0.33006526494976307,
+      "exposure": 1.0000000000000002,
+      "return": 0.025654808822695996
+    },
+    {
+      "date": "2025-09-03",
+      "strategy": 0.7262224023235863,
+      "benchmark": 1.1366162444886034,
+      "drawdown": -0.3469096397167164,
+      "exposure": 1.0,
+      "return": -0.02514330708004009
+    },
+    {
+      "date": "2025-09-04",
+      "strategy": 0.7199141615366419,
+      "benchmark": 1.1267431685140183,
+      "drawdown": -0.35258262809481866,
+      "exposure": 1.0000000000000002,
+      "return": -0.008686375918397493
+    },
+    {
+      "date": "2025-09-05",
+      "strategy": 0.704871439201851,
+      "benchmark": 1.1031996885657964,
+      "drawdown": -0.36611051833593045,
+      "exposure": 1.0,
+      "return": -0.02089516103236877
+    },
+    {
+      "date": "2025-09-08",
+      "strategy": 0.7088505095903669,
+      "benchmark": 1.109427362109163,
+      "drawdown": -0.362532148259059,
+      "exposure": 1.0000000000000002,
+      "return": 0.005645100889633881
+    },
+    {
+      "date": "2025-09-09",
+      "strategy": 0.7122472318470316,
+      "benchmark": 1.1147435981307845,
+      "drawdown": -0.35947748269753177,
+      "exposure": 1.0,
+      "return": 0.0047918739010679445
+    },
+    {
+      "date": "2025-09-10",
+      "strategy": 0.725057780102876,
+      "benchmark": 1.134793485330367,
+      "drawdown": -0.3479569821606895,
+      "exposure": 1.0000000000000002,
+      "return": 0.01798609764003367
+    },
+    {
+      "date": "2025-09-11",
+      "strategy": 0.7084623021834635,
+      "benchmark": 1.1088197757230842,
+      "drawdown": -0.36288126240705,
+      "exposure": 1.0,
+      "return": -0.022888490234609815
+    },
+    {
+      "date": "2025-09-12",
+      "strategy": 0.7107593462161916,
+      "benchmark": 1.113528425358627,
+      "drawdown": -0.3608155352825203,
+      "exposure": 1.0000000000000002,
+      "return": 0.0032422953566459967
+    },
+    {
+      "date": "2025-09-15",
+      "strategy": 0.7107593462161916,
+      "benchmark": 1.1275026804679302,
+      "drawdown": -0.3608155352825203,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-16",
+      "strategy": 0.7107593462161916,
+      "benchmark": 1.1493752109404953,
+      "drawdown": -0.3608155352825203,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-17",
+      "strategy": 0.7107593462161916,
+      "benchmark": 1.1387427388972522,
+      "drawdown": -0.3608155352825203,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-18",
+      "strategy": 0.7107593462161916,
+      "benchmark": 1.1344897500799551,
+      "drawdown": -0.3608155352825203,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-19",
+      "strategy": 0.7107593462161916,
+      "benchmark": 1.1167181669716004,
+      "drawdown": -0.3608155352825203,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-22",
+      "strategy": 0.7107593462161916,
+      "benchmark": 1.115654919767276,
+      "drawdown": -0.3608155352825203,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-23",
+      "strategy": 0.7107593462161916,
+      "benchmark": 1.1399579116694099,
+      "drawdown": -0.3608155352825203,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-24",
+      "strategy": 0.7100492969192723,
+      "benchmark": 1.1603115341194048,
+      "drawdown": -0.36145408120131894,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2025-09-25",
+      "strategy": 0.7156263161378384,
+      "benchmark": 1.169425098140078,
+      "drawdown": -0.35643867892357817,
+      "exposure": 1.0000000000000002,
+      "return": 0.007854411296178254
+    },
+    {
+      "date": "2025-09-26",
+      "strategy": 0.7159051564614197,
+      "benchmark": 1.1698807589583236,
+      "drawdown": -0.3561879183758361,
+      "exposure": 1.0,
+      "return": 0.00038964515039929815
+    },
+    {
+      "date": "2025-09-29",
+      "strategy": 0.6933181683479273,
+      "benchmark": 1.1329707261721311,
+      "drawdown": -0.37650035180884145,
+      "exposure": 1.0000000000000002,
+      "return": -0.03155025202658901
+    },
+    {
+      "date": "2025-09-30",
+      "strategy": 0.6855103556250641,
+      "benchmark": 1.1202117597202395,
+      "drawdown": -0.38352190224281857,
+      "exposure": 1.0,
+      "return": -0.011261514668608696
+    },
+    {
+      "date": "2025-10-01",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.110946270131733,
+      "drawdown": -0.38923229171527873,
+      "exposure": 1.0,
+      "return": -0.009262923521914712
+    },
+    {
+      "date": "2025-10-02",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.086643394114853,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-03",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.089225549341747,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-06",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.1068452068822685,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-07",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.1118575917682236,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-08",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.1168700925394326,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-09",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.1013770452928136,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-10",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0539863501459574,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-13",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0675048285517612,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-14",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0480625277382574,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-15",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0479106021704243,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-16",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0299872093794902,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-17",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.032569480491638,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-20",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0302910605151563,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-21",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0369742789915146,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-22",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0728210645733824,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-23",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.113224690108214,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-24",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.111553856517811,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-27",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.1106425348813198,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-28",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0843649741383705,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-29",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0905926476817371,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-30",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0892255493417464,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-31",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.1021364413614714,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-03",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.1048705221561987,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-04",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0925672165225526,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-05",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.078896812548916,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-06",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0766183925724342,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-07",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.0823904052975553,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-10",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.088769888523501,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-11",
+      "strategy": 0.6791605256274286,
+      "benchmark": 1.1045667869057862,
+      "drawdown": -0.38923229171527873,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-12",
+      "strategy": 0.6784820435838447,
+      "benchmark": 1.0600620981214908,
+      "drawdown": -0.38984244926601286,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2025-11-13",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0609734197579819,
+      "drawdown": -0.3899285868288055,
+      "exposure": 1.0,
+      "return": -0.00014117265727364714
+    },
+    {
+      "date": "2025-11-14",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0842130485705375,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-17",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0829979916836339,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-18",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.1012251197249803,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-19",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0766183925724342,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-20",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0655302597109455,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-21",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0526193676912208,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-24",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0696313229604095,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-25",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0518598557373087,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-26",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0638594261205423,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-28",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0795043989349946,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-01",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0793524733671616,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-02",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0662896557796036,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-03",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.073276841276882,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-04",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0843649741383707,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-05",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0924152909547196,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-08",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.070694570164734,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-09",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0611253453258152,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-10",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.071454082118646,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-11",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.051859855737309,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-12",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0451765213756967,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-15",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0312023821516474,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-16",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0050767469765314,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-17",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.032569480491638,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-18",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0205699101084045,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-19",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0333288765602962,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-22",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0591507764849997,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-23",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0678086796874273,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-24",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0662896557796036,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-26",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0401641364897414,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-29",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0573280173267634,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-30",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0593025861675789,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-31",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.050492873282572,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-02",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0474549413521783,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-05",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0665935069152697,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-06",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0406197973079867,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-07",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0296834741290772,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-08",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.0714540821186456,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-09",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.075099484549864,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-12",
+      "strategy": 0.6783862604708395,
+      "benchmark": 1.088314227705255,
+      "drawdown": -0.3899285868288055,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-13",
+      "strategy": 0.6777085519189205,
+      "benchmark": 1.116110696470774,
+      "drawdown": -0.3905380487800255,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2026-01-14",
+      "strategy": 0.6696844872126693,
+      "benchmark": 1.102895953315383,
+      "drawdown": -0.3977540741920411,
+      "exposure": 1.0000000000000002,
+      "return": -0.011839993288458972
+    },
+    {
+      "date": "2026-01-15",
+      "strategy": 0.6560343662812586,
+      "benchmark": 1.0804157205714855,
+      "drawdown": -0.4100296007641796,
+      "exposure": 1.0,
+      "return": -0.02038291343469012
+    },
+    {
+      "date": "2026-01-16",
+      "strategy": 0.6608303832434421,
+      "benchmark": 1.088314227705255,
+      "drawdown": -0.40571655226039416,
+      "exposure": 1.0000000000000004,
+      "return": 0.007310618480812048
+    },
+    {
+      "date": "2026-01-20",
+      "strategy": 0.6627672118898827,
+      "benchmark": 1.091503969318228,
+      "drawdown": -0.403974766115456,
+      "exposure": 1.0,
+      "return": 0.002930901325896018
+    },
+    {
+      "date": "2026-01-21",
+      "strategy": 0.67641726245513,
+      "benchmark": 1.1139840861768717,
+      "drawdown": -0.3916993028234682,
+      "exposure": 1.0,
+      "return": 0.02059554293026067
+    },
+    {
+      "date": "2026-01-22",
+      "strategy": 0.6623982820953944,
+      "benchmark": 1.0908963829321494,
+      "drawdown": -0.40430654394498966,
+      "exposure": 1.0,
+      "return": -0.020725343863715384
+    },
+    {
+      "date": "2026-01-23",
+      "strategy": 0.6820433186802894,
+      "benchmark": 1.1232495757653782,
+      "drawdown": -0.38663980166334544,
+      "exposure": 1.0,
+      "return": 0.029657438909338696
+    },
+    {
+      "date": "2026-01-26",
+      "strategy": 0.6777085519189204,
+      "benchmark": 1.1161106964707743,
+      "drawdown": -0.3905380487800256,
+      "exposure": 1.0000000000000002,
+      "return": -0.0063555593063451266
+    },
+    {
+      "date": "2026-01-27",
+      "strategy": 0.6978147683384666,
+      "benchmark": 1.149223401257915,
+      "drawdown": -0.3724565683914268,
+      "exposure": 1.0,
+      "return": 0.029667939651367492
+    },
+    {
+      "date": "2026-01-28",
+      "strategy": 0.7066688723076937,
+      "benchmark": 1.163805126868043,
+      "drawdown": -0.3644940903230738,
+      "exposure": 1.0,
+      "return": 0.012688329870560455
+    },
+    {
+      "date": "2026-01-29",
+      "strategy": 0.7299108864311447,
+      "benchmark": 1.202082142108972,
+      "drawdown": -0.34359259330366576,
+      "exposure": 1.0000000000000002,
+      "return": 0.03288953997301736
+    },
+    {
+      "date": "2026-01-30",
+      "strategy": 0.7334156139295377,
+      "benchmark": 1.2078540389488392,
+      "drawdown": -0.3404407988433231,
+      "exposure": 1.0,
+      "return": 0.004801582718582553
+    },
+    {
+      "date": "2026-02-02",
+      "strategy": 0.6947711503085613,
+      "benchmark": 1.144210900486706,
+      "drawdown": -0.37519368802496544,
+      "exposure": 1.0000000000000002,
+      "return": -0.052691083864338295
+    },
+    {
+      "date": "2026-02-03",
+      "strategy": 0.7145084369336193,
+      "benchmark": 1.176716018887768,
+      "drawdown": -0.35744398546590006,
+      "exposure": 1.0000000000000002,
+      "return": 0.02840832785916958
+    },
+    {
+      "date": "2026-02-04",
+      "strategy": 0.7182898441863377,
+      "benchmark": 1.1829435765458807,
+      "drawdown": -0.35404337345344494,
+      "exposure": 1.0000000000000002,
+      "return": 0.0052923199464889326
+    },
+    {
+      "date": "2026-02-05",
+      "strategy": 0.7073144818565074,
+      "benchmark": 1.1648683740723673,
+      "drawdown": -0.36391349494142766,
+      "exposure": 1.0,
+      "return": -0.015279851746007878
+    },
+    {
+      "date": "2026-02-06",
+      "strategy": 0.710081349765924,
+      "benchmark": 1.169425098140077,
+      "drawdown": -0.361425256140152,
+      "exposure": 1.0,
+      "return": 0.003911793099661054
+    },
+    {
+      "date": "2026-02-09",
+      "strategy": 0.7195810632839648,
+      "benchmark": 1.185070070954529,
+      "drawdown": -0.3528821826901528,
+      "exposure": 1.0000000000000002,
+      "return": 0.013378345341942044
+    },
+    {
+      "date": "2026-02-10",
+      "strategy": 0.7196733133241277,
+      "benchmark": 1.1852219965223623,
+      "drawdown": -0.35279922241273176,
+      "exposure": 1.0,
+      "return": 0.00012819964958765695
+    },
+    {
+      "date": "2026-02-11",
+      "strategy": 0.7276051279902159,
+      "benchmark": 1.1982848141099203,
+      "drawdown": -0.3456661572781373,
+      "exposure": 1.0000000000000002,
+      "return": 0.01102141001929291
+    },
+    {
+      "date": "2026-02-12",
+      "strategy": 0.7044552935407645,
+      "benchmark": 1.1601596085515706,
+      "drawdown": -0.36648475730027485,
+      "exposure": 1.0,
+      "return": -0.03181648061414255
+    },
+    {
+      "date": "2026-02-13",
+      "strategy": 0.702979644728975,
+      "benchmark": 1.1577293788925096,
+      "drawdown": -0.3678118053382584,
+      "exposure": 1.0000000000000002,
+      "return": -0.0020947373457477214
+    },
+    {
+      "date": "2026-02-17",
+      "strategy": 0.6984603778872802,
+      "benchmark": 1.1502866484622394,
+      "drawdown": -0.3718759730097806,
+      "exposure": 1.0,
+      "return": -0.006428730725819398
+    },
+    {
+      "date": "2026-02-18",
+      "strategy": 0.7323088949122365,
+      "benchmark": 1.2060313956758568,
+      "drawdown": -0.34143606905177304,
+      "exposure": 1.0,
+      "return": 0.048461613710060636
+    },
+    {
+      "date": "2026-02-19",
+      "strategy": 0.7488181337932266,
+      "benchmark": 1.2332202780552972,
+      "drawdown": -0.3265893434009379,
+      "exposure": 1.0,
+      "return": 0.022544091701861113
+    },
+    {
+      "date": "2026-02-20",
+      "strategy": 0.7456822657231584,
+      "benchmark": 1.228055851716255,
+      "drawdown": -0.3294094233118977,
+      "exposure": 1.0,
+      "return": -0.004187756584076108
+    },
+    {
+      "date": "2026-02-23",
+      "strategy": 0.7461434455578095,
+      "benchmark": 1.2288153636701669,
+      "drawdown": -0.3289946852049431,
+      "exposure": 1.0000000000000002,
+      "return": 0.0006184669474522675
+    },
+    {
+      "date": "2026-02-24",
+      "strategy": 0.7448522264601825,
+      "benchmark": 1.2266888692615183,
+      "drawdown": -0.33015587596823526,
+      "exposure": 1.0,
+      "return": -0.0017305239432369168
+    },
+    {
+      "date": "2026-02-25",
+      "strategy": 0.7353525129421417,
+      "benchmark": 1.211043896447066,
+      "drawdown": -0.3386989494182344,
+      "exposure": 1.0,
+      "return": -0.012753823081374183
+    },
+    {
+      "date": "2026-02-26",
+      "strategy": 0.7357213723704665,
+      "benchmark": 1.2116513669478908,
+      "drawdown": -0.33836723486885145,
+      "exposure": 1.0,
+      "return": 0.0005016089859393169
+    },
+    {
+      "date": "2026-02-27",
+      "strategy": 0.7558275887900127,
+      "benchmark": 1.2447640717350312,
+      "drawdown": -0.32028575448025265,
+      "exposure": 1.0,
+      "return": 0.027328574613463497
+    },
+    {
+      "date": "2026-03-02",
+      "strategy": 0.8041563363755191,
+      "benchmark": 1.324356150032537,
+      "drawdown": -0.2768238080136183,
+      "exposure": 1.0000000000000002,
+      "return": 0.06394149711162944
+    },
+    {
+      "date": "2026-03-03",
+      "strategy": 0.8319176173406648,
+      "benchmark": 1.3700758957037362,
+      "drawdown": -0.2518581433226881,
+      "exposure": 1.0,
+      "return": 0.03452224363520018
+    },
+    {
+      "date": "2026-03-04",
+      "strategy": 0.8444609488886109,
+      "benchmark": 1.3907333692893975,
+      "drawdown": -0.24057795023915018,
+      "exposure": 1.0000000000000002,
+      "return": 0.015077612598279222
+    },
+    {
+      "date": "2026-03-05",
+      "strategy": 0.8882703592662591,
+      "benchmark": 1.462882601271379,
+      "drawdown": -0.20118023472418878,
+      "exposure": 1.0,
+      "return": 0.05187855096828975
+    },
+    {
+      "date": "2026-03-06",
+      "strategy": 1.0031893515182135,
+      "benchmark": 1.652141414837883,
+      "drawdown": -0.09783381383013967,
+      "exposure": 1.0000000000000002,
+      "return": 0.12937389056512183
+    },
+    {
+      "date": "2026-03-09",
+      "strategy": 0.9622391294563082,
+      "benchmark": 1.5847009483766983,
+      "drawdown": -0.13466026698625388,
+      "exposure": 1.0,
+      "return": -0.04082003262886691
+    },
+    {
+      "date": "2026-03-10",
+      "strategy": 0.9763503598562067,
+      "benchmark": 1.6079405771892539,
+      "drawdown": -0.12197006558731138,
+      "exposure": 1.0,
+      "return": 0.014664993313950658
+    },
+    {
+      "date": "2026-03-11",
+      "strategy": 0.9965488263159157,
+      "benchmark": 1.6412052075442278,
+      "drawdown": -0.10380562492129153,
+      "exposure": 1.0000000000000002,
+      "return": 0.020687723680138603
+    },
+    {
+      "date": "2026-03-12",
+      "strategy": 1.0919149616569745,
+      "benchmark": 1.7982626379600826,
+      "drawdown": -0.018043049311616377,
+      "exposure": 1.0,
+      "return": 0.09569640023922599
+    },
+    {
+      "date": "2026-03-13",
+      "strategy": 1.1057495123025478,
+      "benchmark": 1.8210466059543926,
+      "drawdown": -0.005601665464786354,
+      "exposure": 1.0000000000000002,
+      "return": 0.012669989084662214
+    },
+    {
+      "date": "2026-03-16",
+      "strategy": 1.0609255625815976,
+      "benchmark": 1.747226540382008,
+      "drawdown": -0.04591175419092741,
+      "exposure": 1.0,
+      "return": -0.04053716435977561
+    },
+    {
+      "date": "2026-03-17",
+      "strategy": 1.0960652987041812,
+      "benchmark": 1.805097782004274,
+      "drawdown": -0.014310659469627507,
+      "exposure": 1.0,
+      "return": 0.033121773441933566
+    },
+    {
+      "date": "2026-03-18",
+      "strategy": 1.122166501143375,
+      "benchmark": 1.8480835627659997,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.023813546939267072
+    },
+    {
+      "date": "2026-03-19",
+      "strategy": 1.082415248138934,
+      "benchmark": 1.7826176651456305,
+      "drawdown": -0.035423667489573485,
+      "exposure": 1.0,
+      "return": -0.035423667489573485
+    },
+    {
+      "date": "2026-03-20",
+      "strategy": 1.1199529927426093,
+      "benchmark": 1.8444381603347813,
+      "drawdown": -0.0019725311694034353,
+      "exposure": 1.0000000000000002,
+      "return": 0.03467961548787901
+    },
+    {
+      "date": "2026-03-23",
+      "strategy": 1.019698590399204,
+      "benchmark": 1.6793302972173239,
+      "drawdown": -0.09131257316963792,
+      "exposure": 1.0,
+      "return": -0.08951661631609753
+    },
+    {
+      "date": "2026-03-24",
+      "strategy": 1.0564062957399032,
+      "benchmark": 1.739783809951738,
+      "drawdown": -0.05860111252338118,
+      "exposure": 1.0,
+      "return": 0.03599858397992728
+    },
+    {
+      "date": "2026-03-25",
+      "strategy": 1.0457997928383977,
+      "benchmark": 1.7223160779790496,
+      "drawdown": -0.06805292104796146,
+      "exposure": 1.0,
+      "return": -0.01004017388411782
+    },
+    {
+      "date": "2026-03-26",
+      "strategy": 1.081492958835795,
+      "benchmark": 1.7810987571230605,
+      "drawdown": -0.03624555025135545,
+      "exposure": 1.0,
+      "return": 0.03413001823276596
+    },
+    {
+      "date": "2026-03-27",
+      "strategy": 1.145500765306989,
+      "benchmark": 1.8865125035747619,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.05918467239962166
+    },
+    {
+      "date": "2026-03-30",
+      "strategy": 1.1974264904310514,
+      "benchmark": 1.9720284042799678,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.04533015314934907
+    },
+    {
+      "date": "2026-03-31",
+      "strategy": 1.1736310464327864,
+      "benchmark": 1.9328399515172938,
+      "drawdown": -0.019872154314624524,
+      "exposure": 1.0000000000000002,
+      "return": -0.019872154314624524
+    },
+    {
+      "date": "2026-04-01",
+      "strategy": 1.1444862259636874,
+      "benchmark": 1.884841669984359,
+      "drawdown": -0.04421170309027189,
+      "exposure": 1.0,
+      "return": -0.024833034672765097
+    },
+    {
+      "date": "2026-04-02",
+      "strategy": 1.272040799803751,
+      "benchmark": 2.094909882704358,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.11145138398905519
+    },
+    {
+      "date": "2026-04-06",
+      "strategy": 1.2814483336477924,
+      "benchmark": 2.1104030458362306,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.007395622723337825
+    },
+    {
+      "date": "2026-04-07",
+      "strategy": 1.2735165189817041,
+      "benchmark": 2.097340228248673,
+      "drawdown": -0.006189726466387824,
+      "exposure": 1.0000000000000002,
+      "return": -0.006189726466387824
+    },
+    {
+      "date": "2026-04-08",
+      "strategy": 1.149005563171546,
+      "benchmark": 1.8922845162998834,
+      "drawdown": -0.1033539683174215,
+      "exposure": 1.0,
+      "return": -0.09776940774173581
+    },
+    {
+      "date": "2026-04-09",
+      "strategy": 1.1709563581973699,
+      "benchmark": 1.928435037132164,
+      "drawdown": -0.08622429211476224,
+      "exposure": 1.0000000000000002,
+      "return": 0.019104167751141432
+    },
+    {
+      "date": "2026-04-10",
+      "strategy": 1.1512190715723118,
+      "benchmark": 1.8959299187311018,
+      "drawdown": -0.10162661939304862,
+      "exposure": 1.0,
+      "return": -0.01685569789760788
+    },
+    {
+      "date": "2026-04-13",
+      "strategy": 1.184883158883106,
+      "benchmark": 1.9513709306943066,
+      "drawdown": -0.07535627635474185,
+      "exposure": 1.0000000000000002,
+      "return": 0.029242120932566174
+    },
+    {
+      "date": "2026-04-14",
+      "strategy": 1.1422727175629217,
+      "benchmark": 1.8811962675531406,
+      "drawdown": -0.10860805888965575,
+      "exposure": 1.0,
+      "return": -0.03596172415881882
+    },
+    {
+      "date": "2026-04-15",
+      "strategy": 1.1306516753181146,
+      "benchmark": 1.8620577019900493,
+      "drawdown": -0.11767673683761992,
+      "exposure": 1.0000000000000002,
+      "return": -0.010173614467130943
+    },
+    {
+      "date": "2026-04-16",
+      "strategy": 1.1606265350501896,
+      "benchmark": 1.9114229659777207,
+      "drawdown": -0.09428534528088961,
+      "exposure": 1.0,
+      "return": 0.02651113546852657
+    },
+    {
+      "date": "2026-04-17",
+      "strategy": 1.0702408463854767,
+      "benchmark": 1.762567777946048,
+      "drawdown": -0.16481935456663244,
+      "exposure": 1.0,
+      "return": -0.07787663467542927
+    },
+    {
+      "date": "2026-04-20",
+      "strategy": 1.1189384533993079,
+      "benchmark": 1.8427673267443783,
+      "drawdown": -0.12681734876183515,
+      "exposure": 1.0,
+      "return": 0.04550154031057363
+    },
+    {
+      "date": "2026-04-21",
+      "strategy": 1.1828540801965024,
+      "benchmark": 1.9480292635135004,
+      "drawdown": -0.07693970241518044,
+      "exposure": 1.0000000000000002,
+      "return": 0.05712166438021726
+    },
+    {
+      "date": "2026-04-22",
+      "strategy": 1.1934605127318443,
+      "benchmark": 1.965496879600935,
+      "drawdown": -0.06866279240886797,
+      "exposure": 1.0,
+      "return": 0.008966814007675294
+    },
+    {
+      "date": "2026-04-23",
+      "strategy": 1.2425271199063272,
+      "benchmark": 2.0463041306705985,
+      "drawdown": -0.030372831053337435,
+      "exposure": 1.0000000000000002,
+      "return": 0.041112886979535634
+    },
+    {
+      "date": "2026-04-24",
+      "strategy": 1.2211296140229906,
+      "benchmark": 2.0110648155895556,
+      "drawdown": -0.047070738664193756,
+      "exposure": 1.0,
+      "return": -0.017220956823018718
+    },
+    {
+      "date": "2026-04-27",
+      "strategy": 1.2425271199063272,
+      "benchmark": 2.0463041306705985,
+      "drawdown": -0.030372831053337435,
+      "exposure": 1.0000000000000002,
+      "return": 0.01752271473692546
+    },
+    {
+      "date": "2026-04-28",
+      "strategy": 1.287535569707603,
+      "benchmark": 2.1204280473786494,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.036223313825672454
+    },
+    {
+      "date": "2026-04-29",
+      "strategy": 1.3892656208627978,
+      "benchmark": 2.287966140155168,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.07901144911926394
+    },
+    {
+      "date": "2026-04-30",
+      "strategy": 1.3566160025291423,
+      "benchmark": 2.234195845897112,
+      "drawdown": -0.02350135052890656,
+      "exposure": 1.0,
+      "return": -0.02350135052890656
+    },
+    {
+      "date": "2026-05-01",
+      "strategy": 1.317049249605027,
+      "benchmark": 2.169033799412409,
+      "drawdown": -0.05198168742772247,
+      "exposure": 1.0000000000000002,
+      "return": -0.029165771928350348
+    },
+    {
+      "date": "2026-05-04",
+      "strategy": 1.361412019491326,
+      "benchmark": 2.2420943530308817,
+      "drawdown": -0.020049154713965733,
+      "exposure": 1.0,
+      "return": 0.033683455572829146
+    },
+    {
+      "date": "2026-05-05",
+      "strategy": 1.3296847608269726,
+      "benchmark": 2.1898430826806496,
+      "drawdown": -0.04288658636699205,
+      "exposure": 1.0000000000000002,
+      "return": -0.02330467059943231
+    },
+    {
+      "date": "2026-05-06",
+      "strategy": 1.2354253445032148,
+      "benchmark": 2.0346082955377773,
+      "drawdown": -0.11073496245019088,
+      "exposure": 1.0,
+      "return": -0.07088854373658826
+    },
+    {
+      "date": "2026-05-07",
+      "strategy": 1.244832878347256,
+      "benchmark": 2.0501014586696504,
+      "drawdown": -0.10396337485544516,
+      "exposure": 1.0000000000000002,
+      "return": 0.0076148137043634545
+    },
+    {
+      "date": "2026-05-08",
+      "strategy": 1.2321050467189842,
+      "benchmark": 2.029140133948323,
+      "drawdown": -0.11312492858364231,
+      "exposure": 1.0,
+      "return": -0.010224530416621302
+    },
+    {
+      "date": "2026-05-11",
+      "strategy": 1.2788658954525383,
+      "benchmark": 2.1061500570189344,
+      "drawdown": -0.07946624731251628,
+      "exposure": 1.0000000000000002,
+      "return": 0.03795199837714747
+    },
+    {
+      "date": "2026-05-12",
+      "strategy": 1.3308838002506,
+      "benchmark": 2.1918177674067194,
+      "drawdown": -0.04202351208830746,
+      "exposure": 1.0,
+      "return": 0.04067502697744141
+    },
+    {
+      "date": "2026-05-13",
+      "strategy": 1.3100396538759143,
+      "benchmark": 2.1574897739621672,
+      "drawdown": -0.05702722776489677,
+      "exposure": 1.0000000000000002,
+      "return": -0.015661883006436006
+    },
+    {
+      "date": "2026-05-14",
+      "strategy": 1.3188938282113047,
+      "benchmark": 2.172071615457549,
+      "drawdown": -0.05065395097576009,
+      "exposure": 1.0,
+      "return": 0.006758707119432827
+    },
+    {
+      "date": "2026-05-15",
+      "strategy": 1.367130255390485,
+      "benchmark": 2.2515116523019674,
+      "drawdown": -0.01593314132294288,
+      "exposure": 1.0000000000000002,
+      "return": 0.03657339669607729
+    },
+    {
+      "date": "2026-05-18",
+      "strategy": 1.376906648662851,
+      "benchmark": 2.2676122859346655,
+      "drawdown": -0.008896046957723835,
+      "exposure": 1.0,
+      "return": 0.007151032781125721
+    },
+    {
+      "date": "2026-05-19",
+      "strategy": 1.4107553064201341,
+      "benchmark": 2.323357264918791,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.024583117374118668
+    },
+    {
+      "date": "2026-05-20",
+      "strategy": 1.3306071204962748,
+      "benchmark": 2.191362106588474,
+      "drawdown": -0.05681225196114237,
+      "exposure": 1.0,
+      "return": -0.05681225196114237
+    },
+    {
+      "date": "2026-05-21",
+      "strategy": 1.314651170757772,
+      "benchmark": 2.1650844299602707,
+      "drawdown": -0.06812246973306202,
+      "exposure": 1.0000000000000002,
+      "return": -0.011991480800547571
+    },
+    {
+      "date": "2026-05-22",
+      "strategy": 1.2997099010948974,
+      "benchmark": 2.1404778186929785,
+      "drawdown": -0.0787134415301406,
+      "exposure": 1.0,
+      "return": -0.0113651970919878
+    },
+    {
+      "date": "2026-05-26",
+      "strategy": 1.2635556256290121,
+      "benchmark": 2.0809357434803095,
+      "drawdown": -0.1043410434972234,
+      "exposure": 1.0000000000000002,
+      "return": -0.0278171886168046
+    },
+    {
+      "date": "2026-05-27",
+      "strategy": 1.208494102801045,
+      "benchmark": 1.9902555323213154,
+      "drawdown": -0.14337086148010858,
+      "exposure": 1.0,
+      "return": -0.04357665124600818
+    },
+    {
+      "date": "2026-05-28",
+      "strategy": 1.2061883443601162,
+      "benchmark": 1.9864582043222636,
+      "drawdown": -0.14500527563431065,
+      "exposure": 1.0,
+      "return": -0.0019079600269330532
+    },
+    {
+      "date": "2026-05-29",
+      "strategy": 1.190601394782265,
+      "benchmark": 1.9607882299653931,
+      "drawdown": -0.15605393127779288,
+      "exposure": 1.0000000000000002,
+      "return": -0.012922483997406031
+    },
+    {
+      "date": "2026-06-01",
+      "strategy": 1.249721074983439,
+      "benchmark": 2.0581517754859995,
+      "drawdown": -0.11414752842243625,
+      "exposure": 1.0,
+      "return": 0.04965530903983684
+    },
+    {
+      "date": "2026-06-02",
+      "strategy": 1.2660458841502669,
+      "benchmark": 2.085036922615027,
+      "drawdown": -0.1025758482788025,
+      "exposure": 1.0,
+      "return": 0.013062762158383201
+    },
+    {
+      "date": "2026-06-03",
+      "strategy": 1.2991565415862467,
+      "benchmark": 2.1395664970564874,
+      "drawdown": -0.0791056849660734,
+      "exposure": 1.0000000000000002,
+      "return": 0.026152809981450753
+    },
+    {
+      "date": "2026-06-04",
+      "strategy": 1.2611576875140837,
+      "benchmark": 2.0769866057986786,
+      "drawdown": -0.10604079830517332,
+      "exposure": 1.0,
+      "return": -0.029248864825609844
+    },
+    {
+      "date": "2026-06-05",
+      "strategy": 1.2268479906544763,
+      "benchmark": 2.0204823466311495,
+      "drawdown": -0.1303608889002391,
+      "exposure": 1.0000000000000002,
+      "return": -0.027204922270455012
+    },
+    {
+      "date": "2026-06-08",
+      "strategy": 1.246492956873208,
+      "benchmark": 2.052835423579124,
+      "drawdown": -0.11643574814100865,
+      "exposure": 1.0,
+      "return": 0.016012551162309707
+    },
+    {
+      "date": "2026-06-09",
+      "strategy": 1.2109843613222997,
+      "benchmark": 1.9943567114560332,
+      "drawdown": -0.1416056662616877,
+      "exposure": 1.0,
+      "return": -0.0284867999896129
+    },
+    {
+      "date": "2026-06-10",
+      "strategy": 1.238653462613446,
+      "benchmark": 2.039924647444653,
+      "drawdown": -0.12199269641126187,
+      "exposure": 1.0000000000000002,
+      "return": 0.02284843815896509
+    },
+    {
+      "date": "2026-06-11",
+      "strategy": 1.1882034566673365,
+      "benchmark": 1.9568390922837622,
+      "drawdown": -0.1577536860857427,
+      "exposure": 1.0,
+      "return": -0.04072971776921741
+    },
+    {
+      "date": "2026-06-12",
+      "strategy": 1.1568451277974714,
+      "benchmark": 1.905195408319609,
+      "drawdown": -0.1799817285585643,
+      "exposure": 1.0,
+      "return": -0.026391379939104676
+    },
+    {
+      "date": "2026-06-15",
+      "strategy": 1.1179239140560062,
+      "benchmark": 1.8410964931539764,
+      "drawdown": -0.20757064746203435,
+      "exposure": 1.0000000000000002,
+      "return": -0.033644273383047985
+    },
+    {
+      "date": "2026-06-16",
+      "strategy": 1.0649837199548053,
+      "benchmark": 1.7539098747436213,
+      "drawdown": -0.24509678247657452,
+      "exposure": 1.0,
+      "return": -0.04735581146048251
+    },
+    {
+      "date": "2026-06-17",
+      "strategy": 1.0524936306125336,
+      "benchmark": 1.735075160316196,
+      "drawdown": -0.2539502592527604,
+      "exposure": 1.0,
+      "return": -0.011727962698623862
+    },
+    {
+      "date": "2026-06-18",
+      "strategy": 1.0524936306125336,
+      "benchmark": 1.7447963107229478,
+      "drawdown": -0.2539502592527604,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-22",
+      "strategy": 1.0524936306125336,
+      "benchmark": 1.7116836059358072,
+      "drawdown": -0.2539502592527604,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-23",
+      "strategy": 1.0524936306125336,
+      "benchmark": 1.6899628851458215,
+      "drawdown": -0.2539502592527604,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-24",
+      "strategy": 1.0514421884241096,
+      "benchmark": 1.6144719859830339,
+      "drawdown": -0.2546955636890712,
+      "exposure": 0.0,
+      "return": -0.0009990009990008542
+    },
+    {
+      "date": "2026-06-25",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.660343657222066,
+      "drawdown": -0.2342858576873561,
+      "exposure": 1.0,
+      "return": 0.027384388187380315
+    },
+    {
+      "date": "2026-06-26",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.6021686803493875,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-29",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.6264715563662675,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-30",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.6167504059595155,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-01",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.5686001988587475,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-02",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.5793847123550775,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-06",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.5850046836271114,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-07",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.6544198348143657,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-08",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.704392685188116,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-09",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.6557869331543562,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-10",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.6510781676335595,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-13",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.7891490739394098,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-14",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.8252995947716901,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-15",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.8436786483808698,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-16",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.812084967501553,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-17",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.8828671011435438,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-20",
+      "strategy": 1.0802352894685041,
+      "benchmark": 1.9064105810917658,
+      "drawdown": -0.2342858576873561,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-21",
+      "strategy": 1.079156133335169,
+      "benchmark": 1.9571429434194278,
+      "drawdown": -0.23505080688047564,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2026-07-22",
+      "strategy": 1.1028580908210155,
+      "benchmark": 2.0001284924106457,
+      "drawdown": -0.21824990783158849,
+      "exposure": 1.0000000000000002,
+      "return": 0.021963418224381304
+    },
+    {
+      "date": "2026-07-23",
+      "strategy": 1.1682692109922779,
+      "benchmark": 2.1187572137882458,
+      "drawdown": -0.17188387973756947,
+      "exposure": 1.0,
+      "return": 0.05931055021101361
+    },
+    {
+      "date": "2026-07-24",
+      "strategy": 1.1448183741779272,
+      "benchmark": 2.0762270938447656,
+      "drawdown": -0.18850677437254226,
+      "exposure": 1.0,
+      "return": -0.020073144608880433
+    },
+    {
+      "date": "2026-07-27",
+      "strategy": 1.0449011650962459,
+      "benchmark": 1.8950185970946103,
+      "drawdown": -0.25933210363196324,
+      "exposure": 1.0000000000000002,
+      "return": -0.08727778251587726
+    },
+    {
+      "date": "2026-07-28",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.8301601699750658,
+      "drawdown": -0.2853973336699239,
+      "exposure": 1.0,
+      "return": -0.035191521282041505
+    },
+    {
+      "date": "2026-07-29",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.964129897146198,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-30",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.9363335442659328,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-31",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.9620034027375495,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-03",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.854918822695445,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-04",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.758618524379163,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-05",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.7449481204055262,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-06",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.8055535587077733,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-07",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.7920350803019698,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-10",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.9126381387498776,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-11",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.938308113106748,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-12",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.9335994634712053,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-13",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.899119660344074,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-14",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.922966875542708,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-17",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.9790153580067378,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-18",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.9846355610492794,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-19",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.988432889048331,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-20",
+      "strategy": 1.0081295035071314,
+      "benchmark": 2.0435699339906157,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-21",
+      "strategy": 1.0081295035071314,
+      "benchmark": 2.0450889578984395,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-24",
+      "strategy": 1.0081295035071314,
+      "benchmark": 2.008179040997501,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-25",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.9161317314985165,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-26",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.9343588595398626,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-27",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.97476236918944,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-28",
+      "strategy": 1.0081295035071314,
+      "benchmark": 1.9700537195538972,
+      "drawdown": -0.2853973336699239,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-31",
+      "strategy": 1.0071223811260053,
+      "benchmark": 2.030810967538724,
+      "drawdown": -0.28611122244747644,
+      "exposure": 0.0,
+      "return": -0.0009990009990010762
+    },
+    {
+      "date": "2026-09-01",
+      "strategy": 1.0610490255878282,
+      "benchmark": 2.141692991465134,
+      "drawdown": -0.24788585181345446,
+      "exposure": 1.0000000000000002,
+      "return": 0.053545274608564064
+    },
+    {
+      "date": "2026-09-02",
+      "strategy": 1.059989036551277,
+      "benchmark": 2.143971295556362,
+      "drawdown": -0.24863721459885557,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2026-09-03",
+      "strategy": 1.067048139103933,
+      "benchmark": 2.1582492859160776,
+      "drawdown": -0.2436334393016576,
+      "exposure": 1.0,
+      "return": 0.006659599589466714
+    },
+    {
+      "date": "2026-09-04",
+      "strategy": 1.0660719606959388,
+      "benchmark": 2.156274832960516,
+      "drawdown": -0.24432539374871998,
+      "exposure": 1.0000000000000002,
+      "return": -0.0009148400828606906
+    },
+    {
+      "date": "2026-09-08",
+      "strategy": 1.09663623384334,
+      "benchmark": 2.2180952122644126,
+      "drawdown": -0.2226602098516205,
+      "exposure": 1.0,
+      "return": 0.028669990651896127
+    },
+    {
+      "date": "2026-09-09",
+      "strategy": 1.126224328582747,
+      "benchmark": 2.277941138612748,
+      "drawdown": -0.20168698040158328,
+      "exposure": 1.0000000000000002,
+      "return": 0.02698077432268553
+    },
+    {
+      "date": "2026-09-10",
+      "strategy": 1.189380630847483,
+      "benchmark": 2.405683308125768,
+      "drawdown": -0.15691925776582827,
+      "exposure": 1.0,
+      "return": 0.05607790620560715
+    },
+    {
+      "date": "2026-09-11",
+      "strategy": 1.1632469174072186,
+      "benchmark": 2.352824335504203,
+      "drawdown": -0.17544388306500935,
+      "exposure": 1.0,
+      "return": -0.02197253996110815
+    },
+    {
+      "date": "2026-09-14",
+      "strategy": 1.1764639994933421,
+      "benchmark": 2.379557672950652,
+      "drawdown": -0.16607508464477694,
+      "exposure": 1.0000000000000002,
+      "return": 0.01136223263379299
+    },
+    {
+      "date": "2026-09-15",
+      "strategy": 1.2155142296993677,
+      "benchmark": 2.4585420489768244,
+      "drawdown": -0.13839471369149126,
+      "exposure": 1.0,
+      "return": 0.03319288156955347
+    },
+    {
+      "date": "2026-09-16",
+      "strategy": 1.1727842228510228,
+      "benchmark": 2.3721148266351273,
+      "drawdown": -0.16868345806401785,
+      "exposure": 1.0000000000000002,
+      "return": -0.035153851599839636
+    },
+    {
+      "date": "2026-09-17",
+      "strategy": 1.1663259071739522,
+      "benchmark": 2.359052009047569,
+      "drawdown": -0.1732613715034923,
+      "exposure": 1.0,
+      "return": -0.005506823464396904
+    },
+    {
+      "date": "2026-09-18",
+      "strategy": 1.1551365810577623,
+      "benchmark": 2.336420082506346,
+      "drawdown": -0.1811928150821689,
+      "exposure": 1.0,
+      "return": -0.00959365306675053
+    },
+    {
+      "date": "2026-09-21",
+      "strategy": 1.1126318549642145,
+      "benchmark": 2.2504485209828946,
+      "drawdown": -0.21132187141115466,
+      "exposure": 1.0000000000000002,
+      "return": -0.0367962774190963
+    },
+    {
+      "date": "2026-09-22",
+      "strategy": 1.0819924118396276,
+      "benchmark": 2.1884761002259108,
+      "drawdown": -0.23304033880599728,
+      "exposure": 1.0,
+      "return": -0.02753780865421329
+    },
+    {
+      "date": "2026-09-23",
+      "strategy": 1.1176633161353164,
+      "benchmark": 2.2606253322078924,
+      "drawdown": -0.20775536973066866,
+      "exposure": 1.0000000000000002,
+      "return": 0.032967795250098186
+    },
+    {
+      "date": "2026-09-24",
+      "strategy": 1.149654443788686,
+      "benchmark": 2.32533171787435,
+      "drawdown": -0.18507877407458095,
+      "exposure": 1.0,
+      "return": 0.028623224178090823
+    },
+    {
+      "date": "2026-09-25",
+      "strategy": 1.1139084841041913,
+      "benchmark": 2.2530306762097894,
+      "drawdown": -0.21041694542280853,
+      "exposure": 1.0000000000000002,
+      "return": -0.031092786078131374
+    },
+    {
+      "date": "2026-09-28",
+      "strategy": 1.1265246647263494,
+      "benchmark": 2.278548609113573,
+      "drawdown": -0.20147409008514383,
+      "exposure": 1.0,
+      "return": 0.011326047697988395
+    },
+    {
+      "date": "2026-09-29",
+      "strategy": 1.0765103891589312,
+      "benchmark": 2.1773879673644227,
+      "drawdown": -0.23692621657356516,
+      "exposure": 1.0,
+      "return": -0.04439696451703301
+    },
+    {
+      "date": "2026-09-30",
+      "strategy": 1.0938576948085885,
+      "benchmark": 2.2124752409923785,
+      "drawdown": -0.22462974987185413,
+      "exposure": 1.0000000000000002,
+      "return": 0.01611438758450867
+    },
+    {
+      "date": "2026-10-01",
+      "strategy": 1.126599834703535,
+      "benchmark": 2.27870065056666,
+      "drawdown": -0.2014208065874007,
+      "exposure": 1.0,
+      "return": 0.02993272347064857
+    },
+    {
+      "date": "2026-10-02",
+      "strategy": 1.106699156185544,
+      "benchmark": 2.238448834714408,
+      "drawdown": -0.21552720649064838,
+      "exposure": 1.0000000000000002,
+      "return": -0.017664371949094093
+    },
+    {
+      "date": "2026-10-05",
+      "strategy": 1.0813165695752363,
+      "benchmark": 2.1871091177711746,
+      "drawdown": -0.23351940293661988,
+      "exposure": 1.0,
+      "return": -0.0229353989008122
+    },
+    {
+      "date": "2026-10-06",
+      "strategy": 1.088225446761901,
+      "benchmark": 2.201083256995224,
+      "drawdown": -0.22862211341006378,
+      "exposure": 1.0000000000000002,
+      "return": 0.006389319632250423
+    },
+    {
+      "date": "2026-10-07",
+      "strategy": 1.0807157826996507,
+      "benchmark": 2.1858939449990173,
+      "drawdown": -0.2339452647943434,
+      "exposure": 1.0,
+      "return": -0.0069008348266399455
+    },
+    {
+      "date": "2026-10-08",
+      "strategy": 1.1082762360575036,
+      "benchmark": 2.241638692212635,
+      "drawdown": -0.21440930896101829,
+      "exposure": 1.0000000000000002,
+      "return": 0.025502036519727822
+    },
+    {
+      "date": "2026-10-09",
+      "strategy": 1.1129321911078172,
+      "benchmark": 2.2510559914837205,
+      "drawdown": -0.211108981094715,
+      "exposure": 1.0,
+      "return": 0.0042010781236963
+    },
+    {
+      "date": "2026-10-12",
+      "strategy": 1.1341845541545912,
+      "benchmark": 2.294041772245446,
+      "drawdown": -0.196044452930222,
+      "exposure": 1.0000000000000002,
+      "return": 0.019095829212756765
+    },
+    {
+      "date": "2026-10-13",
+      "strategy": 1.149654443788686,
+      "benchmark": 2.32533171787435,
+      "drawdown": -0.18507877407458095,
+      "exposure": 1.0,
+      "return": 0.013639658182107661
+    },
+    {
+      "date": "2026-10-14",
+      "strategy": 1.153183995065014,
+      "benchmark": 2.3324707130542075,
+      "drawdown": -0.1825768864259819,
+      "exposure": 1.0000000000000002,
+      "return": 0.0030700975370445693
+    },
+    {
+      "date": "2026-10-15",
+      "strategy": 1.1813452352984526,
+      "benchmark": 2.3894306330399826,
+      "drawdown": -0.16261506873493303,
+      "exposure": 1.0,
+      "return": 0.024420422373145234
+    },
+    {
+      "date": "2026-10-16",
+      "strategy": 1.2147632174577905,
+      "benchmark": 2.457023025069,
+      "drawdown": -0.138927061319857,
+      "exposure": 1.0000000000000002,
+      "return": 0.02828807461257954
+    },
+    {
+      "date": "2026-10-19",
+      "strategy": 1.2076290595163286,
+      "benchmark": 2.4425932250267053,
+      "drawdown": -0.14398403888995404,
+      "exposure": 1.0,
+      "return": -0.005872879454147384
+    },
+    {
+      "date": "2026-10-20",
+      "strategy": 1.2061271496215544,
+      "benchmark": 2.4395554089815654,
+      "drawdown": -0.1450486529218411,
+      "exposure": 1.0000000000000002,
+      "return": -0.0012436847912352667
+    },
+    {
+      "date": "2026-10-21",
+      "strategy": 1.2000443400652725,
+      "benchmark": 2.4272521033479193,
+      "drawdown": -0.14936039254713263,
+      "exposure": 1.0,
+      "return": -0.005043257303502857
+    },
+    {
+      "date": "2026-10-22",
+      "strategy": 1.2203954655044782,
+      "benchmark": 2.4684150090661547,
+      "drawdown": -0.13493469778164724,
+      "exposure": 1.0000000000000002,
+      "return": 0.016958644576498427
+    },
+    {
+      "date": "2026-10-23",
+      "strategy": 1.2731133393062215,
+      "benchmark": 2.5750440441752676,
+      "drawdown": -0.09756615232104737,
+      "exposure": 1.0,
+      "return": 0.043197369452656176
+    },
+    {
+      "date": "2026-10-26",
+      "strategy": 1.2483314249831197,
+      "benchmark": 2.524919268233684,
+      "drawdown": -0.11513256813413919,
+      "exposure": 1.0000000000000002,
+      "return": -0.019465599454489002
+    },
+    {
+      "date": "2026-10-27",
+      "strategy": 1.2306837831898594,
+      "benchmark": 2.489224524104903,
+      "drawdown": -0.12764192515229,
+      "exposure": 1.0,
+      "return": -0.014136984329701452
+    },
+    {
+      "date": "2026-10-28",
+      "strategy": 1.2508847978514535,
+      "benchmark": 2.53008381045798,
+      "drawdown": -0.11332263493260253,
+      "exposure": 1.0000000000000002,
+      "return": 0.016414464005720664
+    },
+    {
+      "date": "2026-10-29",
+      "strategy": 1.2630504169640173,
+      "benchmark": 2.5546904217252724,
+      "drawdown": -0.1046991556820196,
+      "exposure": 1.0,
+      "return": 0.009725611130185552
+    },
+    {
+      "date": "2026-10-30",
+      "strategy": 1.2678565973803224,
+      "benchmark": 2.564411572132024,
+      "drawdown": -0.1012923420450742,
+      "exposure": 1.0,
+      "return": 0.0038052166024042933
+    },
+    {
+      "date": "2026-11-02",
+      "strategy": 1.1780409647769217,
+      "benchmark": 2.3827472986783693,
+      "drawdown": -0.16495726833999114,
+      "exposure": 1.0,
+      "return": -0.0708405294328871
+    },
+    {
+      "date": "2026-11-03",
+      "strategy": 1.187803550975523,
+      "benchmark": 2.4024934506275395,
+      "drawdown": -0.1580371552954587,
+      "exposure": 1.0000000000000002,
+      "return": 0.00828713643285739
+    },
+    {
+      "date": "2026-11-04",
+      "strategy": 1.091980278793026,
+      "benchmark": 2.208677912993326,
+      "drawdown": -0.22596053771792401,
+      "exposure": 1.0,
+      "return": -0.08067266014131624
+    },
+    {
+      "date": "2026-11-05",
+      "strategy": 1.1130073610850029,
+      "benchmark": 2.2512080329368063,
+      "drawdown": -0.21105569759697196,
+      "exposure": 1.0,
+      "return": 0.019255917620800256
+    },
+    {
+      "date": "2026-11-06",
+      "strategy": 1.114509270979777,
+      "benchmark": 2.254245848981946,
+      "drawdown": -0.20999108356508478,
+      "exposure": 1.0000000000000002,
+      "return": 0.0013494159583185006
+    },
+    {
+      "date": "2026-11-09",
+      "strategy": 1.0713287026218379,
+      "benchmark": 2.166907305003758,
+      "drawdown": -0.24059920402469304,
+      "exposure": 1.0,
+      "return": -0.03874401898871482
+    },
+    {
+      "date": "2026-11-10",
+      "strategy": 1.062241958687628,
+      "benchmark": 2.1485281355093244,
+      "drawdown": -0.24704025293860288,
+      "exposure": 1.0000000000000002,
+      "return": -0.008481751596846165
+    },
+    {
+      "date": "2026-11-11",
+      "strategy": 1.0623921840536192,
+      "benchmark": 2.1488319866449905,
+      "drawdown": -0.246933767167961,
+      "exposure": 1.0,
+      "return": 0.0001414229260694455
+    },
+    {
+      "date": "2026-11-12",
+      "strategy": 1.0969366845753226,
+      "benchmark": 2.218702914535744,
+      "drawdown": -0.22244723831033664,
+      "exposure": 1.0,
+      "return": 0.03251577057908772
+    },
+    {
+      "date": "2026-11-13",
+      "strategy": 1.0921636510250703,
+      "benchmark": 2.2090488081519997,
+      "drawdown": -0.22583055611784797,
+      "exposure": 1.0,
+      "return": -0.00435123887948019
+    }
+  ],
+  "trades": [
+    {
+      "entry_date": "2024-02-12",
+      "exit_date": "2024-02-15",
+      "entry_price": 72.11000061035156,
+      "exit_price": 72.83999633789062,
+      "net_return": 0.00810513471605212,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-02-16",
+      "exit_date": "2024-02-26",
+      "entry_price": 73.41000366210938,
+      "exit_price": 72.79000091552734,
+      "net_return": -0.01042688020244431,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-02-27",
+      "exit_date": "2024-06-03",
+      "entry_price": 73.8499984741211,
+      "exit_price": 71.83000183105469,
+      "net_return": -0.029296048408172792,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-06-11",
+      "exit_date": "2024-06-14",
+      "entry_price": 75.51000213623047,
+      "exit_price": 76.08000183105469,
+      "net_return": 0.005535580550026786,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-06-20",
+      "exit_date": "2024-07-08",
+      "entry_price": 79.41000366210938,
+      "exit_price": 80.41999816894531,
+      "net_return": 0.010695317348541344,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-07-19",
+      "exit_date": "2024-07-22",
+      "entry_price": 78.0,
+      "exit_price": 77.62000274658203,
+      "net_return": -0.006860027871673724,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-08-02",
+      "exit_date": "2024-08-05",
+      "entry_price": 73.38999938964844,
+      "exit_price": 73.22000122070312,
+      "net_return": -0.004309740840828913,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-08-13",
+      "exit_date": "2024-08-20",
+      "entry_price": 77.63999938964844,
+      "exit_price": 73.83000183105469,
+      "net_return": -0.050972566729467594,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-08-26",
+      "exit_date": "2024-08-28",
+      "entry_price": 77.83000183105469,
+      "exit_price": 75.4800033569336,
+      "net_return": -0.03213166661701916,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-08-30",
+      "exit_date": "2024-09-03",
+      "entry_price": 74.33999633789062,
+      "exit_price": 71.08999633789062,
+      "net_return": -0.04562870758432036,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-11-05",
+      "exit_date": "2024-11-07",
+      "entry_price": 74.7300033569336,
+      "exit_price": 74.66000366210938,
+      "net_return": -0.002932831814085657,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-12-04",
+      "exit_date": "2024-12-20",
+      "entry_price": 71.87999725341797,
+      "exit_price": 73.0999984741211,
+      "net_return": 0.014940836376379218,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-12-23",
+      "exit_date": "2024-12-24",
+      "entry_price": 73.05999755859375,
+      "exit_price": 73.6500015258789,
+      "net_return": 0.006061471829758025,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2024-12-26",
+      "exit_date": "2025-01-08",
+      "entry_price": 73.12999725341797,
+      "exit_price": 77.30000305175781,
+      "net_return": 0.05490989181746753,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2025-01-10",
+      "exit_date": "2025-03-06",
+      "entry_price": 80.63999938964844,
+      "exit_price": 71.12999725341797,
+      "net_return": -0.11969394947812573,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2025-03-07",
+      "exit_date": "2025-03-10",
+      "entry_price": 72.08999633789062,
+      "exit_price": 70.88999938964844,
+      "net_return": -0.018610561476140597,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2025-03-13",
+      "exit_date": "2025-03-18",
+      "entry_price": 71.62000274658203,
+      "exit_price": 72.20999908447266,
+      "net_return": 0.006223409639081412,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2025-03-21",
+      "exit_date": "2025-04-04",
+      "entry_price": 73.79000091552734,
+      "exit_price": 67.91999816894531,
+      "net_return": -0.08138917148819436,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2025-06-10",
+      "exit_date": "2025-06-25",
+      "entry_price": 71.5999984741211,
+      "exit_price": 73.30999755859375,
+      "net_return": 0.02183694966756433,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2025-07-08",
+      "exit_date": "2025-09-12",
+      "entry_price": 76.95999908447266,
+      "exit_price": 73.30999755859375,
+      "net_return": -0.04933049756546137,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2025-09-24",
+      "exit_date": "2025-10-01",
+      "entry_price": 76.38999938964844,
+      "exit_price": 73.13999938964844,
+      "net_return": -0.04445783338197773,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2025-11-12",
+      "exit_date": "2025-11-13",
+      "entry_price": 69.79000091552734,
+      "exit_price": 69.8499984741211,
+      "net_return": -0.0011400326246489012,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2026-01-13",
+      "exit_date": "2026-06-17",
+      "entry_price": 73.4800033569336,
+      "exit_price": 114.2300033569336,
+      "net_return": 0.5514666082447508,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2026-06-24",
+      "exit_date": "2026-06-25",
+      "entry_price": 106.29000091552734,
+      "exit_price": 109.30999755859375,
+      "net_return": 0.026358030157223267,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2026-07-21",
+      "exit_date": "2026-07-28",
+      "entry_price": 128.85000610351562,
+      "exit_price": 120.48999786376953,
+      "net_return": -0.06675007441837033,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2026-08-31",
+      "exit_date": "2026-09-01",
+      "entry_price": 133.6999969482422,
+      "exit_price": 141.0,
+      "net_return": 0.052492781826737334,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2026-09-02",
+      "exit_date": "2026-11-13",
+      "entry_price": 141.14999389648438,
+      "exit_price": 145.5800018310547,
+      "net_return": 0.02932439942631726,
+      "forced_exit": true
+    }
+  ],
+  "turnover": 53.97302697302703,
+  "cost_drag_sum": 0.053973026973027034,
+  "period": "test",
+  "start": "2024-01-02",
+  "end": "2026-11-13",
+  "observations": 721,
+  "fee_bps": 5,
+  "slippage_bps": 5,
+  "latest_target": 1.0,
+  "assumptions": [
+    "Signal at t close; execution at t+1 close; first holding return at t+2.",
+    "Long/cash, no leverage. Uninvested cash earns zero. Sharpe risk-free reference is zero.",
+    "Both-side fees and slippage; final-close liquidation; proportional cost approximation.",
+    "Development before 2023; validation in 2023; reserved test from 2024. Fixed parameters, no optimization. Repeated inspection compromises test independence.",
+    "Current provider vintage. Revisions, survivorship and corporate-action adjustment bias may remain.",
+    "Volatility and rate-aware rules rebalance daily. Per-trade win rate has no consistent definition and shows N/A.",
+    "Rate-aware rule uses Yahoo ^IRX 13-week Treasury-bill yield proxy (percent), strictly before each signal date, carried at most seven days.",
+    "Rate-aware exposure = trend-filtered 12% volatility-target weight / (1 + 5 × max(short yield,0)/100). Fixed educational coefficient, not an optimized rule or the federal funds rate."
+  ],
+  "source": {
+    "symbol": "USO",
+    "name": "Oil ETF · PROXY",
+    "category": "Commodity proxy",
+    "provider": "Yahoo Finance chart API",
+    "url": "https://finance.yahoo.com/quote/USO/history/",
+    "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=10y&interval=1d",
+    "frequency": "daily",
+    "currency": "USD",
+    "timezone": "America/New_York",
+    "adjustment": "Provider-adjusted close (dividends/splits)",
+    "caveat": "May be delayed or revised. Personal research only; not exchange real-time quotes. GLD/USO are ETFs, not futures P&L.",
+    "sha256": "b378b670148265a6c8a39a036eea2f6ff8025a9d26aae5025ed0d527d8e6d2bc",
+    "retrieved_at": "2026-11-14T13:30:33.330911+00:00",
+    "cache_status": "cached"
+  }
+}

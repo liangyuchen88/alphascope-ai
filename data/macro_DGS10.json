@@ -1,0 +1,30 @@
+{
+  "series": "DGS10",
+  "provider": "FRED / Federal Reserve H.15",
+  "url": "https://fred.stlouisfed.org/series/DGS10",
+  "frequency": "daily",
+  "units": "percent",
+  "rows": [
+    {
+      "date": "2026-11-06",
+      "value": 4.86
+    },
+    {
+      "date": "2026-11-09",
+      "value": 4.88
+    },
+    {
+      "date": "2026-11-10",
+      "value": 4.98
+    },
+    {
+      "date": "2026-11-12",
+      "value": 5.1
+    }
+  ],
+  "retrieved_at": "2026-11-14T13:29:32.847552+00:00",
+  "ingestion": "official_page_snapshot_verified_with_web_reader",
+  "source_updated_at": "2026-11-13T15:16:00-06:00",
+  "sha256": "a5d55d895f07333e9ddb13b38422e74f8dfea652be7ab3943aec5c200c54c157",
+  "caveat": "Official-page observation snapshot, not an automatic live feed. CSV endpoint timed out; verified with a web reader on 2026-11-14. Context only, never historical signals. Stale after five days."
+}

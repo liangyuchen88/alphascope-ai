@@ -1,0 +1,5902 @@
+{
+  "fills": [
+    {
+      "date": "2025-03-12",
+      "signal_date": "2025-03-11",
+      "side": "buy",
+      "adjusted_price": 548.1022338867188,
+      "normalized_notional": 0.9990009990009991,
+      "target_weight": 1.0,
+      "normalized_fee": 0.0004995004995004995,
+      "normalized_slippage": 0.0004995004995004995,
+      "normalized_total_cost": 0.0009990009990009992,
+      "nav_before_cost": 1.0,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2025-05-02",
+      "signal_date": "2025-05-01",
+      "side": "sell",
+      "adjusted_price": 557.5122680664062,
+      "normalized_notional": 1.0161522400741825,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0005080761200370913,
+      "normalized_slippage": 0.0005080761200370913,
+      "normalized_total_cost": 0.0010161522400741825,
+      "nav_before_cost": 1.0161522400741825,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-03-30",
+      "signal_date": "2026-03-27",
+      "side": "buy",
+      "adjusted_price": 628.78466796875,
+      "normalized_notional": 1.01412196586824,
+      "target_weight": 1.0,
+      "normalized_fee": 0.00050706098293412,
+      "normalized_slippage": 0.00050706098293412,
+      "normalized_total_cost": 0.0010141219658682402,
+      "nav_before_cost": 1.0151360878341082,
+      "terminal_liquidation": false
+    },
+    {
+      "date": "2026-04-09",
+      "signal_date": "2026-04-08",
+      "side": "sell",
+      "adjusted_price": 676.4830322265625,
+      "normalized_notional": 1.0910512572361337,
+      "target_weight": 0.0,
+      "normalized_fee": 0.0005455256286180669,
+      "normalized_slippage": 0.0005455256286180669,
+      "normalized_total_cost": 0.0010910512572361337,
+      "nav_before_cost": 1.0910512572361335,
+      "terminal_liquidation": false
+    }
+  ],
+  "rate_alignment": [],
+  "metrics": {
+    "total_return": 0.08996020597889776,
+    "cagr": 0.030565416253860223,
+    "annual_return": 0.034518312951604145,
+    "volatility": 0.09483767799744573,
+    "sharpe": 0.3639725653398413,
+    "sortino": 0.5852483517511775,
+    "max_drawdown": -0.1372467423300694,
+    "win_rate": 1.0,
+    "trade_count": 2
+  },
+  "benchmark": {
+    "total_return": 0.6449807123004241,
+    "cagr": 0.19001202823422503,
+    "annual_return": 0.18622833487817386,
+    "volatility": 0.1567294748910606,
+    "sharpe": 1.1882151395429437,
+    "sortino": 1.753078296937279,
+    "max_drawdown": -0.18755229084676694,
+    "win_rate": null,
+    "trade_count": 0
+  },
+  "curve": [
+    {
+      "date": "2024-01-02",
+      "strategy": 1.0,
+      "benchmark": 0.9990009990009991,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-03",
+      "strategy": 1.0,
+      "benchmark": 0.9908425344853079,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-04",
+      "strategy": 1.0,
+      "benchmark": 0.9876508912083917,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-05",
+      "strategy": 1.0,
+      "benchmark": 0.9890036742039798,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-08",
+      "strategy": 1.0,
+      "benchmark": 1.0031226306274037,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-09",
+      "strategy": 1.0,
+      "benchmark": 1.0016007830640195,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-10",
+      "strategy": 1.0,
+      "benchmark": 1.0072653120581514,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-11",
+      "strategy": 1.0,
+      "benchmark": 1.006821467607708,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-12",
+      "strategy": 1.0,
+      "benchmark": 1.0075189755231504,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-16",
+      "strategy": 1.0,
+      "benchmark": 1.0038200053162363,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-17",
+      "strategy": 1.0,
+      "benchmark": 0.9982402750592217,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-18",
+      "strategy": 1.0,
+      "benchmark": 1.0071173639080035,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-19",
+      "strategy": 1.0,
+      "benchmark": 1.0196722399327467,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-22",
+      "strategy": 1.0,
+      "benchmark": 1.0218281129320188,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-23",
+      "strategy": 1.0,
+      "benchmark": 1.0248082589659275,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-24",
+      "strategy": 1.0,
+      "benchmark": 1.0259286281407747,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-25",
+      "strategy": 1.0,
+      "benchmark": 1.031508358397789,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-26",
+      "strategy": 1.0,
+      "benchmark": 1.0301980746907171,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-29",
+      "strategy": 1.0,
+      "benchmark": 1.0383564725931034,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-30",
+      "strategy": 1.0,
+      "benchmark": 1.0375534492027245,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-01-31",
+      "strategy": 1.0,
+      "benchmark": 1.0206232780865783,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-01",
+      "strategy": 1.0,
+      "benchmark": 1.0339814439549198,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-02",
+      "strategy": 1.0,
+      "benchmark": 1.044866457652826,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-05",
+      "strategy": 1.0,
+      "benchmark": 1.041061971970975,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-06",
+      "strategy": 1.0,
+      "benchmark": 1.0440845506800953,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-07",
+      "strategy": 1.0,
+      "benchmark": 1.052792641574386,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-08",
+      "strategy": 1.0,
+      "benchmark": 1.0532576690557824,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-09",
+      "strategy": 1.0,
+      "benchmark": 1.059344726242795,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-12",
+      "strategy": 1.0,
+      "benchmark": 1.0588798319880084,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-13",
+      "strategy": 1.0,
+      "benchmark": 1.044295848083188,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-14",
+      "strategy": 1.0,
+      "benchmark": 1.0537861124034291,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-15",
+      "strategy": 1.0,
+      "benchmark": 1.0610568880182336,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-16",
+      "strategy": 1.0,
+      "benchmark": 1.0557727876082952,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-20",
+      "strategy": 1.0,
+      "benchmark": 1.0499603770773203,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-21",
+      "strategy": 1.0,
+      "benchmark": 1.0509114152311518,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-22",
+      "strategy": 1.0,
+      "benchmark": 1.0726605926625352,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-23",
+      "strategy": 1.0,
+      "benchmark": 1.073400400026579,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-26",
+      "strategy": 1.0,
+      "benchmark": 1.0694690826122288,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-27",
+      "strategy": 1.0,
+      "benchmark": 1.071455757817095,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-28",
+      "strategy": 1.0,
+      "benchmark": 1.070039625568562,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-02-29",
+      "strategy": 1.0,
+      "benchmark": 1.073886543925624,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-01",
+      "strategy": 1.0,
+      "benchmark": 1.0839684010065413,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-04",
+      "strategy": 1.0,
+      "benchmark": 1.0828059322230073,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-05",
+      "strategy": 1.0,
+      "benchmark": 1.0719843343913509,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-06",
+      "strategy": 1.0,
+      "benchmark": 1.0774161831115225,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-07",
+      "strategy": 1.0,
+      "benchmark": 1.0881112156638988,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-08",
+      "strategy": 1.0,
+      "benchmark": 1.0815800475732233,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-11",
+      "strategy": 1.0,
+      "benchmark": 1.0806499926104303,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-12",
+      "strategy": 1.0,
+      "benchmark": 1.0922751467389045,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-13",
+      "strategy": 1.0,
+      "benchmark": 1.0905629183501613,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-14",
+      "strategy": 1.0,
+      "benchmark": 1.0884070453508894,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-15",
+      "strategy": 1.0,
+      "benchmark": 1.0809334322227124,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-18",
+      "strategy": 1.0,
+      "benchmark": 1.0873575527324388,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-19",
+      "strategy": 1.0,
+      "benchmark": 1.0934001122317885,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-20",
+      "strategy": 1.0,
+      "benchmark": 1.1035134774059159,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-21",
+      "strategy": 1.0,
+      "benchmark": 1.1071602893951058,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-22",
+      "strategy": 1.0,
+      "benchmark": 1.1050610377049854,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-25",
+      "strategy": 1.0,
+      "benchmark": 1.102008216555448,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-26",
+      "strategy": 1.0,
+      "benchmark": 1.0999726471847968,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-27",
+      "strategy": 1.0,
+      "benchmark": 1.1092166421168808,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-03-28",
+      "strategy": 1.0,
+      "benchmark": 1.1090046119674344,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-01",
+      "strategy": 1.0,
+      "benchmark": 1.1070754906579883,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-02",
+      "strategy": 1.0,
+      "benchmark": 1.1000365293441807,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-03",
+      "strategy": 1.0,
+      "benchmark": 1.1012446282415604,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-04",
+      "strategy": 1.0,
+      "benchmark": 1.0878027960622845,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-05",
+      "strategy": 1.0,
+      "benchmark": 1.0991668926489175,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-08",
+      "strategy": 1.0,
+      "benchmark": 1.099781600226389,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-09",
+      "strategy": 1.0,
+      "benchmark": 1.101053847736372,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-10",
+      "strategy": 1.0,
+      "benchmark": 1.0900288794849042,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-11",
+      "strategy": 1.0,
+      "benchmark": 1.0982552895715774,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-12",
+      "strategy": 1.0,
+      "benchmark": 1.0830959665524724,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-15",
+      "strategy": 1.0,
+      "benchmark": 1.0695269029608676,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-16",
+      "strategy": 1.0,
+      "benchmark": 1.067576132327334,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-17",
+      "strategy": 1.0,
+      "benchmark": 1.061258126812288,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-18",
+      "strategy": 1.0,
+      "benchmark": 1.0590742762249648,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-19",
+      "strategy": 1.0,
+      "benchmark": 1.0498304145194906,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-22",
+      "strategy": 1.0,
+      "benchmark": 1.0594983365238575,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-23",
+      "strategy": 1.0,
+      "benchmark": 1.0720710649143095,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-24",
+      "strategy": 1.0,
+      "benchmark": 1.0715621392649943,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-25",
+      "strategy": 1.0,
+      "benchmark": 1.0674913335902165,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-26",
+      "strategy": 1.0,
+      "benchmark": 1.077604831990954,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-29",
+      "strategy": 1.0,
+      "benchmark": 1.0814210416144645,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-04-30",
+      "strategy": 1.0,
+      "benchmark": 1.0642899647707875,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-01",
+      "strategy": 1.0,
+      "benchmark": 1.0608341331267006,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-02",
+      "strategy": 1.0,
+      "benchmark": 1.0707565845690301,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-03",
+      "strategy": 1.0,
+      "benchmark": 1.084028885887376,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-06",
+      "strategy": 1.0,
+      "benchmark": 1.0952234516130788,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-07",
+      "strategy": 1.0,
+      "benchmark": 1.0964319501902877,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-08",
+      "strategy": 1.0,
+      "benchmark": 1.0965379319583584,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-09",
+      "strategy": 1.0,
+      "benchmark": 1.102856137313319,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-10",
+      "strategy": 1.0,
+      "benchmark": 1.1042766660399743,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-13",
+      "strategy": 1.0,
+      "benchmark": 1.1044250138699514,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-14",
+      "strategy": 1.0,
+      "benchmark": 1.109492221359187,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-15",
+      "strategy": 1.0,
+      "benchmark": 1.1232311488782465,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-16",
+      "strategy": 1.0,
+      "benchmark": 1.1209200668785944,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-17",
+      "strategy": 1.0,
+      "benchmark": 1.122531442723743,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-20",
+      "strategy": 1.0,
+      "benchmark": 1.1238245401981548,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-21",
+      "strategy": 1.0,
+      "benchmark": 1.1265809987542628,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-22",
+      "strategy": 1.0,
+      "benchmark": 1.1233371972596222,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-23",
+      "strategy": 1.0,
+      "benchmark": 1.1151321700438168,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-24",
+      "strategy": 1.0,
+      "benchmark": 1.1225102596927898,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-28",
+      "strategy": 1.0,
+      "benchmark": 1.123294564744496,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-29",
+      "strategy": 1.0,
+      "benchmark": 1.1154287990904659,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-30",
+      "strategy": 1.0,
+      "benchmark": 1.10802939318393,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-05-31",
+      "strategy": 1.0,
+      "benchmark": 1.1181213754871897,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-03",
+      "strategy": 1.0,
+      "benchmark": 1.1190330451778348,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-04",
+      "strategy": 1.0,
+      "benchmark": 1.1202843094967794,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-05",
+      "strategy": 1.0,
+      "benchmark": 1.1335988436504216,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-06",
+      "strategy": 1.0,
+      "benchmark": 1.1335775273928588,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-07",
+      "strategy": 1.0,
+      "benchmark": 1.1321994313414145,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-10",
+      "strategy": 1.0,
+      "benchmark": 1.1356976956607128,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-11",
+      "strategy": 1.0,
+      "benchmark": 1.1384329711858674,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-12",
+      "strategy": 1.0,
+      "benchmark": 1.1477826814328027,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-13",
+      "strategy": 1.0,
+      "benchmark": 1.1500938966590646,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-14",
+      "strategy": 1.0,
+      "benchmark": 1.1507936028135681,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-17",
+      "strategy": 1.0,
+      "benchmark": 1.159952532555315,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-18",
+      "strategy": 1.0,
+      "benchmark": 1.1628996383900014,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-20",
+      "strategy": 1.0,
+      "benchmark": 1.1597407022457833,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-21",
+      "strategy": 1.0,
+      "benchmark": 1.1581858144831765,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-24",
+      "strategy": 1.0,
+      "benchmark": 1.1544209637177318,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-25",
+      "strategy": 1.0,
+      "benchmark": 1.1588663360058733,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-26",
+      "strategy": 1.0,
+      "benchmark": 1.1603127773081285,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-27",
+      "strategy": 1.0,
+      "benchmark": 1.1621419786602485,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-06-28",
+      "strategy": 1.0,
+      "benchmark": 1.1575689752799487,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-01",
+      "strategy": 1.0,
+      "benchmark": 1.159951333515827,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-02",
+      "strategy": 1.0,
+      "benchmark": 1.1677576134885956,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-03",
+      "strategy": 1.0,
+      "benchmark": 1.172968772329686,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-05",
+      "strategy": 1.0,
+      "benchmark": 1.1797325540810168,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-08",
+      "strategy": 1.0,
+      "benchmark": 1.1810939968062402,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-09",
+      "strategy": 1.0,
+      "benchmark": 1.1822424101824436,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-10",
+      "strategy": 1.0,
+      "benchmark": 1.1939413052394248,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-11",
+      "strategy": 1.0,
+      "benchmark": 1.1836463521961829,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-12",
+      "strategy": 1.0,
+      "benchmark": 1.191112371407603,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-15",
+      "strategy": 1.0,
+      "benchmark": 1.1943877476087588,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-16",
+      "strategy": 1.0,
+      "benchmark": 1.2014708735437045,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-17",
+      "strategy": 1.0,
+      "benchmark": 1.184624768418322,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-18",
+      "strategy": 1.0,
+      "benchmark": 1.1755209944930192,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-19",
+      "strategy": 1.0,
+      "benchmark": 1.1677149809734702,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-22",
+      "strategy": 1.0,
+      "benchmark": 1.1797538703385801,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-23",
+      "strategy": 1.0,
+      "benchmark": 1.177903485955507,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-24",
+      "strategy": 1.0,
+      "benchmark": 1.1512091366094361,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-25",
+      "strategy": 1.0,
+      "benchmark": 1.1452108749578342,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-26",
+      "strategy": 1.0,
+      "benchmark": 1.158036733906846,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-29",
+      "strategy": 1.0,
+      "benchmark": 1.1587176551093723,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-30",
+      "strategy": 1.0,
+      "benchmark": 1.1528470245499287,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-07-31",
+      "strategy": 1.0,
+      "benchmark": 1.1715861465735102,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-01",
+      "strategy": 1.0,
+      "benchmark": 1.1549953036324438,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-02",
+      "strategy": 1.0,
+      "benchmark": 1.1334910633231197,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-05",
+      "strategy": 1.0,
+      "benchmark": 1.100479707661576,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-06",
+      "strategy": 1.0,
+      "benchmark": 1.1106256467417919,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-07",
+      "strategy": 1.0,
+      "benchmark": 1.1032021934321927,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-08",
+      "strategy": 1.0,
+      "benchmark": 1.12870516382041,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-09",
+      "strategy": 1.0,
+      "benchmark": 1.1336823767347468,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-12",
+      "strategy": 1.0,
+      "benchmark": 1.134278166133631,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-13",
+      "strategy": 1.0,
+      "benchmark": 1.1529321563535704,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-14",
+      "strategy": 1.0,
+      "benchmark": 1.1565692428002472,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-15",
+      "strategy": 1.0,
+      "benchmark": 1.1763930958805628,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-16",
+      "strategy": 1.0,
+      "benchmark": 1.1790307163007572,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-19",
+      "strategy": 1.0,
+      "benchmark": 1.1903038191129185,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-20",
+      "strategy": 1.0,
+      "benchmark": 1.1883683029262035,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-21",
+      "strategy": 1.0,
+      "benchmark": 1.1924519649688239,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-22",
+      "strategy": 1.0,
+      "benchmark": 1.1830933285390342,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-23",
+      "strategy": 1.0,
+      "benchmark": 1.1956640585303395,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-26",
+      "strategy": 1.0,
+      "benchmark": 1.1928138084409547,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-27",
+      "strategy": 1.0,
+      "benchmark": 1.1944514299282276,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-28",
+      "strategy": 1.0,
+      "benchmark": 1.1875175177962225,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-29",
+      "strategy": 1.0,
+      "benchmark": 1.187623566177598,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-08-30",
+      "strategy": 1.0,
+      "benchmark": 1.198960750989058,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-03",
+      "strategy": 1.0,
+      "benchmark": 1.1742873160865637,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-04",
+      "strategy": 1.0,
+      "benchmark": 1.1718840412729519,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-05",
+      "strategy": 1.0,
+      "benchmark": 1.1690336579569574,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-06",
+      "strategy": 1.0,
+      "benchmark": 1.1493586189997531,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-09",
+      "strategy": 1.0,
+      "benchmark": 1.1622269772372809,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-10",
+      "strategy": 1.0,
+      "benchmark": 1.1672894551818696,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-11",
+      "strategy": 1.0,
+      "benchmark": 1.1792646622275103,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-12",
+      "strategy": 1.0,
+      "benchmark": 1.1891980382518408,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-13",
+      "strategy": 1.0,
+      "benchmark": 1.1954087963460232,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-16",
+      "strategy": 1.0,
+      "benchmark": 1.1971741821520638,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-17",
+      "strategy": 1.0,
+      "benchmark": 1.1976633902631333,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-18",
+      "strategy": 1.0,
+      "benchmark": 1.1941114356200984,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-19",
+      "strategy": 1.0,
+      "benchmark": 1.2144883123575625,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-20",
+      "strategy": 1.0,
+      "benchmark": 1.2123887942142226,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-23",
+      "strategy": 1.0,
+      "benchmark": 1.2154183673203556,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-24",
+      "strategy": 1.0,
+      "benchmark": 1.2188959815151394,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-25",
+      "strategy": 1.0,
+      "benchmark": 1.2162076017566235,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-26",
+      "strategy": 1.0,
+      "benchmark": 1.2210296056705803,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-27",
+      "strategy": 1.0,
+      "benchmark": 1.2192586243469292,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-09-30",
+      "strategy": 1.0,
+      "benchmark": 1.2241445770335748,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-01",
+      "strategy": 1.0,
+      "benchmark": 1.2131780286504905,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-02",
+      "strategy": 1.0,
+      "benchmark": 1.2136904181916597,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-03",
+      "strategy": 1.0,
+      "benchmark": 1.2114713957793575,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-04",
+      "strategy": 1.0,
+      "benchmark": 1.222480443450958,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-07",
+      "strategy": 1.0,
+      "benchmark": 1.211428630037622,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-08",
+      "strategy": 1.0,
+      "benchmark": 1.2228857187978734,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-09",
+      "strategy": 1.0,
+      "benchmark": 1.2313560001937276,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-10",
+      "strategy": 1.0,
+      "benchmark": 1.2292011930073337,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-11",
+      "strategy": 1.0,
+      "benchmark": 1.2365619631970368,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-14",
+      "strategy": 1.0,
+      "benchmark": 1.246674928691335,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-15",
+      "strategy": 1.0,
+      "benchmark": 1.2369885548015151,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-16",
+      "strategy": 1.0,
+      "benchmark": 1.2423651810919378,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-17",
+      "strategy": 1.0,
+      "benchmark": 1.2424716291531428,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-18",
+      "strategy": 1.0,
+      "benchmark": 1.247250867325364,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-21",
+      "strategy": 1.0,
+      "benchmark": 1.2452027746533947,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-22",
+      "strategy": 1.0,
+      "benchmark": 1.2445413045358946,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-23",
+      "strategy": 1.0,
+      "benchmark": 1.233169347579285,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-24",
+      "strategy": 1.0,
+      "benchmark": 1.2358364110802385,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-25",
+      "strategy": 1.0,
+      "benchmark": 1.2354095530225406,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-28",
+      "strategy": 1.0,
+      "benchmark": 1.2392288934713804,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-29",
+      "strategy": 1.0,
+      "benchmark": 1.2412344868548335,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-30",
+      "strategy": 1.0,
+      "benchmark": 1.2374792284052922,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-10-31",
+      "strategy": 1.0,
+      "benchmark": 1.2132207943922262,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-01",
+      "strategy": 1.0,
+      "benchmark": 1.2183410926854545,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-04",
+      "strategy": 1.0,
+      "benchmark": 1.2157171946060663,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-05",
+      "strategy": 1.0,
+      "benchmark": 1.23041715227469,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-06",
+      "strategy": 1.0,
+      "benchmark": 1.2610121103015597,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-07",
+      "strategy": 1.0,
+      "benchmark": 1.2707624329640683,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-08",
+      "strategy": 1.0,
+      "benchmark": 1.2762670900264783,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-11",
+      "strategy": 1.0,
+      "benchmark": 1.2774833157470538,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-12",
+      "strategy": 1.0,
+      "benchmark": 1.2735151611751026,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-13",
+      "strategy": 1.0,
+      "benchmark": 1.2741335990976475,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-14",
+      "strategy": 1.0,
+      "benchmark": 1.2659408287299407,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-15",
+      "strategy": 1.0,
+      "benchmark": 1.2497259512816408,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-18",
+      "strategy": 1.0,
+      "benchmark": 1.2548463828014786,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-19",
+      "strategy": 1.0,
+      "benchmark": 1.259433374975804,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-20",
+      "strategy": 1.0,
+      "benchmark": 1.259860099806892,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-21",
+      "strategy": 1.0,
+      "benchmark": 1.2666234818783937,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-22",
+      "strategy": 1.0,
+      "benchmark": 1.2705492703884385,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-25",
+      "strategy": 1.0,
+      "benchmark": 1.2748591512144456,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-26",
+      "strategy": 1.0,
+      "benchmark": 1.281515685544913,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-27",
+      "strategy": 1.0,
+      "benchmark": 1.277632662776604,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-11-29",
+      "strategy": 1.0,
+      "benchmark": 1.2855693716003356,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-02",
+      "strategy": 1.0,
+      "benchmark": 1.2878737922694992,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-03",
+      "strategy": 1.0,
+      "benchmark": 1.288471047161091,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-04",
+      "strategy": 1.0,
+      "benchmark": 1.2964717047575116,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-05",
+      "strategy": 1.0,
+      "benchmark": 1.2943382138286808,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-06",
+      "strategy": 1.0,
+      "benchmark": 1.296791981527395,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-09",
+      "strategy": 1.0,
+      "benchmark": 1.290113997712755,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-10",
+      "strategy": 1.0,
+      "benchmark": 1.2861029441724583,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-11",
+      "strategy": 1.0,
+      "benchmark": 1.2960451131530335,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-12",
+      "strategy": 1.0,
+      "benchmark": 1.2893671293383933,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-13",
+      "strategy": 1.0,
+      "benchmark": 1.2891110677944184,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-16",
+      "strategy": 1.0,
+      "benchmark": 1.2946155916302187,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-17",
+      "strategy": 1.0,
+      "benchmark": 1.2892817310815319,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-18",
+      "strategy": 1.0,
+      "benchmark": 1.2508565122921353,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-19",
+      "strategy": 1.0,
+      "benchmark": 1.2504725532027827,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-20",
+      "strategy": 1.0,
+      "benchmark": 1.265491988281631,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-23",
+      "strategy": 1.0,
+      "benchmark": 1.2730699178452565,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-24",
+      "strategy": 1.0,
+      "benchmark": 1.2872203157485855,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-26",
+      "strategy": 1.0,
+      "benchmark": 1.2873059804586664,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-27",
+      "strategy": 1.0,
+      "benchmark": 1.273755102299295,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-30",
+      "strategy": 1.0,
+      "benchmark": 1.2592195462671256,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2024-12-31",
+      "strategy": 1.0,
+      "benchmark": 1.2546385492902399,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-02",
+      "strategy": 1.0,
+      "benchmark": 1.2515558187668092,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-03",
+      "strategy": 1.0,
+      "benchmark": 1.2672044831235936,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-06",
+      "strategy": 1.0,
+      "benchmark": 1.2745042355260225,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-07",
+      "strategy": 1.0,
+      "benchmark": 1.2600972431722797,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-08",
+      "strategy": 1.0,
+      "benchmark": 1.2619384349192786,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-10",
+      "strategy": 1.0,
+      "benchmark": 1.2426717355210144,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-13",
+      "strategy": 1.0,
+      "benchmark": 1.2445984587514847,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-14",
+      "strategy": 1.0,
+      "benchmark": 1.2463109535934473,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-15",
+      "strategy": 1.0,
+      "benchmark": 1.268981326418074,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-16",
+      "strategy": 1.0,
+      "benchmark": 1.266540881380337,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-17",
+      "strategy": 1.0,
+      "benchmark": 1.2792569616028997,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-21",
+      "strategy": 1.0,
+      "benchmark": 1.2909666480152722,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-22",
+      "strategy": 1.0,
+      "benchmark": 1.2982237679025754,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-23",
+      "strategy": 1.0,
+      "benchmark": 1.3053094251431068,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-24",
+      "strategy": 1.0,
+      "benchmark": 1.3014991441037311,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-27",
+      "strategy": 1.0,
+      "benchmark": 1.2830888253530581,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-28",
+      "strategy": 1.0,
+      "benchmark": 1.2941133273113916,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-29",
+      "strategy": 1.0,
+      "benchmark": 1.2883119745890275,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-30",
+      "strategy": 1.0,
+      "benchmark": 1.2952264356360064,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-01-31",
+      "strategy": 1.0,
+      "benchmark": 1.2883335572998098,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-03",
+      "strategy": 1.0,
+      "benchmark": 1.2796635692159128,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-04",
+      "strategy": 1.0,
+      "benchmark": 1.2882480258163385,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-05",
+      "strategy": 1.0,
+      "benchmark": 1.293471175052308,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-06",
+      "strategy": 1.0,
+      "benchmark": 1.2979667737723322,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-07",
+      "strategy": 1.0,
+      "benchmark": 1.2860858911664075,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-10",
+      "strategy": 1.0,
+      "benchmark": 1.2948198280229932,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-11",
+      "strategy": 1.0,
+      "benchmark": 1.2958045058957912,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-12",
+      "strategy": 1.0,
+      "benchmark": 1.2916301165319186,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-13",
+      "strategy": 1.0,
+      "benchmark": 1.305266659401371,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-14",
+      "strategy": 1.0,
+      "benchmark": 1.3052024441754628,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-18",
+      "strategy": 1.0,
+      "benchmark": 1.3090343079256208,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-19",
+      "strategy": 1.0,
+      "benchmark": 1.3121169052224415,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-20",
+      "strategy": 1.0,
+      "benchmark": 1.3066583445670112,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-21",
+      "strategy": 1.0,
+      "benchmark": 1.2843089146453164,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-24",
+      "strategy": 1.0,
+      "benchmark": 1.2784646629546068,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-25",
+      "strategy": 1.0,
+      "benchmark": 1.2721066894566304,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-26",
+      "strategy": 1.0,
+      "benchmark": 1.272748841715714,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-27",
+      "strategy": 1.0,
+      "benchmark": 1.2524332492187433,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-02-28",
+      "strategy": 1.0,
+      "benchmark": 1.2719783922314234,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-03",
+      "strategy": 1.0,
+      "benchmark": 1.2496933107622468,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-04",
+      "strategy": 1.0,
+      "benchmark": 1.2349007605998341,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-05",
+      "strategy": 1.0,
+      "benchmark": 1.2481734615980091,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-06",
+      "strategy": 1.0,
+      "benchmark": 1.2260168105806493,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-07",
+      "strategy": 1.0,
+      "benchmark": 1.2328886391125022,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-10",
+      "strategy": 1.0,
+      "benchmark": 1.2000497452973038,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-11",
+      "strategy": 1.0,
+      "benchmark": 1.190073869984457,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-03-12",
+      "strategy": 0.999000999000999,
+      "benchmark": 1.1963892109673075,
+      "drawdown": -0.0009990009990009652,
+      "exposure": 0.0,
+      "return": -0.0009990009990009652
+    },
+    {
+      "date": "2025-03-13",
+      "strategy": 0.985683740131989,
+      "benchmark": 1.1804406535119345,
+      "drawdown": -0.014316259868010994,
+      "exposure": 1.0000000000000002,
+      "return": -0.013330576127879024
+    },
+    {
+      "date": "2025-03-14",
+      "strategy": 1.0060439833715364,
+      "benchmark": 1.2048237876317436,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.020655959321010053
+    },
+    {
+      "date": "2025-03-17",
+      "strategy": 1.0138018345492934,
+      "benchmark": 1.2141144784905513,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.007711244543959328
+    },
+    {
+      "date": "2025-03-18",
+      "strategy": 1.0028442146233172,
+      "benchmark": 1.2009917906549754,
+      "drawdown": -0.010808443576004856,
+      "exposure": 1.0000000000000002,
+      "return": -0.010808443576004856
+    },
+    {
+      "date": "2025-03-19",
+      "strategy": 1.0137661245827332,
+      "benchmark": 1.2140717127488156,
+      "drawdown": -3.522381331666491e-05,
+      "exposure": 1.0,
+      "return": 0.010890933806222858
+    },
+    {
+      "date": "2025-03-20",
+      "strategy": 1.0108344586987217,
+      "benchmark": 1.2105607919015895,
+      "drawdown": -0.0029269781819747376,
+      "exposure": 1.0000000000000002,
+      "return": -0.0028918562308620777
+    },
+    {
+      "date": "2025-03-21",
+      "strategy": 1.0111678629659544,
+      "benchmark": 1.2109600720510654,
+      "drawdown": -0.0025981128595116143,
+      "exposure": 1.0,
+      "return": 0.00032983072981296324
+    },
+    {
+      "date": "2025-03-24",
+      "strategy": 1.0292764871301634,
+      "benchmark": 1.2326466995891623,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.0179086231153478
+    },
+    {
+      "date": "2025-03-25",
+      "strategy": 1.0317507094549956,
+      "benchmark": 1.235609792617021,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.0024038461538462563
+    },
+    {
+      "date": "2025-03-26",
+      "strategy": 1.01943344089568,
+      "benchmark": 1.2208588091568562,
+      "drawdown": -0.011938221555303774,
+      "exposure": 1.0,
+      "return": -0.011938221555303774
+    },
+    {
+      "date": "2025-03-27",
+      "strategy": 1.0167259357051865,
+      "benchmark": 1.2176163399283133,
+      "drawdown": -0.014562406996303956,
+      "exposure": 1.0000000000000002,
+      "return": -0.0026558920689462306
+    },
+    {
+      "date": "2025-03-28",
+      "strategy": 0.9962508865918372,
+      "benchmark": 1.1930957159472233,
+      "drawdown": -0.034407364625812065,
+      "exposure": 1.0,
+      "return": -0.02013821856442377
+    },
+    {
+      "date": "2025-03-31",
+      "strategy": 1.002938551232798,
+      "benchmark": 1.2011047668200594,
+      "drawdown": -0.027925503668824403,
+      "exposure": 1.0000000000000002,
+      "return": 0.006712831808701525
+    },
+    {
+      "date": "2025-04-01",
+      "strategy": 1.0057712081752554,
+      "benchmark": 1.2044971159845916,
+      "drawdown": -0.025180017848946634,
+      "exposure": 1.0,
+      "return": 0.0028243574234689817
+    },
+    {
+      "date": "2025-04-02",
+      "strategy": 1.0121361481651512,
+      "benchmark": 1.2121196764624895,
+      "drawdown": -0.019010950135624816,
+      "exposure": 1.0,
+      "return": 0.006328417375800033
+    },
+    {
+      "date": "2025-04-03",
+      "strategy": 0.9622573345923192,
+      "benchmark": 1.1523855275736892,
+      "drawdown": -0.06735481180273195,
+      "exposure": 1.0000000000000002,
+      "return": -0.04928073526793275
+    },
+    {
+      "date": "2025-04-04",
+      "strategy": 0.9059238611291834,
+      "benchmark": 1.0849213709462129,
+      "drawdown": -0.12195470007699627,
+      "exposure": 1.0,
+      "return": -0.058543043984177756
+    },
+    {
+      "date": "2025-04-07",
+      "strategy": 0.9043102378738581,
+      "benchmark": 1.0829889189715225,
+      "drawdown": -0.12351866629532604,
+      "exposure": 1.0000000000000002,
+      "return": -0.0017811908092519868
+    },
+    {
+      "date": "2025-04-08",
+      "strategy": 0.8901462856855595,
+      "benchmark": 1.0660263737892024,
+      "drawdown": -0.1372467423300694,
+      "exposure": 1.0,
+      "return": -0.015662713519200788
+    },
+    {
+      "date": "2025-04-09",
+      "strategy": 0.9836288039877376,
+      "benchmark": 1.1779796915762928,
+      "drawdown": -0.046641019992782584,
+      "exposure": 1.0,
+      "return": 0.1050192758263111
+    },
+    {
+      "date": "2025-04-10",
+      "strategy": 0.9405272080872719,
+      "benchmark": 1.1263618409811922,
+      "drawdown": -0.08841622354290501,
+      "exposure": 1.0000000000000002,
+      "return": -0.04381896476163283
+    },
+    {
+      "date": "2025-04-11",
+      "strategy": 0.9573087786966532,
+      "benchmark": 1.1464592082913623,
+      "drawdown": -0.07215108269483528,
+      "exposure": 1.0,
+      "return": 0.017842727424663973
+    },
+    {
+      "date": "2025-04-14",
+      "strategy": 0.9665961511524155,
+      "benchmark": 1.1575816318078755,
+      "drawdown": -0.06314951635652077,
+      "exposure": 1.0000000000000002,
+      "return": 0.009701543182761618
+    },
+    {
+      "date": "2025-04-15",
+      "strategy": 0.9638887572079239,
+      "benchmark": 1.1543392958059424,
+      "drawdown": -0.06577359397496185,
+      "exposure": 1.0,
+      "return": -0.0028009566779918504
+    },
+    {
+      "date": "2025-04-16",
+      "strategy": 0.9424632222556569,
+      "benchmark": 1.1286803836709913,
+      "drawdown": -0.08653978754858649,
+      "exposure": 1.0000000000000002,
+      "return": -0.022228223736450503
+    },
+    {
+      "date": "2025-04-17",
+      "strategy": 0.943808075170764,
+      "benchmark": 1.1302909601564812,
+      "drawdown": -0.0852363206328065,
+      "exposure": 1.0,
+      "return": 0.0014269553265837676
+    },
+    {
+      "date": "2025-04-21",
+      "strategy": 0.9213429463321811,
+      "benchmark": 1.1033870453532446,
+      "drawdown": -0.1070101160203083,
+      "exposure": 1.0000000000000002,
+      "return": -0.023802645293661384
+    },
+    {
+      "date": "2025-04-22",
+      "strategy": 0.9453142347884027,
+      "benchmark": 1.1320947152261354,
+      "drawdown": -0.0837765110064731,
+      "exposure": 1.0,
+      "return": 0.026017769552206582
+    },
+    {
+      "date": "2025-04-23",
+      "strategy": 0.959962218330298,
+      "benchmark": 1.1496369293875577,
+      "drawdown": -0.06957929901751037,
+      "exposure": 1.0000000000000002,
+      "return": 0.015495359112172924
+    },
+    {
+      "date": "2025-04-24",
+      "strategy": 0.9801684971034291,
+      "benchmark": 1.1738356778794474,
+      "drawdown": -0.049994840690551934,
+      "exposure": 1.0,
+      "return": 0.021049035459204557
+    },
+    {
+      "date": "2025-04-25",
+      "strategy": 0.9872506400665811,
+      "benchmark": 1.182317150310522,
+      "drawdown": -0.04313064093934171,
+      "exposure": 1.0000000000000002,
+      "return": 0.007225434182062562
+    },
+    {
+      "date": "2025-04-28",
+      "strategy": 0.9876269852904879,
+      "benchmark": 1.1827678559313686,
+      "drawdown": -0.04276587722223646,
+      "exposure": 1.0000000000000002,
+      "return": 0.000381205348098268
+    },
+    {
+      "date": "2025-04-29",
+      "strategy": 0.9938484179381312,
+      "benchmark": 1.1902185540826653,
+      "drawdown": -0.03673590061002785,
+      "exposure": 1.0000000000000002,
+      "return": 0.006299374906016064
+    },
+    {
+      "date": "2025-04-30",
+      "strategy": 0.9942427850143206,
+      "benchmark": 1.1906908424142943,
+      "drawdown": -0.036353669638364394,
+      "exposure": 1.0,
+      "return": 0.00039680807361719417
+    },
+    {
+      "date": "2025-05-01",
+      "strategy": 1.0012889955189086,
+      "benchmark": 1.1991292826504139,
+      "drawdown": -0.029524296573711917,
+      "exposure": 1.0000000000000002,
+      "return": 0.007087011956024902
+    },
+    {
+      "date": "2025-05-02",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.216929290301738,
+      "drawdown": -0.016103329485146367,
+      "exposure": 1.0,
+      "return": 0.013829266452712208
+    },
+    {
+      "date": "2025-05-05",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2099511469352897,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-06",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.199837914987772,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-07",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2048838728327496,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-08",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.213279280873914,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-09",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.211733052840942,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-12",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2517777742986829,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-13",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.260044485434811,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-14",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2616549286936911,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-15",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.267817192301918,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-16",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2758476926589266,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-19",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2772432413962505,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-20",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2729489480835863,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-21",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2514986645512183,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-22",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2519926688202396,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-23",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2434467147100372,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-27",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2692988054291525,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-28",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2619553546987194,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-29",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2669369640911787,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-05-30",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2655196994164628,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-02",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2726482556253396,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-03",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.279905775192472,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-04",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.279562450219099,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-05",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2733782042202606,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-06",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2864547956488566,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-09",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2876140003804513,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-10",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.294914552142539,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-11",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2912212440665398,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-12",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.296352999848208,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-13",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.281859676651335,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-16",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2940557734159719,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-17",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2829976983519766,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-18",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2828043865412027,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-20",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2797917332145103,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-23",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.2924326736291636,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-24",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3067108358512607,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-25",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.307442782845328,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-26",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3176720551699543,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-27",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3242186775473628,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-06-30",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3305500057233857,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-01",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3301194173206143,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-02",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3361492536787314,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-03",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3466800178212632,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-07",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3366444569872404,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-08",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3359123767665633,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-09",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.343923292811936,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-10",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3477135898598465,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-11",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.342975918389873,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-14",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3455385322287678,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-15",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3397886049777743,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-16",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3442679500514068,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-17",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.352494293524775,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-18",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.351503886907757,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-21",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3540665007466517,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-22",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3542600790106452,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-23",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3657817826766343,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-24",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3662338205635784,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-25",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3720051972987446,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-28",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3716606732858836,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-29",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3680427714710133,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-30",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3663200181800983,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-07-31",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3611945240490892,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-01",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3388841295240566,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-04",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3592347606193964,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-05",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3523434810025172,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-06",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3627021163652284,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-07",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3615607639993426,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-08",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3721775925317847,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-11",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3694638997174124,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-12",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3840432873041957,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-13",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3887812252273886,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-14",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.388910455038864,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-15",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3856585267210275,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-18",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3853570349031217,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-19",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3778411889396482,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-20",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3741803881564327,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-21",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3686673378176073,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-22",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3896854342278866,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-25",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3835695334798592,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-26",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3893626261524177,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-27",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3925282236271241,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-28",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3974598730409202,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-08-29",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3891256160136396,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-02",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3788318620098856,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-03",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3863045425517941,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-04",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3978905946703013,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-05",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3938417047728304,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-08",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3972660283237073,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-09",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4004962407041517,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-10",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.404544864148403,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-11",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.416216847430211,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-12",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4157429603792648,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-15",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4232803890535208,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-16",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4213208920770475,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-17",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4195549733645676,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-18",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4261876601318864,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-19",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4332514682084159,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-22",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.440032302965797,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-23",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4321933824736353,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-24",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4276366327397274,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-25",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4210503088326079,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-26",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.429191653728944,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-29",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.433208302786851,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-09-30",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4386069114678852,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-01",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4435089845743128,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-02",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4451715194376125,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-03",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4451503364066594,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-06",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4503329847532591,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-07",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4449558255563975,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-08",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4535721233165575,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-09",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4493610966349986,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-10",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4101880768849722,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-13",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4318260767105038,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-14",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.430076811324245,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-15",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4364257254127573,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-16",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4266432951372943,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-17",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4347414746120655,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-20",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.449663521039173,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-21",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4496419383283907,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-22",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4421053090137934,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-23",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4506568586416062,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-24",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.462512428191675,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-27",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4797667396493879,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-28",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4836969246375549,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-29",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4844098202264255,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-30",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4680839650121886,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-10-31",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4728994408222666,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-03",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4756637597483506,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-04",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4581719052454207,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-05",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4632250573273256,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-06",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4475256336322195,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-07",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4489507586769117,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-10",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4715606466207036,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-11",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.474929414675307,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-12",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4757502238180897,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-13",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4512615742233441,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-14",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4510238979515173,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-17",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4375055270849295,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-18",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4254339972004264,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-19",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4309407858885927,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-20",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4091299911501916,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-21",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4231666135287784,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-24",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4441135669294414,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-25",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4576968191549866,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-26",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4677600911238413,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-11-28",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.475771673302263,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-01",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4690340039664467,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-02",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4717550242443562,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-03",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.476851474974436,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-04",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4779311434199989,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-05",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.480738627767648,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-08",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.476290058040872,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-09",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4750157455184374,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-10",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4847984422471197,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-11",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.488253407918243,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-12",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4722518262721824,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-15",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4700274747954896,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-16",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4660108257375826,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-17",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4498793481469978,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-18",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.460828044164373,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-19",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.474068104643155,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-22",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4832514148544895,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-23",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4900305176659439,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-24",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4952719189474515,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-26",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4951201738389253,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-29",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.489792175261068,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-30",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4879729659046808,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2025-12-31",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.476948597172957,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-02",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4796560283366702,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-05",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4895106674346275,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-06",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4983690379447367,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-07",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4935391736608037,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-08",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4933875617788872,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-09",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.5032639168142368,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-12",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.5056245591127226,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-13",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.5026143038650062,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-14",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4952284870726666,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-15",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4993004251736275,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-16",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4980440982435117,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-20",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4675487937207488,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-21",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4844857593939933,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-22",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4922396813091228,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-23",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4927809810246118,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-26",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.5003615751204324,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-27",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.5063394531007397,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-28",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.5061877079922135,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-29",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.5031989022286696,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-01-30",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.498715560356744,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-02",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.506166125281431,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-03",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4934308604270614,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-04",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4861969219698579,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-05",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4676353910170978,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-06",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4957916359521573,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-09",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.5030039916985782,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-10",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4990405000579687,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-11",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4986939776459611,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-12",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4755409248141436,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-13",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4765803588235564,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-17",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4789628502860444,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-18",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4864134152107313,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-19",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4824932222182967,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-20",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4932142339595778,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-23",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4779665816981962,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-24",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4887091761502598,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-25",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.50127151286515,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-26",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.492932726133137,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-02-27",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4857636690348908,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-02",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.486608458967432,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-03",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.473504955763663,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-04",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4839008945771095,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-05",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4756273888838833,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-06",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4562860825841488,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-09",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4690433298291299,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-10",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4666822878508148,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-11",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.464841495783645,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-12",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4425978477901065,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-13",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.434432655330622,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-16",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4490306946427727,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-17",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.452842441174856,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-18",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4325700140994502,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-19",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4290396421671978,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-20",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4085531199298942,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-23",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4233430055601113,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-24",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.4185650996539878,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-25",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.426470500224424,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-26",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.400995574037563,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-27",
+      "strategy": 1.0151360878341082,
+      "benchmark": 1.3771059112803359,
+      "drawdown": -0.016103329485146367,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-03-30",
+      "strategy": 1.01412196586824,
+      "benchmark": 1.3725015996467407,
+      "drawdown": -0.017086243241904442,
+      "exposure": 0.0,
+      "return": -0.0009990009990008542
+    },
+    {
+      "date": "2026-03-31",
+      "strategy": 1.0436003875172013,
+      "benchmark": 1.4123973737547604,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.02906792539862124
+    },
+    {
+      "date": "2026-04-01",
+      "strategy": 1.0514633212429072,
+      "benchmark": 1.4230389824366196,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.00753442967227369
+    },
+    {
+      "date": "2026-04-02",
+      "strategy": 1.0524102084118636,
+      "benchmark": 1.4243204891959818,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.0009005422726844348
+    },
+    {
+      "date": "2026-04-06",
+      "strategy": 1.0573846391540276,
+      "benchmark": 1.4310528294674072,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.004726703240241825
+    },
+    {
+      "date": "2026-04-07",
+      "strategy": 1.0578499615001817,
+      "benchmark": 1.4316825916517824,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.0004400691374961685
+    },
+    {
+      "date": "2026-04-08",
+      "strategy": 1.084792981764005,
+      "benchmark": 1.4681469811986076,
+      "drawdown": 0.0,
+      "exposure": 1.0,
+      "return": 0.0254696046172882
+    },
+    {
+      "date": "2026-04-09",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.4766168629146326,
+      "drawdown": 0.0,
+      "exposure": 1.0000000000000002,
+      "return": 0.00476332747515551
+    },
+    {
+      "date": "2026-04-10",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.4756396457319814,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-13",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.4900600939733109,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-14",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5082163495791554,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-15",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5201177490829845,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-16",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5238531567676703,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-17",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5422700036222219,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-20",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.539185807606084,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-21",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.529108946523033,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-22",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5445937421498022,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-23",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5385996105231032,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-24",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5505225927377146,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-27",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.55319405271679,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-28",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5456362403712396,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-29",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5453972318333151,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-04-30",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5607734477731232,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-01",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5650953189940096,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-04",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5593617786160174,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-05",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.571871357593439,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-06",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5937194557825753,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-07",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5888329701894908,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-08",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6019504621872855,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-11",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6055990061224024,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-12",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6031666879078612,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-13",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6121361694105176,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-14",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6248627745352522,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-15",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6053168321629134,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-18",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6041874701919068,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-19",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5935021631820434,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-20",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.60983401359372,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-21",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6130265228435996,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-22",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6193682426951843,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-26",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6301185642906144,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-27",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6298361238779056,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-28",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.638827321317954,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-05-29",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6429103172275257,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-01",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6473840667835478,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6496212080147785,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-03",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6380455475718332,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-04",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6442351226350624,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-05",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.60179845062554,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-08",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6054252786232648,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-09",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6007126537559278,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-10",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5754764696537717,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-11",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6022546185373872,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-12",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6109199436899424,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-15",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6393269211045858,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-16",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6295539499184164,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-17",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.609204251409345,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-18",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6259351155172779,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-22",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6208184143425135,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-23",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5972808695149043,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-24",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5965405292444212,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-25",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5988485470320488,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-26",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5872867421565193,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-29",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6134369940282962,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-06-30",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.626000529782674,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-01",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6238013581352275,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-02",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6216676007531772,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-06",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6358205299620916,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-07",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6280472901885457,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-08",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.62301758598996,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-09",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.636756846575544,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-10",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6438114620159994,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-13",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6312262103242292,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-14",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6370181039572997,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-15",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6435066395328493,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-16",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6346011068028818,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-17",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.618423133125488,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-20",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6158104260813202,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-21",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6292884292851482,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-22",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6273939468942418,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-23",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6072968460372912,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-24",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.608929804593222,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-27",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6092783254043763,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-28",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6131321715451465,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-29",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5883101889727604,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-30",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.614939390506655,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-07-31",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6265667428741903,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-03",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6497339177266437,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-04",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6794768915840443,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-05",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.676123711042784,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-06",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.67344558973322,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-07",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6836792585359686,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-10",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6831784597098491,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-11",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.677800367926719,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-12",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.682002601652033,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-13",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6937388001597495,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-14",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6903856196184892,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-17",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.682394554337972,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-18",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6710287258054117,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-19",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6745341843616375,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-20",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6604683853555113,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-21",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6672617434142107,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-24",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.662362601293198,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-25",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6676754120375417,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-26",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6680456487860877,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-27",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6789760927579247,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-28",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6751656784919393,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-08-31",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6701576902307458,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-01",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6586830155580048,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-02",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6660424534816103,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-03",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6834832821929988,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-04",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6769947466174493,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-08",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.667784391404332,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-09",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.660033000794788,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-10",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6500823053111877,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-11",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.664148104317314,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-14",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6567232521283124,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-15",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6491242727603435,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-16",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6418518318129167,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-17",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6604683853555113,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-18",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.662605340176196,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-21",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6883840230333291,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-22",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6881220995185244,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-23",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6759639723376718,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-24",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6745888072716424,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-25",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.683690982477628,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-28",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6711618191885704,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-29",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6680841512763112,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-09-30",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6646571631932392,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-01",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6676257185120984,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-02",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6799585057783573,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-05",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.691287164086792,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-06",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.7005858485421856,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-07",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6965039184454922,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6893226044991472,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-09",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.699450757826959,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-12",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6984247797051326,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-13",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6982284036823339,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-14",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6798711091223486,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-15",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6846514131074477,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-16",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6660104790952657,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-19",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6730608312842086,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-20",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6786706041417256,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-21",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.687489139895514,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-22",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.667560304246701,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-23",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6588508810863127,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-26",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6706379721589604,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-27",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6800020708797507,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-28",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6857865038226745,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-29",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6793472620927392,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-10-30",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.649574045794921,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-11-02",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6416723755695584,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-11-03",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.64658364131206,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-11-04",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.673781187563226,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-11-05",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.5999812396682997,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-11-06",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6049797688401997,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-11-09",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6429602772061893,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-11-10",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.636913920748461,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-11-11",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.65850169414211,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-11-12",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.6526299977697883,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    },
+    {
+      "date": "2026-11-13",
+      "strategy": 1.0899602059788973,
+      "benchmark": 1.644980712300424,
+      "drawdown": 0.0,
+      "exposure": 0.0,
+      "return": 0.0
+    }
+  ],
+  "trades": [
+    {
+      "entry_date": "2025-03-12",
+      "exit_date": "2025-05-02",
+      "entry_price": 548.1022338867188,
+      "exit_price": 557.5122680664062,
+      "net_return": 0.015136087834108025,
+      "forced_exit": false
+    },
+    {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-09",
+      "entry_price": 628.78466796875,
+      "exit_price": 676.4830322265625,
+      "net_return": 0.07370846041384826,
+      "forced_exit": false
+    }
+  ],
+  "turnover": 3.998001998002004,
+  "cost_drag_sum": 0.003998001998002004,
+  "period": "test",
+  "start": "2024-01-02",
+  "end": "2026-11-13",
+  "observations": 721,
+  "fee_bps": 5,
+  "slippage_bps": 5,
+  "latest_target": 0.0,
+  "assumptions": [
+    "Signal at t close; execution at t+1 close; first holding return at t+2.",
+    "Long/cash, no leverage. Uninvested cash earns zero. Sharpe risk-free reference is zero.",
+    "Both-side fees and slippage; final-close liquidation; proportional cost approximation.",
+    "Development before 2023; validation in 2023; reserved test from 2024. Fixed parameters, no optimization. Repeated inspection compromises test independence.",
+    "Current provider vintage. Revisions, survivorship and corporate-action adjustment bias may remain.",
+    "Volatility and rate-aware rules rebalance daily. Per-trade win rate has no consistent definition and shows N/A.",
+    "Rate-aware rule uses Yahoo ^IRX 13-week Treasury-bill yield proxy (percent), strictly before each signal date, carried at most seven days.",
+    "Rate-aware exposure = trend-filtered 12% volatility-target weight / (1 + 5 × max(short yield,0)/100). Fixed educational coefficient, not an optimized rule or the federal funds rate."
+  ],
+  "source": {
+    "symbol": "SPY",
+    "name": "US large caps",
+    "category": "Index",
+    "provider": "Yahoo Finance chart API",
+    "url": "https://finance.yahoo.com/quote/SPY/history/",
+    "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=10y&interval=1d",
+    "frequency": "daily",
+    "currency": "USD",
+    "timezone": "America/New_York",
+    "adjustment": "Provider-adjusted close (dividends/splits)",
+    "caveat": "May be delayed or revised. Personal research only; not exchange real-time quotes. GLD/USO are ETFs, not futures P&L.",
+    "sha256": "bbc28a9309fa108a5b0a40f654d733d2f253641af7445f65d35c602bf63bc9ae",
+    "retrieved_at": "2026-11-14T13:30:32.930696+00:00",
+    "cache_status": "cached"
+  }
+}

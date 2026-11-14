@@ -1,0 +1,338 @@
+{
+  "event_date": "2026-11-03",
+  "event_session": "2026-11-03",
+  "baseline_date": "2026-11-02",
+  "baseline_vix": 21.15,
+  "requested_post_sessions": 20,
+  "available_post_sessions": 8,
+  "complete": false,
+  "curve": [
+    {
+      "date": "2026-10-06",
+      "session": -20,
+      "asset": 0.035886254681106955,
+      "benchmark": 0.035886254681106955,
+      "excess": 0.0,
+      "vix": 15.01,
+      "vix_change_points": -6.139999999999999
+    },
+    {
+      "date": "2026-10-07",
+      "session": -19,
+      "asset": 0.03339980844649992,
+      "benchmark": 0.03339980844649992,
+      "excess": 0.0,
+      "vix": 15.08,
+      "vix_change_points": -6.0699999999999985
+    },
+    {
+      "date": "2026-10-08",
+      "session": -18,
+      "asset": 0.029025419224135263,
+      "benchmark": 0.029025419224135263,
+      "excess": 0.0,
+      "vix": 15.41,
+      "vix_change_points": -5.739999999999998
+    },
+    {
+      "date": "2026-10-09",
+      "session": -17,
+      "asset": 0.035194831269153015,
+      "benchmark": 0.035194831269153015,
+      "excess": 0.0,
+      "vix": 14.84,
+      "vix_change_points": -6.309999999999999
+    },
+    {
+      "date": "2026-10-12",
+      "session": -16,
+      "asset": 0.034569872149968095,
+      "benchmark": 0.034569872149968095,
+      "excess": 0.0,
+      "vix": 15.21,
+      "vix_change_points": -5.939999999999998
+    },
+    {
+      "date": "2026-10-13",
+      "session": -15,
+      "asset": 0.034450252653580815,
+      "benchmark": 0.034450252653580815,
+      "excess": 0.0,
+      "vix": 15.27,
+      "vix_change_points": -5.879999999999999
+    },
+    {
+      "date": "2026-10-14",
+      "session": -14,
+      "asset": 0.023268183177863166,
+      "benchmark": 0.023268183177863166,
+      "excess": 0.0,
+      "vix": 16.87,
+      "vix_change_points": -4.279999999999998
+    },
+    {
+      "date": "2026-10-15",
+      "session": -13,
+      "asset": 0.026180033347383613,
+      "benchmark": 0.026180033347383613,
+      "excess": 0.0,
+      "vix": 16.46,
+      "vix_change_points": -4.689999999999998
+    },
+    {
+      "date": "2026-10-16",
+      "session": -12,
+      "asset": 0.014825189171660202,
+      "benchmark": 0.014825189171660202,
+      "excess": 0.0,
+      "vix": 19.99,
+      "vix_change_points": -1.1600000000000001
+    },
+    {
+      "date": "2026-10-19",
+      "session": -11,
+      "asset": 0.01911980501210553,
+      "benchmark": 0.01911980501210553,
+      "excess": 0.0,
+      "vix": 18.44,
+      "vix_change_points": -2.7099999999999973
+    },
+    {
+      "date": "2026-10-20",
+      "session": -10,
+      "asset": 0.02253691365144106,
+      "benchmark": 0.02253691365144106,
+      "excess": 0.0,
+      "vix": 17.31,
+      "vix_change_points": -3.84
+    },
+    {
+      "date": "2026-10-21",
+      "session": -9,
+      "asset": 0.02790859187726813,
+      "benchmark": 0.02790859187726813,
+      "excess": 0.0,
+      "vix": 16.68,
+      "vix_change_points": -4.469999999999999
+    },
+    {
+      "date": "2026-10-22",
+      "session": -8,
+      "asset": 0.015769241818521573,
+      "benchmark": 0.015769241818521573,
+      "excess": 0.0,
+      "vix": 19.03,
+      "vix_change_points": -2.1199999999999974
+    },
+    {
+      "date": "2026-10-23",
+      "session": -7,
+      "asset": 0.0104640278854633,
+      "benchmark": 0.0104640278854633,
+      "excess": 0.0,
+      "vix": 19.45,
+      "vix_change_points": -1.6999999999999993
+    },
+    {
+      "date": "2026-10-26",
+      "session": -6,
+      "asset": 0.01764395687011122,
+      "benchmark": 0.01764395687011122,
+      "excess": 0.0,
+      "vix": 18.39,
+      "vix_change_points": -2.759999999999998
+    },
+    {
+      "date": "2026-10-27",
+      "session": -5,
+      "asset": 0.02334795655978228,
+      "benchmark": 0.02334795655978228,
+      "excess": 0.0,
+      "vix": 17.52,
+      "vix_change_points": -3.629999999999999
+    },
+    {
+      "date": "2026-10-28",
+      "session": -4,
+      "asset": 0.02687145675933733,
+      "benchmark": 0.02687145675933733,
+      "excess": 0.0,
+      "vix": 16.91,
+      "vix_change_points": -4.239999999999998
+    },
+    {
+      "date": "2026-10-29",
+      "session": -3,
+      "asset": 0.022949089650186716,
+      "benchmark": 0.022949089650186716,
+      "excess": 0.0,
+      "vix": 17.2,
+      "vix_change_points": -3.9499999999999993
+    },
+    {
+      "date": "2026-10-30",
+      "session": -2,
+      "asset": 0.004813183399410725,
+      "benchmark": 0.004813183399410725,
+      "excess": 0.0,
+      "vix": 19.42,
+      "vix_change_points": -1.7299999999999969
+    },
+    {
+      "date": "2026-11-02",
+      "session": -1,
+      "asset": 0.0,
+      "benchmark": 0.0,
+      "excess": 0.0,
+      "vix": 21.15,
+      "vix_change_points": 0.0
+    },
+    {
+      "date": "2026-11-03",
+      "session": 0,
+      "asset": 0.0029916235514395595,
+      "benchmark": 0.0029916235514395595,
+      "excess": 0.0,
+      "vix": 20.83,
+      "vix_change_points": -0.3200000000000003
+    },
+    {
+      "date": "2026-11-04",
+      "session": 1,
+      "asset": 0.019558599189151815,
+      "benchmark": 0.019558599189151815,
+      "excess": 0.0,
+      "vix": 16.61,
+      "vix_change_points": -4.539999999999999
+    },
+    {
+      "date": "2026-11-05",
+      "session": 2,
+      "asset": -0.025395527464360468,
+      "benchmark": -0.025395527464360468,
+      "excess": 0.0,
+      "vix": 28.18,
+      "vix_change_points": 7.030000000000001
+    },
+    {
+      "date": "2026-11-06",
+      "session": 3,
+      "asset": -0.022350748709302426,
+      "benchmark": -0.022350748709302426,
+      "excess": 0.0,
+      "vix": 25.64,
+      "vix_change_points": 4.490000000000002
+    },
+    {
+      "date": "2026-11-09",
+      "session": 4,
+      "asset": 0.0007845058830231455,
+      "benchmark": 0.0007845058830231455,
+      "excess": 0.0,
+      "vix": 19.92,
+      "vix_change_points": -1.2299999999999969
+    },
+    {
+      "date": "2026-11-10",
+      "session": 5,
+      "asset": -0.0028985410803701317,
+      "benchmark": -0.0028985410803701317,
+      "excess": 0.0,
+      "vix": 19.46,
+      "vix_change_points": -1.6899999999999977
+    },
+    {
+      "date": "2026-11-11",
+      "session": 6,
+      "asset": 0.010251325918006593,
+      "benchmark": 0.010251325918006593,
+      "excess": 0.0,
+      "vix": 17.49,
+      "vix_change_points": -3.66
+    },
+    {
+      "date": "2026-11-12",
+      "session": 7,
+      "asset": 0.006674670514832837,
+      "benchmark": 0.006674670514832837,
+      "excess": 0.0,
+      "vix": 18.7,
+      "vix_change_points": -2.4499999999999993
+    },
+    {
+      "date": "2026-11-13",
+      "session": 8,
+      "asset": 0.0030182417297401898,
+      "benchmark": 0.0030182417297401898,
+      "excess": 0.0,
+      "vix": 19.3,
+      "vix_change_points": -1.8499999999999979
+    }
+  ],
+  "summary": {
+    "asset_return": 0.0030182417297401898,
+    "benchmark_return": 0.0030182417297401898,
+    "excess_return": 0.0,
+    "vix_change_points": -1.8499999999999979,
+    "end_date": "2026-11-13"
+  },
+  "methodology": "Adjusted-price change from the last common trading close before election day. Event session is 0; post-session window ends at +N. Excess return is asset minus SPY, not factor-adjusted alpha. VIX changes are index points, not investable P&L. Coincidence does not establish causation. Macro releases, rates, earnings and positioning are confounders. No election winner, policy change or causal effect is inferred.",
+  "event": {
+    "date": "2026-11-03",
+    "name": "2026 US midterm election",
+    "source": "https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/federal-election-activity-periods-each-state-2026/"
+  },
+  "symbol": "SPY",
+  "sources": [
+    {
+      "symbol": "SPY",
+      "name": "US large caps",
+      "category": "Index",
+      "provider": "Yahoo Finance chart API",
+      "url": "https://finance.yahoo.com/quote/SPY/history/",
+      "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=10y&interval=1d",
+      "frequency": "daily",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "adjustment": "Provider-adjusted close (dividends/splits)",
+      "caveat": "May be delayed or revised. Personal research only; not exchange real-time quotes. GLD/USO are ETFs, not futures P&L.",
+      "sha256": "bbc28a9309fa108a5b0a40f654d733d2f253641af7445f65d35c602bf63bc9ae",
+      "retrieved_at": "2026-11-14T13:30:32.930696+00:00",
+      "cache_status": "cached"
+    },
+    {
+      "symbol": "SPY",
+      "name": "US large caps",
+      "category": "Index",
+      "provider": "Yahoo Finance chart API",
+      "url": "https://finance.yahoo.com/quote/SPY/history/",
+      "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=10y&interval=1d",
+      "frequency": "daily",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "adjustment": "Provider-adjusted close (dividends/splits)",
+      "caveat": "May be delayed or revised. Personal research only; not exchange real-time quotes. GLD/USO are ETFs, not futures P&L.",
+      "sha256": "bbc28a9309fa108a5b0a40f654d733d2f253641af7445f65d35c602bf63bc9ae",
+      "retrieved_at": "2026-11-14T13:30:32.930696+00:00",
+      "cache_status": "cached"
+    },
+    {
+      "symbol": "^VIX",
+      "name": "Cboe Volatility Index",
+      "category": "Risk indicator",
+      "provider": "Cboe Global Markets (official historical CSV)",
+      "url": "https://www.cboe.com/tradable-products/vix/vix-historical-data",
+      "request_url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+      "frequency": "daily",
+      "timezone": "America/Chicago",
+      "currency": null,
+      "units": "index points",
+      "adjustment": "Unadjusted published VIX daily close",
+      "caveat": "Expected 30-day S&P 500 volatility implied by options. Not directly investable; not VIX futures, a volatility ETF or a return series. End-of-day history may be delayed or revised.",
+      "sha256": "d830941efb5ba1134e1ba9a41dd38bca2d512bf5e9c3b691cadcf80911bda608",
+      "retrieved_at": "2026-11-14T13:40:59.179402+00:00",
+      "cache_status": "cached"
+    }
+  ],
+  "retrieved_at": "2026-11-14T13:56:26.246364+00:00"
+}
