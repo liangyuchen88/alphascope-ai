@@ -1,4 +1,20 @@
-# Three-minute demo
+# Three-minute flagship demo / Market Multiverse
+
+**0:00–0:20 — Hook:** “If you could navigate a market storm again, would you make the same decisions? This spacecraft carries a hypothetical $100,000, but the market history is real.” Open Storm Replay and show the two worlds.
+
+**0:20–0:45 — Build:** Select the 2020 world and adjust stock/gold/oil/Treasury ETF weights. Show unallocated cash and the drawdown budget. Launch. Point to the observed date and locked historical-news capsule. The first purchase has not happened yet: it executes at the next close.
+
+**0:45–1:30 — Play:** Ask a judge whether to keep holdings or choose different targets. Reveal ten sessions. Ask again. Show the cost of a rebalance, changed portfolio wealth and the historical-news capsule appearing only after publication. The spacecraft is visual storytelling; the numbers come from historical prices.
+
+**1:30–2:10 — Meet the other selves:** Advance the remaining chapters (seven turns in the 2020 window). Show the three-path debrief: the user's route, initial allocation held, and fixed risk rule. Compare return, drawdown, opportunity cost and execution costs. A familiar historical scenario cannot establish trading skill.
+
+**2:10–2:40 — Show the evidence:** Export the route, show source fingerprints and next-close decision/fill dates. Briefly open Global Markets or Politics & Markets to show the broader research context, official VIX and partial election windows.
+
+**2:40–3:00 — Close:** “We connect the creative New Worlds theme to an honest risk-learning loop: observe, decide, reveal and compare. This is not an unexplained buy button. It is a way to understand what risk feels like before taking it.”
+
+The longer research walkthrough follows below.
+
+# Research dashboard walkthrough
 
 ## 0:00–0:30 — The problem
 

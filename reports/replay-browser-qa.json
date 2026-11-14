@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-14T14:36:56.145Z",
+  "checks": [
+    "Invalid allocation disables launch",
+    "Replay begins at a real historical close",
+    "Initial API response withholds future prices and wealth",
+    "Future historical policy release is hidden",
+    "One decision reveals ten completed sessions",
+    "User fills occur after the decision date",
+    "Duplicate turn is rejected by the server",
+    "All-cash rebalance executes",
+    "Both-side costs accumulate",
+    "Historical news appears only after publication",
+    "Navigation preserves the current route",
+    "Active replay fits mobile",
+    "Every revealed curve respects the current information boundary",
+    "Every revealed curve respects the current information boundary",
+    "Every revealed curve respects the current information boundary",
+    "Every revealed curve respects the current information boundary",
+    "Every revealed curve respects the current information boundary",
+    "Final route holds cash after liquidation",
+    "Debrief compares all three routes",
+    "Debrief fits mobile",
+    "Export includes the completed route and five source records",
+    "Second historical world starts before its policy release",
+    "Replay interface is fully English",
+    "No replay JavaScript page errors"
+  ],
+  "errors": []
+}

@@ -6,11 +6,32 @@ from data_service import prices, summary, overview, macro, news, ASSETS
 from engine import backtest, indicators
 from politics import political_news, study, EVENTS
 from global_markets import world_view
+from replay import start_game, advance_game
 
 ROOT = Path(__file__).parent
 
 
 class Handler(BaseHTTPRequestHandler):
+    def do_POST(self):
+        try:
+            length = int(self.headers.get("Content-Length", "0"))
+            if not 0 < length <= 16384:
+                raise ValueError("A JSON request of at most 16 KiB is required.")
+            payload = json.loads(self.rfile.read(length))
+            if not isinstance(payload, dict):
+                raise ValueError("Expected a JSON object.")
+            path = urlparse(self.path).path
+            if path == "/api/replay/start":
+                return self.send_json(start_game(payload))
+            if path == "/api/replay/advance":
+                return self.send_json(advance_game(payload))
+            return self.send_json({"error": "Not found"}, 404)
+        except (ValueError, TypeError, KeyError) as e:
+            return self.send_json({"error": str(e)}, 400)
+        except Exception as e:
+            traceback.print_exc()
+            return self.send_json({"error": str(e)}, 500)
+
     def do_GET(self):
         u = urlparse(self.path)
         q = parse_qs(u.query)
@@ -108,6 +129,7 @@ class Handler(BaseHTTPRequestHandler):
                 mimetypes.guess_type(str(path))[0] or "application/octet-stream",
             )
             self.send_header("Content-Length", str(len(data)))
+            self.send_header("Cache-Control", "no-cache")
             self.end_headers()
             self.wfile.write(data)
         except (ValueError, TypeError) as e:

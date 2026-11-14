@@ -22,6 +22,7 @@ In the supplied environment, pandas/numpy/pytest are already installed. Cached r
 - **Global Markets:** ten representative major-market indices: S&P 500, FTSE 100, Nikkei 225, Shanghai Composite, Hang Seng, DAX, CAC 40, Nifty 50, S&P/TSX Composite and S&P/ASX 200. Daily local-currency levels, moves, dates, exchange timezones and an exact-common-date normalized comparison. This is a geographically diverse watchlist, not a capitalization ranking.
 - **Asset Explorer:** ticker search, adjusted history, 20/60-session averages, 63-session momentum, Wilder-style RSI and realized volatility. Source metadata stays with each series.
 - **Strategy Lab:** five deterministic models, matched-period benchmark, costs, equity/drawdown curves, return statistics, position episodes and complete execution-fill export.
+- **Storm Replay / Market Multiverse:** build a hypothetical portfolio, navigate source-backed historical storms, and compare your decisions with buy-and-hold and a fixed risk rule. The flagship creative demo includes a spacecraft, a drawdown-budget meter and a three-route debrief.
 - **New Worlds:** user-controlled duration and normal-distribution VaR scenarios. These are clearly hypothetical educational models, not backtested trading strategies.
 - **News & Context:** dated, linked official Federal Reserve releases.
 - **Politics & Markets:** original BBC News US/Canada RSS headlines, political keyword annotations, FEC-sourced 2018/2022/2026 midterm dates, asset/sector event windows and VIX point changes. Incomplete future windows remain incomplete. This is descriptive analysis, not a causal election-effect estimate.
@@ -63,3 +64,15 @@ This is research and learning software. It does not connect to a broker. GLD/USO
 `server.py` serves local JSON endpoints and static assets. `data_service.py` handles providers and cached provenance. `engine.py` implements indicators and the cash/units ledger. `politics.py` implements sourced news and descriptive event windows. `research.py` reproduces batch reports. `tests/` contains numeric, timing, provenance and event-window tests.
 
 All Git history is local. There is no configured GitHub dependency or remote repository. The sibling `AlphaScope-backup.zip` is a private copy of code, source data, tests, reports, screenshots and local Git history.
+
+## Market Multiverse / Storm Replay
+
+Open **Storm Replay** for the interactive flagship demo. Launch a hypothetical $100,000 ETF portfolio into the 2020 volatility storm or 2022 rate-shift world. Adjust SPY/GLD/USO/TLT allocations, leave the remainder in cash, and set a user-defined drawdown budget.
+
+Each decision reveals up to ten completed common sessions. A decision made after the displayed close executes no earlier than the next close. Compare your route with the same initial allocation held without rebalancing and a fixed, lagged risk rule. The portfolio spacecraft and drawdown meter are learning metaphors, not survival probabilities, margin estimates or guarantees.
+
+The historical-news capsule stays locked until the selected Federal Reserve release was published. Current news and FRED snapshots are excluded. The replay API withholds future prices and wealth curves, but other research pages contain historical data, and participants may already know the scenario. This is an educational replay, not a blind or independent skill test.
+
+Final debriefs show return, maximum drawdown, costs and execution fills. Export retains every revealed daily portfolio value, decision, fill, source and assumption. Sessions are in memory, limited to 32; restarting the server clears active games. Preserve your route by exporting before restarting.
+
+Implementation: `replay.py`. Tests: `tests/test_replay.py`. Optional browser journey: `tools/replay_browser_qa.cjs`, with the same Playwright/Chrome environment variables as the main browser checks. Evidence: `reports/replay-browser-qa.json` and `reports/replay-browser-export.json`.
