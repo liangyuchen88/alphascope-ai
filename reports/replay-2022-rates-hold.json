@@ -4272,5 +4272,152 @@
     "News is limited to timestamped historical Fed releases shown only after publication. Current news and current FRED snapshots never enter the replay."
   ],
   "fee_bps": 5.0,
-  "slippage_bps": 5.0
+  "slippage_bps": 5.0,
+  "risk": {
+    "context": "HISTORICAL REPLAY / REVEALED OBSERVATIONS ONLY",
+    "as_of": "2022-06-30",
+    "status": "warning",
+    "counts": {
+      "critical": 0,
+      "warning": 3,
+      "unavailable": 0,
+      "info": 0
+    },
+    "alerts": [
+      {
+        "id": "vix",
+        "severity": "warning",
+        "category": "market",
+        "title": "VIX stress band triggered",
+        "detail": "Observed VIX 28.71; review band begins at 20 points. This is not a forecast of market direction.",
+        "value": 28.71,
+        "threshold": 20,
+        "units": "index points",
+        "observed_date": "2022-06-30",
+        "sources": [
+          {
+            "symbol": "^VIX",
+            "provider": "Cboe Global Markets (official historical CSV)",
+            "url": "https://www.cboe.com/tradable-products/vix/vix-historical-data",
+            "retrieved_at": "2026-11-14T13:40:59.179402+00:00",
+            "sha256": "d830941efb5ba1134e1ba9a41dd38bca2d512bf5e9c3b691cadcf80911bda608",
+            "observed_date": "2022-06-30"
+          }
+        ],
+        "review": "Inspect the dated VIX history and how much volatility your plan can tolerate.",
+        "automatic_action": false
+      },
+      {
+        "id": "realized_vol",
+        "severity": "warning",
+        "category": "market",
+        "title": "Realized volatility is elevated",
+        "detail": "SPY 20-return annualized volatility is 30.4%.",
+        "value": 0.30423320730722253,
+        "threshold": 0.25,
+        "units": "annualized fraction",
+        "observed_date": "2022-06-30",
+        "sources": [
+          {
+            "symbol": "SPY",
+            "provider": "Yahoo Finance chart API",
+            "url": "https://finance.yahoo.com/quote/SPY/history/",
+            "retrieved_at": "2026-11-14T13:30:32.930696+00:00",
+            "sha256": "bbc28a9309fa108a5b0a40f654d733d2f253641af7445f65d35c602bf63bc9ae",
+            "observed_date": "2022-06-30"
+          }
+        ],
+        "review": "Review position size and compare costs and drawdowns; the threshold is an educational assumption.",
+        "automatic_action": false
+      },
+      {
+        "id": "trend",
+        "severity": "warning",
+        "category": "market",
+        "title": "SPY is below its 60-session average",
+        "detail": "Observed close 356.72; 60-session average 384.51.",
+        "value": -27.795804341634096,
+        "threshold": 0.0,
+        "units": "close minus SMA",
+        "observed_date": "2022-06-30",
+        "sources": [
+          {
+            "symbol": "SPY",
+            "provider": "Yahoo Finance chart API",
+            "url": "https://finance.yahoo.com/quote/SPY/history/",
+            "retrieved_at": "2026-11-14T13:30:32.930696+00:00",
+            "sha256": "bbc28a9309fa108a5b0a40f654d733d2f253641af7445f65d35c602bf63bc9ae",
+            "observed_date": "2022-06-30"
+          }
+        ],
+        "review": "Read the trend evidence and counterevidence. Sideways markets can repeatedly trigger this rule.",
+        "automatic_action": false
+      }
+    ],
+    "rules": [
+      {
+        "id": "vix",
+        "name": "VIX stress",
+        "warning": 20.0,
+        "critical": 30.0,
+        "units": "index points",
+        "basis": "Illustrative display bands. VIX is implied volatility, not a directional forecast or investable return."
+      },
+      {
+        "id": "realized_vol",
+        "name": "SPY realized volatility",
+        "warning": 0.25,
+        "critical": 0.35,
+        "units": "annualized fraction",
+        "basis": "20-return sample volatility. Fixed review thresholds, not an optimized strategy."
+      },
+      {
+        "id": "day_loss",
+        "name": "SPY one-session loss",
+        "warning": 0.02,
+        "critical": 0.03,
+        "units": "loss fraction",
+        "basis": "Adjacent completed observations; backward-looking, not a future-loss prediction."
+      },
+      {
+        "id": "trend",
+        "name": "SPY below 60-session average",
+        "warning": 0.0,
+        "critical": null,
+        "units": "close minus SMA",
+        "basis": "A descriptive trend flag. It can whipsaw and does not require selling."
+      },
+      {
+        "id": "concentration",
+        "name": "Largest ETF target / holding",
+        "warning": 0.6,
+        "critical": 0.8,
+        "units": "portfolio weight",
+        "basis": "ETF-level exposure only, not issuer-level look-through, correlation or diversified portfolio risk."
+      },
+      {
+        "id": "drawdown",
+        "name": "Replay drawdown budget use",
+        "warning": 0.8,
+        "critical": 1.0,
+        "units": "fraction of user budget",
+        "basis": "Historical maximum drawdown divided by user budget. No automatic stop or guarantee."
+      },
+      {
+        "id": "stale",
+        "name": "Market data age",
+        "warning": 5,
+        "critical": null,
+        "units": "calendar days",
+        "basis": "Age above five calendar days, or a failed refresh, suppresses the affected current-market risk calculations."
+      }
+    ],
+    "coverage": {
+      "portfolio": "Actual hypothetical holdings at the revealed close",
+      "vix": true,
+      "drawdown_budget": 0.2,
+      "freshness": "Compared with replay information date, never with today; no current-market observations are used"
+    },
+    "notice": "These are review alerts from explicit heuristic rules, not validated forecasts, broker orders or a claim that unflagged portfolios are safe. Evaluated when data is loaded or replay advances; no background monitoring or push notifications."
+  }
 }

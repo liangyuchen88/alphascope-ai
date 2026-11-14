@@ -97,3 +97,26 @@ The displayed drawdown budget is the user's threshold against the portfolio's re
 The March 15, 2020 Fed release (5 p.m. EDT, a Sunday) is visible from the next revealed session after publication; the March 16, 2022 release (2 p.m. EDT) is available by that day's displayed close. Only brief paraphrases of these linked official sources are used. No current political or policy news is injected into past decisions. No causal attribution is made from a release to a subsequent price move.
 
 Server snapshots are detached copies. Sequential turn numbers prevent double-clicks or stale requests from advancing a route twice. Invalid or overallocated targets are rejected before mutation. Future observations and wealth curves are withheld by the replay API, but other research endpoints contain history and scenario names identify familiar events. Thus replay outcomes are not independent, untouched, blind or predictive validation. Current-vintage adjusted histories may incorporate later corporate-action revisions. Exported evidence preserves this limitation.
+
+## Risk Radar: transparent review alerts
+
+Risk Radar evaluates explicit display rules, not a calibrated trading model. Thresholds are manual design assumptions and are not claimed to predict losses, optimize returns or provide statistical safety guarantees. The alert itself never changes portfolio weights or places an order.
+
+| Check | Warning | Critical |
+| --- | --- | --- |
+| VIX | At least 20 index points | At least 30 |
+| SPY 20-return annualized realized volatility | At least 25% | At least 35% |
+| Latest SPY adjacent-observation loss | At least 2% | At least 3% |
+| SPY trend | Close below its 60-session average | Not applicable |
+| Largest ETF target or holding | More than 60% of portfolio | More than 80% |
+| Replay realized maximum drawdown / user budget | At least 80% of budget | At least 100% |
+
+Data age greater than five calendar days, future-dated observations, missing data or a failed refresh suppress current classification for the affected SPY/VIX source. Missing indicators and stale watchlist assets produce unavailable-data alerts. A missing value never becomes a zero-risk observation. Verified FRED snapshots retain an informational limitation note rather than being described as a live macro feed. No configured trigger means only that the covered thresholds did not trigger; it does not establish safety.
+
+The allocation form checks **user-entered ETF targets**, not a connected live portfolio. ETF concentration is fund-level exposure and does not model issuer overlap, correlation, margin, liquidity, derivatives or portfolio VaR. Actual hypothetical holdings and realized drawdown are available separately in Storm Replay.
+
+Historical replay alerts use only the revealed date, exact-date VIX, past SPY indicators, actual hypothetical holdings and realized drawdown. They never compare 2020 dates with today's calendar to label history stale, and they never inject current-market observations. The global current-market badge is hidden in historical play. Current-vintage source retrieval timestamps remain inspectable as provenance; they are not treated as historical news inputs.
+
+Each alert retains its rule ID, severity, value, threshold, units, observation date, source links/hash where applicable, review guidance and `automatic_action: false`. Review acknowledgments are browser-local and keyed by context, rule, date, value and threshold. Marking reviewed does not clear the trigger or lower the severity; changed observations have a different review key. Export captures the risk context, covered inputs, thresholds and evidence.
+
+Checks run on source load, allocation checks or replay turns. Caches normally refresh after six hours. This is not continuous surveillance, a push-notification service, stop-loss execution or a broker-connected risk control system. These limits are visible in the interface.

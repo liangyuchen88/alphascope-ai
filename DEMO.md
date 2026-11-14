@@ -4,7 +4,7 @@
 
 **0:20–0:45 — Build:** Select the 2020 world and adjust stock/gold/oil/Treasury ETF weights. Show unallocated cash and the drawdown budget. Launch. Point to the observed date and locked historical-news capsule. The first purchase has not happened yet: it executes at the next close.
 
-**0:45–1:30 — Play:** Ask a judge whether to keep holdings or choose different targets. Reveal ten sessions. Ask again. Show the cost of a rebalance, changed portfolio wealth and the historical-news capsule appearing only after publication. The spacecraft is visual storytelling; the numbers come from historical prices.
+**0:45–1:30 — Play:** Ask a judge whether to keep holdings or choose different targets. Reveal ten sessions. Ask again. Show the cost of a rebalance, changed portfolio wealth and the historical-news capsule appearing only after publication. Point to the historically dated Risk Radar warning: it explains the VIX trigger or drawdown-budget breach without placing an automatic order. The spacecraft is visual storytelling; the numbers come from historical prices.
 
 **1:30–2:10 — Meet the other selves:** Advance the remaining chapters (seven turns in the 2020 window). Show the three-path debrief: the user's route, initial allocation held, and fixed risk rule. Compare return, drawdown, opportunity cost and execution costs. A familiar historical scenario cannot establish trading skill.
 

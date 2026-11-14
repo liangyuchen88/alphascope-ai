@@ -11,6 +11,7 @@ import numpy as np
 import pandas as pd
 from data_service import prices, now
 from engine import indicators, metrics
+from risk import evaluate_replay_risk
 
 SYMBOLS = ("SPY", "GLD", "USO", "TLT")
 SCENARIOS = {
@@ -337,7 +338,9 @@ def _snapshot(session):
 
 
 def snapshot(session):
-    return copy.deepcopy(_snapshot(session))
+    data = _snapshot(session)
+    data["risk"] = evaluate_replay_risk(data)
+    return copy.deepcopy(data)
 
 
 def start_game(payload):

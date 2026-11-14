@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T14:37:40.617Z",
+  "checked_at": "2026-11-14T18:36:53.260Z",
   "checks": [
     "Homepage includes official VIX history",
     "Document language is English",
@@ -33,6 +33,8 @@
     "lab has no untranslated Chinese UI",
     "replay fits mobile viewport",
     "replay has no untranslated Chinese UI",
+    "risk fits mobile viewport",
+    "risk has no untranslated Chinese UI",
     "worlds fits mobile viewport",
     "worlds has no untranslated Chinese UI",
     "news fits mobile viewport",

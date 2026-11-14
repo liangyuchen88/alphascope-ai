@@ -272,7 +272,7 @@ def overview():
     from politics import political_news
 
     vix_data = vix()
-    return {
+    result = {
         "assets": assets,
         "vix": vix_data,
         "political_news": political_news(),
@@ -282,6 +282,10 @@ def overview():
         "generated_at": now(),
         "mode": "REAL DATA / Authentic sources; missing data is never fabricated",
     }
+    from risk import evaluate_market_risk
+
+    result["risk"] = evaluate_market_risk(result)
+    return result
 
 
 def vix(refresh=False):

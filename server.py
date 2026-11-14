@@ -6,7 +6,8 @@ from data_service import prices, summary, overview, macro, news, ASSETS
 from engine import backtest, indicators
 from politics import political_news, study, EVENTS
 from global_markets import world_view
-from replay import start_game, advance_game
+from replay import start_game, advance_game, validate_weights
+from risk import evaluate_market_risk
 
 ROOT = Path(__file__).parent
 
@@ -21,6 +22,11 @@ class Handler(BaseHTTPRequestHandler):
             if not isinstance(payload, dict):
                 raise ValueError("Expected a JSON object.")
             path = urlparse(self.path).path
+            if path == "/api/risk/evaluate":
+                weights = validate_weights(payload.get("weights", {}))
+                return self.send_json(
+                    evaluate_market_risk(overview(), allocation=weights)
+                )
             if path == "/api/replay/start":
                 return self.send_json(start_game(payload))
             if path == "/api/replay/advance":
@@ -37,6 +43,8 @@ class Handler(BaseHTTPRequestHandler):
         q = parse_qs(u.query)
         get = lambda k, d=None: q.get(k, [d])[0]
         try:
+            if u.path == "/api/risk":
+                return self.send_json(overview()["risk"])
             if u.path == "/api/global-markets":
                 return self.send_json(world_view())
             if u.path == "/api/politics":

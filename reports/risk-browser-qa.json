@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-14T18:36:47.169Z",
+  "checks": [
+    "Header exposes dated market-risk entry",
+    "Market warning panel has an explicit context",
+    "Threshold register is visible",
+    "A review can be acknowledged",
+    "Acknowledging does not remove trigger severity",
+    "Review state persists for the same observation",
+    "100% ETF target triggers a concentration review",
+    "No warning places an automatic order",
+    "Allocation inputs retain the values that were evaluated",
+    "Export retains context, alert rules and source evidence",
+    "Risk Radar fits mobile viewport",
+    "Current-market badge is suppressed during historical play",
+    "Replay warnings use the revealed historical date",
+    "Exceeded replay budget is visibly flagged",
+    "Historical VIX stress triggers from historical data",
+    "Current observation values do not enter the historical alert panel",
+    "Historical alerts fit mobile viewport",
+    "Risk alerts are fully English",
+    "No risk-warning JavaScript errors"
+  ],
+  "errors": []
+}

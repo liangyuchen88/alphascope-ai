@@ -26,6 +26,7 @@ In the supplied environment, pandas/numpy/pytest are already installed. Cached r
 - **New Worlds:** user-controlled duration and normal-distribution VaR scenarios. These are clearly hypothetical educational models, not backtested trading strategies.
 - **News & Context:** dated, linked official Federal Reserve releases.
 - **Politics & Markets:** original BBC News US/Canada RSS headlines, political keyword annotations, FEC-sourced 2018/2022/2026 midterm dates, asset/sector event windows and VIX point changes. Incomplete future windows remain incomplete. This is descriptive analysis, not a causal election-effect estimate.
+- **Risk Radar:** explicit market/portfolio review alerts for source quality, VIX, realized volatility, observed session losses, trend, ETF concentration and replay drawdown budgets. Current and historical contexts stay separate; acknowledgment preserves severity. No continuous monitoring, push notification or automatic broker order.
 - **Sources & Methods:** provider links, observation dates, retrieval timestamps, units, adjustment caveats, stale flags and SHA-256 fingerprints.
 
 See [METHODOLOGY.md](METHODOLOGY.md) for exact timing, formulas and limitations and [DEMO.md](DEMO.md) for a three-minute walkthrough.
@@ -76,3 +77,11 @@ The historical-news capsule stays locked until the selected Federal Reserve rele
 Final debriefs show return, maximum drawdown, costs and execution fills. Export retains every revealed daily portfolio value, decision, fill, source and assumption. Sessions are in memory, limited to 32; restarting the server clears active games. Preserve your route by exporting before restarting.
 
 Implementation: `replay.py`. Tests: `tests/test_replay.py`. Optional browser journey: `tools/replay_browser_qa.cjs`, with the same Playwright/Chrome environment variables as the main browser checks. Evidence: `reports/replay-browser-qa.json` and `reports/replay-browser-export.json`.
+
+## Risk Radar
+
+Open Risk Radar for current-market review flags, or inspect the separately labelled historical alerts inside Storm Replay. Each alert includes its observation date, measured value, trigger threshold, interpretation and source evidence. ETF target concentration can be checked using the allocation form. Edits are evaluated only when you press **Check these targets**; this is not a connected live portfolio.
+
+Marking an alert reviewed retains its severity and trigger. Review state is stored only in the browser for that context/date/value. Alert evidence can be exported. The header summarizes loaded current-market flags; during replay it switches to **Historical mode** to avoid presenting current information as part of the historical decision.
+
+The threshold register lists the exact fixed rules and their limitations. There are no automatic orders, stop-loss execution, push notifications or continuous surveillance. Checks run when data is loaded, an allocation is checked or the replay advances; source caching still applies. See `risk.py`, `tests/test_risk.py`, and `reports/risk-browser-qa.json` for implementation and verification.

@@ -1,0 +1,148 @@
+{
+  "context": "CURRENT MARKET / DAILY RESEARCH",
+  "as_of": "2026-11-14T18:37:57.665727+00:00",
+  "status": "warning",
+  "counts": {
+    "critical": 0,
+    "warning": 1,
+    "unavailable": 0,
+    "info": 1
+  },
+  "alerts": [
+    {
+      "id": "trend",
+      "severity": "warning",
+      "category": "market",
+      "title": "SPY is below its 60-session average",
+      "detail": "Observed close 754.37; 60-session average 764.24.",
+      "value": -9.866705322265602,
+      "threshold": 0.0,
+      "units": "close minus SMA",
+      "observed_date": "2026-11-13",
+      "sources": [
+        {
+          "symbol": "SPY",
+          "provider": "Yahoo Finance chart API",
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "retrieved_at": "2026-11-14T13:30:32.930696+00:00",
+          "sha256": "bbc28a9309fa108a5b0a40f654d733d2f253641af7445f65d35c602bf63bc9ae",
+          "observed_date": "2026-11-13"
+        }
+      ],
+      "review": "Read the trend evidence and counterevidence. Sideways markets can repeatedly trigger this rule.",
+      "automatic_action": false
+    },
+    {
+      "id": "macro_snapshot",
+      "severity": "info",
+      "category": "data",
+      "title": "Macro context uses verified snapshots",
+      "detail": "DFF, DGS2, DGS10, DFII10 are labelled official-page snapshots, not an automatic live macro feed.",
+      "value": 4,
+      "threshold": null,
+      "units": "series",
+      "observed_date": null,
+      "sources": [
+        {
+          "symbol": null,
+          "provider": "FRED / Federal Reserve H.15",
+          "url": "https://fred.stlouisfed.org/series/DFF",
+          "retrieved_at": "2026-11-14T13:29:32.847276+00:00",
+          "sha256": "110e5387d543f8ced16eee83c012299a1c413b5b24296d155759b394aad300af",
+          "observed_date": "2026-11-12"
+        },
+        {
+          "symbol": null,
+          "provider": "FRED / Federal Reserve H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS2",
+          "retrieved_at": "2026-11-14T13:29:32.847457+00:00",
+          "sha256": "3dce625ea96aca211d248c9b5be5d17bd637b49a3cb684b12127572c3e24b2fa",
+          "observed_date": "2026-11-12"
+        },
+        {
+          "symbol": null,
+          "provider": "FRED / Federal Reserve H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "retrieved_at": "2026-11-14T13:29:32.847552+00:00",
+          "sha256": "a5d55d895f07333e9ddb13b38422e74f8dfea652be7ab3943aec5c200c54c157",
+          "observed_date": "2026-11-12"
+        },
+        {
+          "symbol": null,
+          "provider": "FRED / Federal Reserve H.15",
+          "url": "https://fred.stlouisfed.org/series/DFII10",
+          "retrieved_at": "2026-11-14T13:29:32.847628+00:00",
+          "sha256": "0e0d6b27587454bc21b989aa0f2527486a6c19a3709e1b8b51b2173aeeb47eea",
+          "observed_date": "2026-11-12"
+        }
+      ],
+      "review": "Check observation dates in Sources & Methods. These snapshots are excluded from historical signals.",
+      "automatic_action": false
+    }
+  ],
+  "rules": [
+    {
+      "id": "vix",
+      "name": "VIX stress",
+      "warning": 20.0,
+      "critical": 30.0,
+      "units": "index points",
+      "basis": "Illustrative display bands. VIX is implied volatility, not a directional forecast or investable return."
+    },
+    {
+      "id": "realized_vol",
+      "name": "SPY realized volatility",
+      "warning": 0.25,
+      "critical": 0.35,
+      "units": "annualized fraction",
+      "basis": "20-return sample volatility. Fixed review thresholds, not an optimized strategy."
+    },
+    {
+      "id": "day_loss",
+      "name": "SPY one-session loss",
+      "warning": 0.02,
+      "critical": 0.03,
+      "units": "loss fraction",
+      "basis": "Adjacent completed observations; backward-looking, not a future-loss prediction."
+    },
+    {
+      "id": "trend",
+      "name": "SPY below 60-session average",
+      "warning": 0.0,
+      "critical": null,
+      "units": "close minus SMA",
+      "basis": "A descriptive trend flag. It can whipsaw and does not require selling."
+    },
+    {
+      "id": "concentration",
+      "name": "Largest ETF target / holding",
+      "warning": 0.6,
+      "critical": 0.8,
+      "units": "portfolio weight",
+      "basis": "ETF-level exposure only, not issuer-level look-through, correlation or diversified portfolio risk."
+    },
+    {
+      "id": "drawdown",
+      "name": "Replay drawdown budget use",
+      "warning": 0.8,
+      "critical": 1.0,
+      "units": "fraction of user budget",
+      "basis": "Historical maximum drawdown divided by user budget. No automatic stop or guarantee."
+    },
+    {
+      "id": "stale",
+      "name": "Market data age",
+      "warning": 5,
+      "critical": null,
+      "units": "calendar days",
+      "basis": "Age above five calendar days, or a failed refresh, suppresses the affected current-market risk calculations."
+    }
+  ],
+  "coverage": {
+    "spy": true,
+    "vix": true,
+    "proposed_weights": null,
+    "portfolio": "No portfolio supplied; concentration and drawdown are not evaluated"
+  },
+  "notice": "These are review alerts from explicit heuristic rules, not validated forecasts, broker orders or a claim that unflagged portfolios are safe. Evaluated when data is loaded or replay advances; no background monitoring or push notifications."
+}
