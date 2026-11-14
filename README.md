@@ -19,7 +19,7 @@ In the supplied environment, pandas/numpy/pytest are already installed. Cached r
 ## Product
 
 - **Market Overview:** market weather, SPY, effective federal funds rate, matched-date 10Y–2Y spread, official Cboe VIX history, watchlist and 11-sector ETF heatmap.
-- **Global Markets:** top ten WFE reporting exchanges by domestic market capitalization, explicitly dated monthly ranking, local-currency index observations with exchange timezones, and exact-common-date normalized comparisons. Index proxies do not equal full exchange coverage.
+- **Global Markets:** ten representative major-market indices: S&P 500, FTSE 100, Nikkei 225, Shanghai Composite, Hang Seng, DAX, CAC 40, Nifty 50, S&P/TSX Composite and S&P/ASX 200. Daily local-currency levels, moves, dates, exchange timezones and an exact-common-date normalized comparison. This is a geographically diverse watchlist, not a capitalization ranking.
 - **Asset Explorer:** ticker search, adjusted history, 20/60-session averages, 63-session momentum, Wilder-style RSI and realized volatility. Source metadata stays with each series.
 - **Strategy Lab:** five deterministic models, matched-period benchmark, costs, equity/drawdown curves, return statistics, position episodes and complete execution-fill export.
 - **New Worlds:** user-controlled duration and normal-distribution VaR scenarios. These are clearly hypothetical educational models, not backtested trading strategies.
@@ -49,7 +49,6 @@ Optional browser QA is in `tools/browser_qa.cjs`; it needs an installed Node/Pla
 ## Data access and scope
 
 - **Prices and ^IRX:** Yahoo Finance public chart endpoint, daily frequency. Personal research prototype; access is unofficial, can change or be rate-limited, and is not a commercial redistribution license. [Provider usage guidance](https://ranaroussi.github.io/yfinance/).
-- **Exchange ranking:** [WFE Focus, November 2026 issue](https://focus.world-exchanges.org/issue/november-2026/market-statistics), latest observed column September 2026. This is a monthly ranking among reporting exchanges, not a live ranking or a country ranking. Dual listings and exchange groups can overlap.
 - **VIX:** [Cboe official historical data](https://www.cboe.com/tradable-products/vix/vix-historical-data), with the original CSV URL retained. Index levels are not investable total returns. No VIX-futures P&L is claimed.
 - **FRED:** CSV retrieval was tested but timed out in this environment. The delivered DFF/DGS2/DGS10/DFII10 data are a small, separately labelled official-page snapshot verified on 2026-11-14. Original observation dates and retrieval timestamps are preserved. These observations provide current context only and never enter historical strategy signals.
 - **Rate-aware strategy:** separate historical Yahoo **^IRX 13-week Treasury-bill yield proxy**, strictly lagged to an observation before the signal date, with a maximum seven-day carry. It is not the federal funds rate.

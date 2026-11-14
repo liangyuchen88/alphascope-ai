@@ -1,14 +1,14 @@
 # Delivery verification
 
-Verified on 2026-11-14T13:57:13.073304+00:00.
+Verified on 2026-11-14T14:15:06.450331+00:00.
 
 - English interface: eight pages, checked for untranslated Chinese UI on mobile.
-- Unit/calculation/provenance/event-window tests: **36 passed**. Raw output: `reports/pytest-result.txt`.
-- Isolated Chrome browser checks: **38 passed**, no JavaScript page errors. Full list: `reports/browser-qa.json`.
+- Unit/calculation/provenance/event-window tests: **37 passed**. Raw output: `reports/pytest-result.txt`.
+- Isolated Chrome browser checks: **39 passed**, no JavaScript page errors. Full list: `reports/browser-qa.json`.
 - Fixed historical research runs: **125/125 completed** across 25 assets and five models. Exact metrics and source fingerprints: `reports/summary.json`.
 - HTTP smoke checks: six passed, including non-investable index rejection, malformed-symbol rejection and missing-file behavior. Evidence: `reports/http-smoke.json`.
 - Actual browser download verified: `reports/browser-export-rate-aware.json`, including strict rate-date alignment and source provenance.
-- Global markets: ten reporting exchanges ranked from the WFE September 2026 observation column in the November 2026 publication; all ten representative-index histories retrieved. Source/export: `reports/global-markets.json`.
+- Global markets: ten major-market indices covering the US, UK, Japan, mainland China, Hong Kong, Germany, France, India, Canada and Australia. All ten genuine histories retrieved; 126 exact-common-date observations available for normalized comparison. This is a geographic watchlist, not an exchange-capitalization ranking. Source/export: `reports/global-markets.json`.
 - Elections: 2018 and 2022 completed +20-session windows; 2026 has only +8 completed post-event sessions as of the delivered 2026-11-13 observations and is explicitly partial. Source-tagged examples: `reports/event-*.json`.
 - VIX: official Cboe daily history, with 9,316 observations in the delivery cache. Not an investable-return backtest.
 - News: 15 official Federal Reserve releases and 23 BBC US/Canada RSS headlines in the delivered cache. Feed contents change over time.

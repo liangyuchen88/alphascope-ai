@@ -8,7 +8,7 @@ Open Market Overview. Point to market weather, SPY, FRED context and VIX. Explai
 
 ## 0:30–0:55 — A global perspective
 
-Open Global Markets. Show ten exchanges ranked by WFE-reported domestic market capitalization. Say the observation month out loud: September 2026, in the November 2026 publication. Contrast that monthly snapshot with each representative index's dated daily close. Show the common-date chart and explain that these are local-currency index movements, not USD portfolio returns.
+Open Global Markets. Show ten major-market indices, including the S&P 500, FTSE 100, Nikkei 225, Shanghai Composite and Hang Seng. Show each index's dated daily close and currency basis. Explain that this is a representative geographic watchlist, not a ranking. Rebase the indices to 100 to compare local-currency changes; these are not USD portfolio returns.
 
 ## 0:55–1:30 — Test a rule, do not trust a slogan
 

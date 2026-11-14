@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T13:54:31.298Z",
+  "checked_at": "2026-11-14T14:14:11.856Z",
   "checks": [
     "Homepage includes official VIX history",
     "Document language is English",
@@ -19,8 +19,9 @@
     "Political feed visibly credits BBC News",
     "2022-midterms complete historical window verified",
     "2018-midterms complete historical window verified",
-    "Ten ranked exchange cards are visible",
-    "WFE ranking month is visible and separate from daily dates",
+    "Ten representative index cards are visible",
+    "UK market is included in the representative-index view",
+    "Exchange-capitalization ranking has been replaced",
     "Index exploration does not imply an investable signal",
     "overview fits mobile viewport",
     "overview has no untranslated Chinese UI",
