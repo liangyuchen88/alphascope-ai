@@ -2,5 +2,13 @@ __pycache__/
 .pytest_cache/
 .venv/
 .env
+.env.*
+!.env.example
+.DS_Store
+node_modules/
+.tools/
+*.pem
+*.key
+project-media/AlphaScope-Devpost-Gallery/
 data/*.json
 *.log
